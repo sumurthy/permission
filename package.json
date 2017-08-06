@@ -1,0 +1,16 @@
+{
+  "name": "permission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "permission.js",
+  "scripts": {
+    "perm": "babel-node permission.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
