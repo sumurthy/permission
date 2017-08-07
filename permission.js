@@ -15,7 +15,7 @@ function getSubScopes (full=[], sub=[]) {
     if (list.length > 0) { 
         return list
     } else { 
-        return ['None']
+        return ['Not supported.']
     }
 }
 
@@ -94,6 +94,9 @@ function processPermLines(permLines, name) {
             if (line.toLowerCase().includes('note:')) {
                 inScope = false
                 mdDone = true
+                if (scopesArray.length === 0) {
+                    console.log ('!! No scopes defined in permission section: ' + name )
+                }                
                 let p = MDTABLE.replace('@business', getSubScopes(WORK, scopesArray).join(', '))
                 p = p.replace('@personal', getSubScopes(PERSONAL, scopesArray).join(', '))
                 p = p.replace('@admin', getSubScopes(APPLICATION, scopesArray).join(', '))
@@ -103,6 +106,9 @@ function processPermLines(permLines, name) {
 
             // End if you see end of array marker.
             if (line.toLowerCase().includes('--end--')) {
+                if (scopesArray.length === 0) {
+                    console.log ('!! No scopes defned in permission section: ' + name )
+                }
                 if (!mdDone) {
                     let p = MDTABLE.replace('@business', getSubScopes(WORK, scopesArray).join(', '))
                     p = p.replace('@personal', getSubScopes(PERSONAL, scopesArray).join(', '))
@@ -172,6 +178,9 @@ function processModule(api, name) {
             outApi.push(oLine)
         }
     })
+    if (permLines.length === 0) {
+        console.log('!! No permission section at all: ' + name)
+    }
     FileOps.writeFile(outApi, `./out/${name}`)    
     console.log('Done. ' + name + ', input #lines: ' + api.length + ', output #lines:' + outApi.length);
 
@@ -192,7 +201,7 @@ let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
     // File Filter
-    // if (e != 'directoryrole_list.md' && e != 'chart_get.md' ) { return }
+    if (e != 'calendar_get.md' && e != 'chart_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');
