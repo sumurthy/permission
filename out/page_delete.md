@@ -6,7 +6,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Notes.ReadWrite,Notes.ReadWrite.All    | 
+|Delegated (work or school account) | Notes.ReadWrite, Notes.ReadWrite.All    | 
 |Delegated (personal Microsoft account) | Notes.ReadWrite    | 
 |Application | Notes.ReadWrite.All | 
 

@@ -9,9 +9,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | User.Read,User.ReadWrite,User.ReadBasic.All,User.Read.All,User.ReadWrite.All,Directory.Read.All,Directory.ReadWrite.All,Directory.AccessAsUser.All    | 
-|Delegated (personal Microsoft account) | User.Read,User.ReadWrite    | 
-|Application | User.Read.All,User.ReadWrite.All,Directory.Read.All,Directory.ReadWrite.All | 
+|Delegated (work or school account) | User.Read, User.ReadWrite, User.ReadBasic.All, User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    | 
+|Delegated (personal Microsoft account) | User.Read, User.ReadWrite    | 
+|Application | User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All | 
 
 ## HTTP request
 

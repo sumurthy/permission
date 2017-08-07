@@ -8,9 +8,9 @@ The following **scopes** is required to execute this API: _Directory.AccessAsUse
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
-|Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Delegated (work or school account) |     | 
+|Delegated (personal Microsoft account) |     | 
+|Application |  | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

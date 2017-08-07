@@ -9,8 +9,8 @@ Files.ReadWrite_
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Files.Read,    | 
-|Delegated (personal Microsoft account) | Files.Read,    | 
+|Delegated (work or school account) | Files.Read,     | 
+|Delegated (personal Microsoft account) | Files.Read,     | 
 |Application |  | 
 
 ## HTTP request

@@ -90,9 +90,9 @@ function processPermLines(permLines, name) {
             if (line.toLowerCase().includes('note:')) {
                 inScope = false
                 mdDone = true
-                let p = MDTABLE.replace('@business', ...getSubScopes(WORK, scopesArray))
-                p = p.replace('@personal', ...getSubScopes(PERSONAL, scopesArray))
-                p = p.replace('@admin', ...getSubScopes(APPLICATION, scopesArray))
+                let p = MDTABLE.replace('@business', getSubScopes(WORK, scopesArray).join(', '))
+                p = p.replace('@personal', getSubScopes(PERSONAL, scopesArray).join(', '))
+                p = p.replace('@admin', getSubScopes(APPLICATION, scopesArray).join(', '))
                 oPermLines.push(p)
                 return
             } 
@@ -100,9 +100,9 @@ function processPermLines(permLines, name) {
             // End if you see end of array marker.
             if (line.toLowerCase().includes('--end--')) {
                 if (!mdDone) {
-                    let p = MDTABLE.replace('@business', getSubScopes(WORK, scopesArray).toString())
-                    p = p.replace('@personal', getSubScopes(PERSONAL, scopesArray).toString())
-                    p = p.replace('@admin', getSubScopes(APPLICATION, scopesArray).toString())
+                    let p = MDTABLE.replace('@business', getSubScopes(WORK, scopesArray).join(', '))
+                    p = p.replace('@personal', getSubScopes(PERSONAL, scopesArray).join(', '))
+                    p = p.replace('@admin', getSubScopes(APPLICATION, scopesArray).join(', '))
                     oPermLines.push(p)
                 }
                 return
