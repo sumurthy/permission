@@ -8,9 +8,9 @@ Retrieve a list of [directoryObject](../resources/directoryobject.md) with a ref
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Directory.Read.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Directory.Read.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

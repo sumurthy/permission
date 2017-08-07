@@ -42,9 +42,9 @@ GET https://graph.microsoft.com/v1.0/groups/c28c1cc9-e1ab-4c4d-98d1-d8fdf128b60f
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Group.Read.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Group.Read.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

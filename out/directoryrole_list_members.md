@@ -6,9 +6,9 @@ Retrieve a list of the users that are assigned to the directory role.  Only user
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Directory.Read.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Directory.Read.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

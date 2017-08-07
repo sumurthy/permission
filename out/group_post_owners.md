@@ -6,9 +6,9 @@ Add a user to the group's owners. The owners are a set of non-admin users who ar
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Group.ReadWrite.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Group.ReadWrite.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

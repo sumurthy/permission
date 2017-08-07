@@ -5,9 +5,9 @@ Retrieve the list of conversations in this group.
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Group.Read.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Group.Read.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

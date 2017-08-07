@@ -5,7 +5,6 @@ import Setup from './modules/fileops'
 
 const MDTABLE = `\n|Permission type      | Permissions (from least to most privileged)              | \n|:--------------------|:---------------------------------------------------------| \n|Delegated (work or school account) | @business    | \n|Delegated (personal Microsoft account) | @personal    | \n|Application | @admin | \n`
 
-
 function getSubScopes (full=[], sub=[]) {
     let list = []
     sub.forEach((item) => {
@@ -47,7 +46,8 @@ function getScopes(line) {
     } else {
         tempArray.push(temp)
     }
-    return tempArray.toString() 
+    console.log('returning: ' + tempArray.toString() )
+    return tempArray
 
 }
 
@@ -73,9 +73,11 @@ function processPermLines(permLines, name) {
                 if (sArray[1].trim()) {
                     inScope = false
                     // Get scopes on this line
-                    scopesArray.push(getScopes(sArray[1]))
-                    // Trim the array
-                    scopesArray = scopesArray.map(s => s.trim());        
+                    scopesArray = scopesArray.concat(getScopes(sArray[1]))
+                    // Trim the array                                        
+                    scopesArray = scopesArray.map(s => s.trim());      
+                    console.log(scopesArray)  
+
                     return            
                 } else {
                     oLine = 'One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).'              
@@ -120,7 +122,7 @@ function processPermLines(permLines, name) {
                     throw BreakException
                 }                                
                 // Get scopes on each line
-                scopesArray.push(getScopes(line))
+                scopesArray.concat(getScopes(line))
                 // Trim the array
                 scopesArray = scopesArray.map(s => s.trim());
             }
@@ -182,6 +184,9 @@ console.log('');
 let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
+    // File Filter
+    // if (e != 'directoryrole_list.md') { return }
+
     processModule(api, e)
 })
 console.log('End of program.');

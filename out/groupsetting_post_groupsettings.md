@@ -8,9 +8,9 @@ Use this API to create a new setting, based on the templates available in [group
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Directory.ReadWrite.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Directory.ReadWrite.All | 
 
 
 ## HTTP request

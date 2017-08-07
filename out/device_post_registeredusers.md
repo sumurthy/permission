@@ -7,9 +7,9 @@ Add a registered user for the device.
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Directory.ReadWrite.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Directory.ReadWrite.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -6,8 +6,8 @@ Files.ReadWrite_
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
-|Delegated (personal Microsoft account) | undefined    | 
+|Delegated (work or school account) | Files.Read    | 
+|Delegated (personal Microsoft account) | Files.Read    | 
 |Application | undefined | 
 
 ## HTTP request

@@ -7,9 +7,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Mail.ReadWrite    | 
-|Delegated (personal Microsoft account) | Mail.ReadWrite    | 
-|Application | Mail.ReadWrite | 
+|Delegated (work or school account) | undefined    | 
+|Delegated (personal Microsoft account) | undefined    | 
+|Application | undefined | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -8,9 +8,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Contacts.ReadWrite    | 
-|Delegated (personal Microsoft account) | Contacts.ReadWrite    | 
-|Application | Contacts.ReadWrite | 
+|Delegated (work or school account) | undefined    | 
+|Delegated (personal Microsoft account) | undefined    | 
+|Application | undefined | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -6,9 +6,9 @@ Activate a directory role. To read a directory role or update its members, it mu
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Directory.ReadWrite.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Directory.ReadWrite.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

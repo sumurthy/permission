@@ -7,9 +7,9 @@ Retrieve a list of the group's owners. The owners are a set of non-admin users w
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | User.Read.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | User.Read.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

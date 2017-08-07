@@ -6,9 +6,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Group.Read.All    | 
+|Delegated (work or school account) | undefined    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | Group.Read.All | 
+|Application | undefined | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

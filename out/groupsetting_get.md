@@ -8,9 +8,9 @@ Retrieve the properties of a specific of group setting object.
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Directory.Read.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Directory.Read.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

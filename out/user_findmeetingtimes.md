@@ -9,7 +9,7 @@ Based on this value, you can better adjust the parameters and call **findMeeting
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Calendars.Read.Shared    | 
 |Delegated (personal Microsoft account) | undefined    | 
 |Application | undefined | 
 

@@ -11,9 +11,9 @@ having to fetch the entire set of messages from the server every time.
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
-|Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Delegated (work or school account) | Mail.Read    | 
+|Delegated (personal Microsoft account) | Mail.Read    | 
+|Application | Mail.Read | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

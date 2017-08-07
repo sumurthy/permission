@@ -10,9 +10,9 @@ Adds a domain to the tenant.
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
+|Delegated (work or school account) | Directory.AccessAsUser.All    | 
 |Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Application | Domain.ReadWrite.All | 
 
 ## HTTP request
 

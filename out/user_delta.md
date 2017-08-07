@@ -8,9 +8,9 @@
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
-|Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Delegated (work or school account) | User.Read    | 
+|Delegated (personal Microsoft account) | User.Read    | 
+|Application | User.Read.All | 
 
 ## HTTP request
 

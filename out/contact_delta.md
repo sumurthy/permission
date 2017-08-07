@@ -12,9 +12,9 @@ having to fetch the entire set of contacts from the server every time.
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | undefined    | 
-|Delegated (personal Microsoft account) | undefined    | 
-|Application | undefined | 
+|Delegated (work or school account) | Contacts.Read    | 
+|Delegated (personal Microsoft account) | Contacts.Read    | 
+|Application | Contacts.Read | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
