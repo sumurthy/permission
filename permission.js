@@ -185,7 +185,7 @@ let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
     // File Filter
-    if (e != 'directoryrole_list.md') { return }
+    // if (e != 'directoryrole_list.md') { return }
 
     processModule(api, e)
 })
