@@ -50,7 +50,6 @@ function getScopes(line) {
     } else {
         tempArray.push(temp)
     }
-    console.log('returning: ' + tempArray.toString() )
     return tempArray
 
 }
@@ -82,7 +81,6 @@ function processPermLines(permLines, name) {
                     scopesArray = scopesArray.concat(getScopes(sArray[1]))
                     // Trim the array                                        
                     scopesArray = scopesArray.map(s => s.trim());      
-                    console.log(scopesArray)  
                     return            
                 } else {
                     oLine = 'One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).'              
@@ -136,7 +134,6 @@ function processPermLines(permLines, name) {
                 scopesArray = scopesArray.concat(getScopes(line))
                 // Trim the array
                 scopesArray = scopesArray.map(s => s.trim());
-                console.log(scopesArray)
 
             }
         })
