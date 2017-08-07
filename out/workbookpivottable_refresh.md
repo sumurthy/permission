@@ -12,7 +12,7 @@ Files.ReadWrite_
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Files.Read,     | 
 |Delegated (personal Microsoft account) | Files.Read,     | 
-|Application |  | 
+|Application | None | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

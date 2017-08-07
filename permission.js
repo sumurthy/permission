@@ -12,7 +12,11 @@ function getSubScopes (full=[], sub=[]) {
             list.push(item)
         }
     })
-    return list
+    if (list.length > 0) { 
+        return list
+    } else { 
+        return ['None']
+    }
 }
 
 

@@ -8,7 +8,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Directory.Read.All    | 
-|Delegated (personal Microsoft account) |     | 
+|Delegated (personal Microsoft account) | None    | 
 |Application | Directory.Read.All | 
 
 ## HTTP request

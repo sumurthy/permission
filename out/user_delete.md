@@ -7,8 +7,8 @@ One of the following permissions is required to call this API. To learn more, in
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Directory.AccessAsUser.All    | 
-|Delegated (personal Microsoft account) |     | 
-|Application |  | 
+|Delegated (personal Microsoft account) | None    | 
+|Application | None | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

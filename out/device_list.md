@@ -9,7 +9,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    | 
-|Delegated (personal Microsoft account) |     | 
+|Delegated (personal Microsoft account) | None    | 
 |Application | Device.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All | 
 
 ## HTTP request

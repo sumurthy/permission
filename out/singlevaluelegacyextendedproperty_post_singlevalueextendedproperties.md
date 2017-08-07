@@ -33,9 +33,9 @@ creating the extended property in:
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) |     | 
-|Delegated (personal Microsoft account) |     | 
-|Application |  | 
+|Delegated (work or school account) | None    | 
+|Delegated (personal Microsoft account) | None    | 
+|Application | None | 
 
 ## HTTP request
 You can create extended properties in a new or existing resource instance.
