@@ -4,6 +4,7 @@ Use this API to assign a user's manager.
 > Note: You cannot assign direct reports - instead use this API.
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

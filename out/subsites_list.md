@@ -11,6 +11,7 @@ One of the following scopes is required to execute this request:
 * Sites.Read.All
 * Sites.ReadWrite.All
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

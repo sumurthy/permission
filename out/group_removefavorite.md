@@ -2,6 +2,7 @@
 Remove the group from the list of the current user's favorite groups. Supported for only Office 365 groups.
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Group.ReadWrite.All    | 

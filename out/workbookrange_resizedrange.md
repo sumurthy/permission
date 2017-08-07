@@ -3,6 +3,7 @@ Gets a range object similar to the current range object, but with its bottom-rig
 
 ## Permissions
 Files.ReadWrite_
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

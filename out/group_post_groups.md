@@ -10,6 +10,7 @@ Use this API to create a new group as specified in the request body. You can cre
 
 ## Permissions
 The following **scope** is required to execute this API: _Group.ReadWrite.All_ 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

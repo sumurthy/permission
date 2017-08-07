@@ -10,6 +10,7 @@ as specified in the override.
 - The POST operation supports creating only one override at a time.
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Mail.ReadWrite    | 

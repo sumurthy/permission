@@ -3,6 +3,7 @@ Retrieve a specific commercial subscription that an organization has acquired.
 
 ## Permissions
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

@@ -3,7 +3,7 @@
 import FileOps from './modules/fileops'
 import Setup from './modules/fileops'
 
-const MDTABLE = `|Permission type      | Permissions (from least to most privileged)              | \n|:--------------------|:---------------------------------------------------------| \n|Delegated (work or school account) | @business    | \n|Delegated (personal Microsoft account) | @personal    | \n|Application | @admin | \n`
+const MDTABLE = `\n|Permission type      | Permissions (from least to most privileged)              | \n|:--------------------|:---------------------------------------------------------| \n|Delegated (work or school account) | @business    | \n|Delegated (personal Microsoft account) | @personal    | \n|Application | @admin | \n`
 
 
 function getSubScopes (full=[], sub=[]) {

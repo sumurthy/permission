@@ -4,6 +4,7 @@ Create a new conversation by including a thread and a post.
 
 Use [reply thread](conversationthread_reply.md) or [reply post](post_reply.md) to further post to that conversation.
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Group.ReadWrite.All    | 

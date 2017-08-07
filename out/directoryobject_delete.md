@@ -5,6 +5,7 @@ Deletes a directoryObject.
 ## Permissions
 The following **scopes** is required to execute this API: _Directory.AccessAsUser.All_
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

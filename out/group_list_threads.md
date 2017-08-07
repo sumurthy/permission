@@ -5,6 +5,7 @@ Get all the threads of a group.
 Note: You can also [get all the threads of a conversation](conversation_list_threads.md).
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

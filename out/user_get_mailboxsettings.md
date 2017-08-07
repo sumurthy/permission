@@ -9,6 +9,7 @@ You can view all mailbox settings, or, get specific settings.
 The following **scope** is required to execute this API:
 *MailboxSettings.Read*  
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

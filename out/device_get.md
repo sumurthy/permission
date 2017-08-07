@@ -3,6 +3,7 @@
 Get the properties and relationships of a device object.
 ## Permissions
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

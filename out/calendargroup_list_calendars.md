@@ -2,6 +2,7 @@
 
 Retrieve a list of calendars belonging to a calendar group.
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Calendars.Read    | 

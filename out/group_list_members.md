@@ -3,6 +3,7 @@
 Get a list of the group's direct members. A group can have users, contacts, and other groups as members.
 This operation is not transitive.
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

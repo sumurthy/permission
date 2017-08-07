@@ -7,6 +7,7 @@ Adds a domain to the tenant.
 ## Permissions
 
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

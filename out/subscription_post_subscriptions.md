@@ -2,6 +2,7 @@
 
 Subscribes a listener application to receive notifications when data on the Microsoft Graph changes.
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

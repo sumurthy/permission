@@ -9,6 +9,7 @@ Root domains require verification. For example, contoso.com requires verificatio
 ## Permissions
 
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

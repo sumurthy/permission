@@ -9,6 +9,7 @@ a local store of a user's mail folders without having to fetch all the mail fold
 
 ## Permissions
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

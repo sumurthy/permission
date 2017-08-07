@@ -2,6 +2,7 @@
 
 Retrieve a list of [attachment](../resources/attachment.md) objects attached to a message.
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Mail.Read    | 

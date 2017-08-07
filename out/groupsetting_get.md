@@ -5,6 +5,7 @@ Retrieve the properties of a specific of group setting object.
 ## Permissions
 
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

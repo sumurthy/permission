@@ -8,6 +8,7 @@ that folder](../../../concepts/delta_query_messages.md). This allows you to main
 having to fetch the entire set of messages from the server every time.  
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

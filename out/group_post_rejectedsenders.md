@@ -6,6 +6,7 @@ Specify the user or group in `@odata.id` in the request body. Users in the rejec
 post to conversations of the group (identified in the POST request URL). Make sure you do not specify the same 
 user or group in the rejected senders and accepted senders lists, otherwise you will get an error.
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Group.ReadWrite.All    | 

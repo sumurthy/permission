@@ -33,6 +33,7 @@ getting:
 - _Contacts.Read_
 - _Group.Read.All_ 
  
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

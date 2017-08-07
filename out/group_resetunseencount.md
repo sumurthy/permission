@@ -4,6 +4,7 @@ Reset the unseenCount of all the posts that the current user has not seen since 
 only Office 365 groups.
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Group.ReadWrite.All    | 

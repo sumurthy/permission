@@ -4,6 +4,7 @@ Calling this method will prevent the current user from receiving email notificat
 for this group about new posts, events, and files in that group. Supported for only Office 365 groups. 
 ## Permissions
 *Group.ReadWrite.All*
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Group.ReadWrite.All    | 

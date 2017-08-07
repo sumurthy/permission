@@ -30,6 +30,7 @@ creating the extended property in:
 - _Contacts.ReadWrite_
 - _Group.ReadWrite.All_
  
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

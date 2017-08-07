@@ -9,6 +9,7 @@ that folder. This allows you to maintain and synchronize a local store of a user
 having to fetch the entire set of contacts from the server every time.  
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

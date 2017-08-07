@@ -5,6 +5,7 @@ about new posts, events, and files in that group. Supported for only Office 365 
 
 ## Permissions
 *Group.ReadWrite.All*
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Group.ReadWrite.All    | 

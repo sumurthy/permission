@@ -2,6 +2,7 @@
 
 Use this API to create a new [event](../resources/event.md).
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Group.ReadWrite.All    | 

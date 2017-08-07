@@ -6,6 +6,7 @@ You can include a [file attachment](../resources/fileattachment.md) in the same 
 
 ## Permissions
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Mail.Send    | 

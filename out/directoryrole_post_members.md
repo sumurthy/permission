@@ -4,6 +4,7 @@ Use this API to create a new directory role member.
 
 ## Permissions
 The following **scope** is required to execute this API: *Directory.AccessAsUser.All*
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

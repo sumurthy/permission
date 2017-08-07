@@ -5,6 +5,7 @@ through the **members** navigation property. You can remove users or other group
 
 ## Permissions
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

@@ -2,6 +2,7 @@
 
 Retrieve the list of conversations in this group.
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

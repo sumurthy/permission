@@ -10,6 +10,7 @@ If an override exists for a sender and the sender changes his/her SMTP address, 
 the new SMTP address is the only way to "update" the override for this sender.
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Mail.ReadWrite    | 

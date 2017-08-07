@@ -10,6 +10,7 @@ You can enable, configure, or disable one or more of these settings as part of [
 ## Permissions
 The following **scope** is required to execute this API:
 *MailboxSettings.ReadWrite*  
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

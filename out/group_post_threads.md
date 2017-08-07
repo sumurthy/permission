@@ -8,6 +8,7 @@ Use [reply thread](conversationthread_reply.md) or [reply post](post_reply.md) t
 Note: You can also [start a new thread in an existing conversation](conversation_post_threads.md). 
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Group.ReadWrite.All    | 

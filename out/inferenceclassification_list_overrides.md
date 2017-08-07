@@ -4,6 +4,7 @@ Get the overrides that a user has set up to always classify messages from certai
 
 Each override corresponds to an SMTP address of a sender. Initially, a user does not have any overrides.
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Mail.Read    | 

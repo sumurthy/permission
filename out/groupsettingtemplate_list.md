@@ -5,6 +5,7 @@ Group setting templates represents a set of templates  from which group settings
 ## Permissions
 
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

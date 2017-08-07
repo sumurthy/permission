@@ -7,6 +7,7 @@ One of the following **scopes** are required to execute this API:
 - _User.Read.All_ AND _Group.Read.All_
 - _Directory.Read.All_
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

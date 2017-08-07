@@ -3,6 +3,7 @@ Return all of the groups, directory roles and administrative units that the user
 
 ## Permissions
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

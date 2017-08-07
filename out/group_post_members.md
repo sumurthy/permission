@@ -5,6 +5,7 @@ You can add users or other groups. Important: You can add only users to Office 3
 
 ## Permissions
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

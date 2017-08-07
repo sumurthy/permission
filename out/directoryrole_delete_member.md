@@ -6,6 +6,7 @@ Remove a member from a directoryRole.
 
 The following **scope** is required to execute this API: *Directory.AccessAsUser.All*
 
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | undefined    | 

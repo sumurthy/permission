@@ -6,6 +6,7 @@ This operation is not transitive. Unlike getting a user's Office 365 Groups, thi
 returns all types of groups, not just Office 365 groups. 
 
 ## Permissions
+
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Group.Read.All    | 
