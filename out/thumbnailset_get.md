@@ -11,7 +11,7 @@ One of the following permissions is required to call this API. To learn more, in
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Files.Read    | 
 |Delegated (personal Microsoft account) | Files.Read    | 
-|Application | Not supported. | 
+|Application | Not supported | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -21,9 +21,9 @@ One of the following **scopes** is required to execute this API for:
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Not supported. | 
+|Delegated (work or school account) | Not supported    | 
+|Delegated (personal Microsoft account) | Not supported    | 
+|Application | Not supported | 
 
 ## HTTP request to update the photo
 <!-- { "blockType": "ignored" } -->

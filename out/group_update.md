@@ -8,9 +8,9 @@ The following **scope** is required to execute this API: *Group.ReadWrite.All*
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Not supported. | 
+|Delegated (work or school account) | Not supported    | 
+|Delegated (personal Microsoft account) | Not supported    | 
+|Application | Not supported | 
 
 ## HTTP request
 

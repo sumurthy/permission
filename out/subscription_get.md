@@ -6,9 +6,9 @@ One of the following **scopes**, depending on the target resource, are required 
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Not supported. | 
+|Delegated (work or school account) | Not supported    | 
+|Delegated (personal Microsoft account) | Not supported    | 
+|Application | Not supported | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
