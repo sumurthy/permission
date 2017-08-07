@@ -75,7 +75,7 @@ var self = module.exports  = {
     }
   },
 
-removeFolderRec: (path='') => {
+  removeFolderRec: (path='') => {
     var files = [];
     if( fs.existsSync(path) ) {
         files = fs.readdirSync(path);
@@ -89,7 +89,7 @@ removeFolderRec: (path='') => {
         });
         fs.rmdirSync(path);
     }
-},
+  },
   remove: (path='') => {
     try {
         fs.unlinkSync(path)
@@ -99,5 +99,11 @@ removeFolderRec: (path='') => {
       console.log(`Error removing the output file, path: ${path}, ${e}`)
 			throw e
     }
+  },
+  cleanupOutput: (path) => {
+    let markdowns = self.walkFiles(path)
+    markdowns.forEach(name => self.remove(`${path}/${name}`))
+    console.log("** Cleaned output markdown folder")
   }
+
 }

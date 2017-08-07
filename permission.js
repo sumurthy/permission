@@ -1,82 +1,193 @@
-//import {loadFile, writeFile}  from './modules/fileops'
 // require("babel-core").transform("code", options);
 
-//import {loadFile, writeFile}  from './modules/fileops'
 import FileOps from './modules/fileops'
+import Setup from './modules/fileops'
+
+const MDTABLE = `|Permission type      | Permissions (from least to most privileged)              | \n|:--------------------|:---------------------------------------------------------| \n|Delegated (work or school account) | @business    | \n|Delegated (personal Microsoft account) | @personal    | \n|Application | @admin | \n`
+
+
+function getSubScopes (full=[], sub=[]) {
+    let list = []
+    sub.forEach((item) => {
+        if (full.includes(item)) {
+            list.push(item)
+        }
+    })
+    return list
+}
+
+
+function getScopes(line) {
+
+    let delimiter = ''
+    let delimiterFound = false
+    let tempArray = []
+    // Remove *, - and _ (formatting, not important to retain)
+    let temp = line.replace(/_/g,'')
+    temp = temp.replace(/\*/g,'')
+    temp = temp.replace(/\-/g,'')
+
+    // Handle this: Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All, or Notes.ReadWrite.All 
+    if (temp.includes(',') && temp.includes(' or ')) {
+        temp = temp.replace(" or ", '')
+    }   
+    // Identify the delimiter
+    if (temp.includes(' or ')) {
+        delimiter = ' or '
+        delimiterFound = true
+    } else if(temp.includes(',')) {
+        delimiter = ','
+        delimiterFound = true
+    } else if(temp.includes(';')) {
+        delimiter = ';'
+        delimiterFound = true
+    }
+    if (delimiterFound) {
+        tempArray = temp.split(delimiter)
+    } else {
+        tempArray.push(temp)
+    }
+    return tempArray.toString() 
+
+}
+
+function processPermLines(permLines, name) {
+    let oPermLines = []
+    let scopesArray = []    
+    let mdDone = false           
+    try {
+        let permissionLine = false
+        let inScope = false
+
+        permLines.forEach((line) => {
+            let oLine = line
+            if (line === '## Prerequisites') {
+                oLine = '## Permissions'
+                oPermLines.push(oLine)
+                return
+            }            
+
+            if (line.startsWith('One of the following **scopes** is required to execute this API:') || line.startsWith('The following **scopes** are required to execute this API:')) {
+                inScope = true
+                let sArray = line.split('API:')
+                if (sArray[1].trim()) {
+                    inScope = false
+                    // Get scopes on this line
+                    scopesArray.push(getScopes(sArray[1]))
+                    // Trim the array
+                    scopesArray = scopesArray.map(s => s.trim());        
+                    return            
+                } else {
+                    oLine = 'One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).'              
+                    oPermLines.push(oLine)
+                    return                   
+                }
+            }
+            // If you come across the Note:, write permission array and move on. 
+            if (line.toLowerCase().includes('note:')) {
+                inScope = false
+                mdDone = true
+                let p = MDTABLE.replace('@business', ...getSubScopes(WORK, scopesArray))
+                p = p.replace('@personal', ...getSubScopes(PERSONAL, scopesArray))
+                p = p.replace('@admin', ...getSubScopes(APPLICATION, scopesArray))
+                oPermLines.push(p)
+                return
+            } 
+
+            // End if you see end of array marker.
+            if (line.toLowerCase().includes('--end--')) {
+                if (!mdDone) {
+                    let p = MDTABLE.replace('@business', ...getSubScopes(WORK, scopesArray))
+                    p = p.replace('@personal', ...getSubScopes(PERSONAL, scopesArray))
+                    p = p.replace('@admin', ...getSubScopes(APPLICATION, scopesArray))
+                    oPermLines.push(p)
+                }
+                return
+            }                          
+            if (!inScope) {
+                oPermLines.push(oLine)
+                return                    
+            } else {
+                if (!line.trim()) { return }  
+                // Throw exceptions for files that requires manual intervention. 
+                if (line.toLowerCase().includes(' if ')) {
+                    throw BreakException
+                }
+                if (line.toLowerCase().includes(' and ')) {
+                    throw BreakException
+                }  
+                if (line.toLowerCase().includes(':')) {
+                    throw BreakException
+                }                                
+                // Get scopes on each line
+                scopesArray.push(getScopes(line))
+                // Trim the array
+                scopesArray = scopesArray.map(s => s.trim());
+            }
+        })
+    } catch (e) {
+        console.log ('Skipping unusual file: ' + name)
+        // Don't change the permission section. 
+        return permLines
+    }
+    return oPermLines
+}
+
+function processModule(api, name) {
+    console.log('>> Start Api: ' + name);
+
+    if (name.includes('extension')) {
+        console.log ('Skipping Extension API: ' + name)
+        return
+    }
+    let inPermission = false
+    let outApi = []
+    let permLines = []
+    api.forEach((line) => {
+        let oLine = line
+        if (line.startsWith('## Prerequisites')) {
+            inPermission = true
+            permLines.push(line)
+            return
+        } else {
+            if (inPermission && line.startsWith('#')) {
+                inPermission = false
+                permLines.push('--end--')
+                let oPermLines = processPermLines(permLines, name)    
+                outApi.push(...oPermLines)
+            } 
+            if (inPermission) {
+                permLines.push(line)
+                return
+            }
+            outApi.push(oLine)
+        }
+    })
+    FileOps.writeFile(outApi, `./out/${name}`)    
+    console.log('Done. ' + name + ', input #lines: ' + api.length + ', output #lines:' + outApi.length);
+
+}
 
 /**
  * STARTING: Load input files and process each file and each line within.
  */
 console.log('* Starting Program...')
-SetUp.cleanupOutput('./out')
-console.log('');
-let inputFiles = FileOps.walkFiles('./input', '.json')
-inputFiles.forEach((e) => {
-    console.log('** Processing: ' + e);
-    let fileObj = JSON.parse(FileOps.loadJson(`./input/${e}`))
-    if (fileObj['summary'][0]) {
-        packageObj['summary'] = fileObj['summary'][0]['value']
-    }
-    else {
-        packageObj['summary'] = ''
-    }
+FileOps.cleanupOutput('./out')
 
-    if (fileObj['remarks'][0]) {
-        packageObj['remarks'] = fileObj['remarks'][0]['value']
-    }
-    else {
-        packageObj['remarks'] = ''
-    }
-    processModule(fileObj['exports'], e.split('.json')[0])
-    file_reset()
+let WORK = FileOps.loadFile(`./scopes/work.txt`)
+let PERSONAL = FileOps.loadFile(`./scopes/personal.txt`)
+let APPLICATION = FileOps.loadFile(`./scopes/app.txt`)
+
+console.log('');
+let inputFiles = FileOps.walkFiles('./input', '.md')
+inputFiles.forEach((e) => {
+    let api = FileOps.loadFile(`./input/${e}`)
+    processModule(api, e)
 })
-FileOps.writeObject(allTypes, `./types/allTypes.json`)
-FileOps.writeObject(allMembers, `./types/allMembers.json`)
+console.log('End of program.');
+
+
 
 /**
  * End program
  */
-
-function processModule(packageContent={}, fileName="error") {
-    toc.push(Utils.moduleTocEntry(fileName))
-
-    Object.keys(packageContent).forEach((e) => {
-        //console.log("**** Processing: " + e + " " + packageObj[e]['kind']);
-
-        switch (packageContent[e]['kind']) {
-            case 'class':
-                classObj[e] = processClassInterface(packageContent[e], e.toLowerCase(), fileName.toLowerCase(), 'class')
-                nClass++
-                break;
-            case 'interface':
-                iObj[e] = processClassInterface(packageContent[e], e.toLowerCase(), fileName.toLowerCase(), 'interface')
-                nInterface++
-                break;
-            case 'enum':
-                enumObj[e] = processEnum(packageContent[e])
-                nEnum++
-                break;
-            case 'function':
-                functionObj[e] = Utils.processMethod(packageContent[e], e)
-                nFunction++
-                break;
-            default:
-                console.log('ERROR Unmatched type: ' + packageContent[e]['kind']);
-                break;
-        }
-        allTypes[e] = '../../' + fileName.toLowerCase() + '/' + packageContent[e]['kind'] + '/' + e.toLowerCase() + '.md'
-
-    })
-
-    FileOps.writeObject(enumObj, `./json/${fileName}_enum.json`)
-    FileOps.writeObject(packageObj, `./json/${fileName}_package.json`)
-    FileOps.writeObject(functionObj, `./json/${fileName}_function.json`)
-    FileOps.writeObject(iObj, `./json/${fileName}_interface.json`)
-    FileOps.writeObject(classObj, `./json/${fileName}_class.json`)
-    FileOps.writeObject(typeObj, `./json/${fileName}_type.json`)
-    FileOps.writeObject(variableObj, `./json/${fileName}_variable.json`)
-
-    console.log(`----> interface = ${nInterface}, class = ${nClass}, function = ${nFunction}, enum = ${nEnum}`);
-    console.log('');
-    file_reset()
-}
