@@ -105,7 +105,7 @@ function processPermLines(permLines, name) {
             // End if you see end of array marker.
             if (line.toLowerCase().includes('--end--')) {
                 if (scopesArray.length === 0) {
-                    console.log ('!! No scopes defned in permission section: ' + name )
+                    console.log ('!! No scopes defined in permission section: ' + name )
                 }
                 if (!mdDone) {
                     let p = MDTABLE.replace('@business', getSubScopes(WORK, scopesArray).join(', '))

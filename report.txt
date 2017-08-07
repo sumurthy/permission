@@ -137,10 +137,10 @@ Done. contactfolder_post_contacts.md, input #lines: 82, output #lines:82
 >> Start Api: contactfolder_update.md
 Done. contactfolder_update.md, input #lines: 74, output #lines:74
 >> Start Api: contract_get.md
-!! No scopes defned in permission section: contract_get.md
+!! No scopes defined in permission section: contract_get.md
 Done. contract_get.md, input #lines: 73, output #lines:74
 >> Start Api: contract_list.md
-!! No scopes defned in permission section: contract_list.md
+!! No scopes defined in permission section: contract_list.md
 Done. contract_list.md, input #lines: 81, output #lines:82
 >> Start Api: conversation_delete.md
 Done. conversation_delete.md, input #lines: 54, output #lines:53
@@ -185,7 +185,7 @@ Skipping unusual file: directoryobject_checkmembergroups.md
 Done. directoryobject_checkmembergroups.md, input #lines: 85, output #lines:86
 >> Start Api: directoryobject_delete.md
 !! No scopes defined in permission section: directoryobject_delete.md
-!! No scopes defned in permission section: directoryobject_delete.md
+!! No scopes defined in permission section: directoryobject_delete.md
 Done. directoryobject_delete.md, input #lines: 55, output #lines:55
 >> Start Api: directoryobject_get.md
 Done. directoryobject_get.md, input #lines: 62, output #lines:59
@@ -193,14 +193,14 @@ Done. directoryobject_get.md, input #lines: 62, output #lines:59
 Done. directoryobject_getbyids.md, input #lines: 103, output #lines:104
 >> Start Api: directoryobject_getmembergroups.md
 !! No scopes defined in permission section: directoryobject_getmembergroups.md
-!! No scopes defned in permission section: directoryobject_getmembergroups.md
+!! No scopes defined in permission section: directoryobject_getmembergroups.md
 Done. directoryobject_getmembergroups.md, input #lines: 84, output #lines:84
 >> Start Api: directoryobject_getmemberobjects.md
 !! No scopes defined in permission section: directoryobject_getmemberobjects.md
-!! No scopes defned in permission section: directoryobject_getmemberobjects.md
+!! No scopes defined in permission section: directoryobject_getmemberobjects.md
 Done. directoryobject_getmemberobjects.md, input #lines: 86, output #lines:86
 >> Start Api: directoryrole_delete_member.md
-!! No scopes defned in permission section: directoryrole_delete_member.md
+!! No scopes defined in permission section: directoryrole_delete_member.md
 Done. directoryrole_delete_member.md, input #lines: 65, output #lines:66
 >> Start Api: directoryrole_get.md
 Done. directoryrole_get.md, input #lines: 62, output #lines:63
@@ -211,10 +211,10 @@ Done. directoryrole_list_members.md, input #lines: 70, output #lines:71
 >> Start Api: directoryrole_post_directoryroles.md
 Done. directoryrole_post_directoryroles.md, input #lines: 76, output #lines:77
 >> Start Api: directoryrole_post_members.md
-!! No scopes defned in permission section: directoryrole_post_members.md
+!! No scopes defined in permission section: directoryrole_post_members.md
 Done. directoryrole_post_members.md, input #lines: 62, output #lines:63
 >> Start Api: directoryroletemplate_get.md
-!! No scopes defned in permission section: directoryroletemplate_get.md
+!! No scopes defined in permission section: directoryroletemplate_get.md
 Done. directoryroletemplate_get.md, input #lines: 61, output #lines:62
 >> Start Api: directoryroletemplate_list.md
 Done. directoryroletemplate_list.md, input #lines: 67, output #lines:68
@@ -250,10 +250,10 @@ Done. drive_special.md, input #lines: 99, output #lines:91
 !! No permission section at all: driverecipient.md
 Done. driverecipient.md, input #lines: 39, output #lines:39
 >> Start Api: entity_delete.md
-!! No scopes defned in permission section: entity_delete.md
+!! No scopes defined in permission section: entity_delete.md
 Done. entity_delete.md, input #lines: 53, output #lines:54
 >> Start Api: entity_get.md
-!! No scopes defned in permission section: entity_get.md
+!! No scopes defined in permission section: entity_get.md
 Done. entity_get.md, input #lines: 58, output #lines:59
 >> Start Api: event_accept.md
 Done. event_accept.md, input #lines: 83, output #lines:83
@@ -300,7 +300,7 @@ Done. formatprotection_update.md, input #lines: 75, output #lines:73
 >> Start Api: group_addfavorite.md
 Done. group_addfavorite.md, input #lines: 53, output #lines:53
 >> Start Api: group_checkmembergroups.md
-!! No scopes defned in permission section: group_checkmembergroups.md
+!! No scopes defined in permission section: group_checkmembergroups.md
 Done. group_checkmembergroups.md, input #lines: 80, output #lines:81
 >> Start Api: group_delete.md
 Done. group_delete.md, input #lines: 51, output #lines:52
@@ -349,7 +349,7 @@ Done. group_post_conversations.md, input #lines: 87, output #lines:88
 >> Start Api: group_post_events.md
 Done. group_post_events.md, input #lines: 83, output #lines:84
 >> Start Api: group_post_groups.md
-!! No scopes defned in permission section: group_post_groups.md
+!! No scopes defined in permission section: group_post_groups.md
 Done. group_post_groups.md, input #lines: 104, output #lines:105
 >> Start Api: group_post_members.md
 Done. group_post_members.md, input #lines: 62, output #lines:63
@@ -368,7 +368,7 @@ Done. group_subscribebymail.md, input #lines: 54, output #lines:55
 >> Start Api: group_unsubscribebymail.md
 Done. group_unsubscribebymail.md, input #lines: 54, output #lines:55
 >> Start Api: group_update.md
-!! No scopes defned in permission section: group_update.md
+!! No scopes defined in permission section: group_update.md
 Done. group_update.md, input #lines: 91, output #lines:92
 >> Start Api: groupsetting_delete.md
 Done. groupsetting_delete.md, input #lines: 60, output #lines:60
@@ -397,7 +397,7 @@ Done. inferenceclassificationoverride_delete.md, input #lines: 52, output #lines
 >> Start Api: inferenceclassificationoverride_update.md
 Done. inferenceclassificationoverride_update.md, input #lines: 82, output #lines:83
 >> Start Api: invitation_post.md
-!! No scopes defned in permission section: invitation_post.md
+!! No scopes defined in permission section: invitation_post.md
 Done. invitation_post.md, input #lines: 91, output #lines:92
 >> Start Api: item_copy.md
 Done. item_copy.md, input #lines: 71, output #lines:67
@@ -483,10 +483,10 @@ Done. message_send.md, input #lines: 57, output #lines:57
 >> Start Api: message_update.md
 Done. message_update.md, input #lines: 111, output #lines:111
 >> Start Api: multivaluelegacyextendedproperty_get.md
-!! No scopes defned in permission section: multivaluelegacyextendedproperty_get.md
+!! No scopes defined in permission section: multivaluelegacyextendedproperty_get.md
 Done. multivaluelegacyextendedproperty_get.md, input #lines: 177, output #lines:178
 >> Start Api: multivaluelegacyextendedproperty_post_multivalueextendedproperties.md
-!! No scopes defned in permission section: multivaluelegacyextendedproperty_post_multivalueextendedproperties.md
+!! No scopes defined in permission section: multivaluelegacyextendedproperty_post_multivalueextendedproperties.md
 Done. multivaluelegacyextendedproperty_post_multivalueextendedproperties.md, input #lines: 266, output #lines:267
 >> Start Api: nameditem_add.md
 Done. nameditem_add.md, input #lines: 94, output #lines:91
@@ -535,13 +535,13 @@ Skipping Extension API: opentypeextension_post_opentypeextension.md
 >> Start Api: opentypeextension_update.md
 Skipping Extension API: opentypeextension_update.md
 >> Start Api: organization_get.md
-!! No scopes defned in permission section: organization_get.md
+!! No scopes defined in permission section: organization_get.md
 Done. organization_get.md, input #lines: 72, output #lines:73
 >> Start Api: organization_list.md
-!! No scopes defned in permission section: organization_list.md
+!! No scopes defined in permission section: organization_list.md
 Done. organization_list.md, input #lines: 76, output #lines:77
 >> Start Api: organization_update.md
-!! No scopes defned in permission section: organization_update.md
+!! No scopes defined in permission section: organization_update.md
 Done. organization_update.md, input #lines: 116, output #lines:117
 >> Start Api: page_copytosection.md
 Done. page_copytosection.md, input #lines: 74, output #lines:72
@@ -562,7 +562,7 @@ Done. photo_delete.md, input #lines: 60, output #lines:58
 >> Start Api: photo_get.md
 Done. photo_get.md, input #lines: 66, output #lines:64
 >> Start Api: photo_update.md
-!! No scopes defned in permission section: photo_update.md
+!! No scopes defined in permission section: photo_update.md
 Done. photo_update.md, input #lines: 74, output #lines:75
 >> Start Api: planner_list_buckets.md
 Done. planner_list_buckets.md, input #lines: 73, output #lines:71
@@ -637,10 +637,10 @@ Done. post_post_attachments.md, input #lines: 125, output #lines:123
 >> Start Api: post_reply.md
 Done. post_reply.md, input #lines: 119, output #lines:117
 >> Start Api: profilephoto_get.md
-!! No scopes defned in permission section: profilephoto_get.md
+!! No scopes defined in permission section: profilephoto_get.md
 Done. profilephoto_get.md, input #lines: 126, output #lines:127
 >> Start Api: profilephoto_update.md
-!! No scopes defned in permission section: profilephoto_update.md
+!! No scopes defined in permission section: profilephoto_update.md
 Done. profilephoto_update.md, input #lines: 85, output #lines:86
 >> Start Api: range_boundingrect.md
 Done. range_boundingrect.md, input #lines: 81, output #lines:79
@@ -747,33 +747,33 @@ Done. sectiongroup_post_sections.md, input #lines: 88, output #lines:86
 >> Start Api: shares_get.md
 Done. shares_get.md, input #lines: 164, output #lines:160
 >> Start Api: singlevaluelegacyextendedproperty_get.md
-!! No scopes defned in permission section: singlevaluelegacyextendedproperty_get.md
+!! No scopes defined in permission section: singlevaluelegacyextendedproperty_get.md
 Done. singlevaluelegacyextendedproperty_get.md, input #lines: 273, output #lines:274
 >> Start Api: singlevaluelegacyextendedproperty_post_singlevalueextendedproperties.md
-!! No scopes defned in permission section: singlevaluelegacyextendedproperty_post_singlevalueextendedproperties.md
+!! No scopes defined in permission section: singlevaluelegacyextendedproperty_post_singlevalueextendedproperties.md
 Done. singlevaluelegacyextendedproperty_post_singlevalueextendedproperties.md, input #lines: 252, output #lines:253
 >> Start Api: site_get.md
-!! No scopes defned in permission section: site_get.md
+!! No scopes defined in permission section: site_get.md
 Done. site_get.md, input #lines: 83, output #lines:84
 >> Start Api: subscribedsku_get.md
 Done. subscribedsku_get.md, input #lines: 84, output #lines:85
 >> Start Api: subscribedsku_list.md
 Done. subscribedsku_list.md, input #lines: 104, output #lines:105
 >> Start Api: subscription_delete.md
-!! No scopes defned in permission section: subscription_delete.md
+!! No scopes defined in permission section: subscription_delete.md
 Done. subscription_delete.md, input #lines: 49, output #lines:50
 >> Start Api: subscription_get.md
-!! No scopes defned in permission section: subscription_get.md
+!! No scopes defined in permission section: subscription_get.md
 Done. subscription_get.md, input #lines: 64, output #lines:65
 >> Start Api: subscription_post_subscriptions.md
 !! No scopes defined in permission section: subscription_post_subscriptions.md
-!! No scopes defned in permission section: subscription_post_subscriptions.md
+!! No scopes defined in permission section: subscription_post_subscriptions.md
 Done. subscription_post_subscriptions.md, input #lines: 134, output #lines:134
 >> Start Api: subscription_update.md
-!! No scopes defned in permission section: subscription_update.md
+!! No scopes defined in permission section: subscription_update.md
 Done. subscription_update.md, input #lines: 67, output #lines:68
 >> Start Api: subsites_list.md
-!! No scopes defned in permission section: subsites_list.md
+!! No scopes defined in permission section: subsites_list.md
 Done. subsites_list.md, input #lines: 69, output #lines:70
 >> Start Api: table_clearfilters.md
 Done. table_clearfilters.md, input #lines: 58, output #lines:56
@@ -864,7 +864,7 @@ Done. user_findmeetingtimes.md, input #lines: 250, output #lines:251
 >> Start Api: user_get.md
 Done. user_get.md, input #lines: 75, output #lines:75
 >> Start Api: user_get_mailboxsettings.md
-!! No scopes defned in permission section: user_get_mailboxsettings.md
+!! No scopes defined in permission section: user_get_mailboxsettings.md
 Done. user_get_mailboxsettings.md, input #lines: 144, output #lines:145
 >> Start Api: user_getmembergroups.md
 Skipping unusual file: user_getmembergroups.md
@@ -931,7 +931,7 @@ Done. user_sendmail.md, input #lines: 90, output #lines:91
 Skipping unusual file: user_update.md
 Done. user_update.md, input #lines: 118, output #lines:119
 >> Start Api: user_update_mailboxsettings.md
-!! No scopes defned in permission section: user_update_mailboxsettings.md
+!! No scopes defined in permission section: user_update_mailboxsettings.md
 Done. user_update_mailboxsettings.md, input #lines: 110, output #lines:111
 >> Start Api: workbook_list_names.md
 Done. workbook_list_names.md, input #lines: 71, output #lines:69
@@ -961,7 +961,7 @@ Done. workbookrange_rowsbelow.md, input #lines: 63, output #lines:64
 >> Start Api: workbookrange_visibleview.md
 Done. workbookrange_visibleview.md, input #lines: 55, output #lines:56
 >> Start Api: workbookrangeview_itemat.md
-!! No scopes defned in permission section: workbookrangeview_itemat.md
+!! No scopes defined in permission section: workbookrangeview_itemat.md
 Done. workbookrangeview_itemat.md, input #lines: 62, output #lines:63
 >> Start Api: workbookrangeview_list_rows.md
 Done. workbookrangeview_list_rows.md, input #lines: 63, output #lines:64
