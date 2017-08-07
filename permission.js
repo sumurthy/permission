@@ -99,9 +99,9 @@ function processPermLines(permLines, name) {
             // End if you see end of array marker.
             if (line.toLowerCase().includes('--end--')) {
                 if (!mdDone) {
-                    let p = MDTABLE.replace('@business', ...getSubScopes(WORK, scopesArray))
-                    p = p.replace('@personal', ...getSubScopes(PERSONAL, scopesArray))
-                    p = p.replace('@admin', ...getSubScopes(APPLICATION, scopesArray))
+                    let p = MDTABLE.replace('@business', getSubScopes(WORK, scopesArray).toString())
+                    p = p.replace('@personal', getSubScopes(PERSONAL, scopesArray).toString())
+                    p = p.replace('@admin', getSubScopes(APPLICATION, scopesArray).toString())
                     oPermLines.push(p)
                 }
                 return
@@ -185,7 +185,7 @@ let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
     // File Filter
-    // if (e != 'directoryrole_list.md') { return }
+    if (e != 'directoryrole_list.md') { return }
 
     processModule(api, e)
 })

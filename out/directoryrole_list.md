@@ -5,9 +5,9 @@ List the directory roles that are activated in the tenant.
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Directory.Read.All    | 
-|Delegated (personal Microsoft account) | undefined    | 
-|Application | Directory.Read.All | 
+|Delegated (work or school account) | Directory.Read.All,Directory.ReadWrite.All,Directory.AccessAsUser.All    | 
+|Delegated (personal Microsoft account) |     | 
+|Application | Directory.Read.All,Directory.ReadWrite.All | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
