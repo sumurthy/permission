@@ -72,12 +72,13 @@ function processPermLines(permLines, name) {
                 let sArray = line.split('API:')
                 if (sArray[1].trim()) {
                     inScope = false
+                    oLine = 'One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).'              
+                    oPermLines.push(oLine)
                     // Get scopes on this line
                     scopesArray = scopesArray.concat(getScopes(sArray[1]))
                     // Trim the array                                        
                     scopesArray = scopesArray.map(s => s.trim());      
                     console.log(scopesArray)  
-
                     return            
                 } else {
                     oLine = 'One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).'              
@@ -122,9 +123,11 @@ function processPermLines(permLines, name) {
                     throw BreakException
                 }                                
                 // Get scopes on each line
-                scopesArray.concat(getScopes(line))
+                scopesArray = scopesArray.concat(getScopes(line))
                 // Trim the array
                 scopesArray = scopesArray.map(s => s.trim());
+                console.log(scopesArray)
+
             }
         })
     } catch (e) {
@@ -185,7 +188,7 @@ let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
     // File Filter
-    // if (e != 'directoryrole_list.md') { return }
+    if (e != 'directoryrole_list.md' && e != 'chart_get.md' ) { return }
 
     processModule(api, e)
 })
