@@ -942,33 +942,33 @@ Done. workbook_list_worksheets.md, input #lines: 70, output #lines:68
 >> Start Api: workbook_post_tables.md
 Done. workbook_post_tables.md, input #lines: 79, output #lines:77
 >> Start Api: workbookpivottable_get.md
-Done. workbookpivottable_get.md, input #lines: 54, output #lines:55
+Done. workbookpivottable_get.md, input #lines: 53, output #lines:54
 >> Start Api: workbookpivottable_refresh.md
-Done. workbookpivottable_refresh.md, input #lines: 48, output #lines:49
+Done. workbookpivottable_refresh.md, input #lines: 47, output #lines:48
 >> Start Api: workbookpivottable_refreshall.md
-Done. workbookpivottable_refreshall.md, input #lines: 47, output #lines:48
+Done. workbookpivottable_refreshall.md, input #lines: 46, output #lines:47
 >> Start Api: workbookrange_columnsafter.md
-Done. workbookrange_columnsafter.md, input #lines: 65, output #lines:66
+Done. workbookrange_columnsafter.md, input #lines: 64, output #lines:65
 >> Start Api: workbookrange_columnsbefore.md
 !! No permission section at all: workbookrange_columnsbefore.md
 Done. workbookrange_columnsbefore.md, input #lines: 1, output #lines:1
 >> Start Api: workbookrange_resizedrange.md
-Done. workbookrange_resizedrange.md, input #lines: 80, output #lines:81
+Done. workbookrange_resizedrange.md, input #lines: 79, output #lines:80
 >> Start Api: workbookrange_rowsabove.md
-Done. workbookrange_rowsabove.md, input #lines: 63, output #lines:64
+Done. workbookrange_rowsabove.md, input #lines: 62, output #lines:63
 >> Start Api: workbookrange_rowsbelow.md
-Done. workbookrange_rowsbelow.md, input #lines: 63, output #lines:64
+Done. workbookrange_rowsbelow.md, input #lines: 62, output #lines:63
 >> Start Api: workbookrange_visibleview.md
-Done. workbookrange_visibleview.md, input #lines: 55, output #lines:56
+Done. workbookrange_visibleview.md, input #lines: 54, output #lines:55
 >> Start Api: workbookrangeview_itemat.md
 !! No scopes defined in permission section: workbookrangeview_itemat.md
 Done. workbookrangeview_itemat.md, input #lines: 62, output #lines:63
 >> Start Api: workbookrangeview_list_rows.md
-Done. workbookrangeview_list_rows.md, input #lines: 63, output #lines:64
+Done. workbookrangeview_list_rows.md, input #lines: 62, output #lines:63
 >> Start Api: workbookrangeview_range.md
-Done. workbookrangeview_range.md, input #lines: 58, output #lines:59
+Done. workbookrangeview_range.md, input #lines: 57, output #lines:58
 >> Start Api: workbookworksheet_list_pivottables.md
-Done. workbookworksheet_list_pivottables.md, input #lines: 59, output #lines:60
+Done. workbookworksheet_list_pivottables.md, input #lines: 58, output #lines:59
 >> Start Api: worksheet_cell.md
 Done. worksheet_cell.md, input #lines: 67, output #lines:65
 >> Start Api: worksheet_delete.md
