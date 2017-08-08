@@ -10,7 +10,6 @@ always direct.
 One of the following **scopes** is required to execute this API:
 *User.Read* or *User.ReadBasic.All* and *Group.Read.All*; *Directory.Read.All; Directory.ReadWrite.All; Directory.AccessAsUser.All*
 
---end--
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http

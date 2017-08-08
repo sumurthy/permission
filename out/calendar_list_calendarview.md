@@ -9,7 +9,6 @@ One of the following **scopes** is required to execute this API:
 * Events in a user's calendar: _Calendars.Read_ or _Calendars.ReadWrite_
 * Events in a group calendar: _Group.Read.All_ or _Group.ReadWrite.All_
 
---end--
 ## HTTP request
 
 A user's or group's default [calendar](../resources/calendar.md).

@@ -8,7 +8,6 @@ One of the following **scopes** is required to execute this API:
 - *Directory.ReadWrite.All* 
 - *Directory.AccessAsUser.All*
 
---end--
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http

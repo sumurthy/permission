@@ -139,8 +139,8 @@ function processPermLines(permLines, name) {
         })
     } catch (e) {
         console.log ('Skipping unusual file: ' + name)
-        // Don't change the permission section. 
-        return permLines
+        // Don't change the permission section and remove --end--. 
+        return permLines.slice(0,-1)
     }
     return oPermLines
 }
@@ -198,7 +198,7 @@ let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
     // File Filter
-    // if (e != 'calendar_get.md' && e != 'chart_get.md' ) { return }
+    // if (e != 'calendar_get.md' && e != 'attachment_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');

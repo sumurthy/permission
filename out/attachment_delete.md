@@ -8,7 +8,6 @@ One of the following **scopes** is required to execute this API:
 * If accessing attachments in Events: *Calendars.ReadWrite*
 * If accessing attachments in Group Events or Posts: *Group.ReadWrite.All*
 
---end--
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
 Attachments for an [event](../resources/event.md) in the user's or group's default [calendar](../resources/calendar.md).

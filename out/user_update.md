@@ -9,7 +9,6 @@ One of the following **scopes** is required to execute this API:
 When updating the passwordProfile property, the following scope is required:
 *Directory.AccessAsUser.All*
 
---end--
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http

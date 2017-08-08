@@ -17,7 +17,6 @@ One of the following **scopes** is required to execute this API:
 
 > **Note**: The Files.ReadWrite.All application permission is not yet supported on this API. Full support is planned soon. 
 
---end--
 ## Create an upload session
 
 To begin a large file upload, your app must first request a new upload session.

@@ -10,7 +10,6 @@ The following **scopes** are required to execute this API:
 
 > Note: Permission scopes are listed in least privilege required order.
 
---end--
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http

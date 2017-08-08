@@ -7,17 +7,17 @@
 
 >> Start Api: attachment_delete.md
 Skipping unusual file: attachment_delete.md
-Done. attachment_delete.md, input #lines: 97, output #lines:98
+Done. attachment_delete.md, input #lines: 97, output #lines:97
 >> Start Api: attachment_get.md
 Skipping unusual file: attachment_get.md
-Done. attachment_get.md, input #lines: 284, output #lines:285
+Done. attachment_get.md, input #lines: 284, output #lines:284
 >> Start Api: calendar_delete.md
 Done. calendar_delete.md, input #lines: 63, output #lines:63
 >> Start Api: calendar_get.md
 Done. calendar_get.md, input #lines: 86, output #lines:86
 >> Start Api: calendar_list_calendarview.md
 Skipping unusual file: calendar_list_calendarview.md
-Done. calendar_list_calendarview.md, input #lines: 109, output #lines:110
+Done. calendar_list_calendarview.md, input #lines: 109, output #lines:109
 >> Start Api: calendar_list_events.md
 Done. calendar_list_events.md, input #lines: 93, output #lines:93
 >> Start Api: calendar_post_events.md
@@ -168,10 +168,10 @@ Done. device_get.md, input #lines: 74, output #lines:75
 Done. device_list.md, input #lines: 78, output #lines:79
 >> Start Api: device_list_registeredowners.md
 Skipping unusual file: device_list_registeredowners.md
-Done. device_list_registeredowners.md, input #lines: 67, output #lines:68
+Done. device_list_registeredowners.md, input #lines: 67, output #lines:67
 >> Start Api: device_list_registeredusers.md
 Skipping unusual file: device_list_registeredusers.md
-Done. device_list_registeredusers.md, input #lines: 67, output #lines:68
+Done. device_list_registeredusers.md, input #lines: 67, output #lines:67
 >> Start Api: device_post_devices.md
 Done. device_post_devices.md, input #lines: 91, output #lines:92
 >> Start Api: device_post_registeredowners.md
@@ -182,7 +182,7 @@ Done. device_post_registeredusers.md, input #lines: 71, output #lines:72
 Done. device_update.md, input #lines: 50, output #lines:51
 >> Start Api: directoryobject_checkmembergroups.md
 Skipping unusual file: directoryobject_checkmembergroups.md
-Done. directoryobject_checkmembergroups.md, input #lines: 85, output #lines:86
+Done. directoryobject_checkmembergroups.md, input #lines: 85, output #lines:85
 >> Start Api: directoryobject_delete.md
 !! No scopes defined in permission section: directoryobject_delete.md
 !! No scopes defined in permission section: directoryobject_delete.md
@@ -405,7 +405,7 @@ Done. item_copy.md, input #lines: 71, output #lines:67
 Done. item_createlink.md, input #lines: 169, output #lines:165
 >> Start Api: item_createuploadsession.md
 Skipping unusual file: item_createuploadsession.md
-Done. item_createuploadsession.md, input #lines: 254, output #lines:255
+Done. item_createuploadsession.md, input #lines: 254, output #lines:254
 >> Start Api: item_delete.md
 Done. item_delete.md, input #lines: 62, output #lines:58
 >> Start Api: item_delta.md
@@ -868,7 +868,7 @@ Done. user_get.md, input #lines: 75, output #lines:75
 Done. user_get_mailboxsettings.md, input #lines: 144, output #lines:145
 >> Start Api: user_getmembergroups.md
 Skipping unusual file: user_getmembergroups.md
-Done. user_getmembergroups.md, input #lines: 81, output #lines:82
+Done. user_getmembergroups.md, input #lines: 81, output #lines:81
 >> Start Api: user_getmemberobjects.md
 Done. user_getmemberobjects.md, input #lines: 75, output #lines:76
 >> Start Api: user_list.md
@@ -929,7 +929,7 @@ Done. user_reminderview.md, input #lines: 97, output #lines:97
 Done. user_sendmail.md, input #lines: 90, output #lines:91
 >> Start Api: user_update.md
 Skipping unusual file: user_update.md
-Done. user_update.md, input #lines: 118, output #lines:119
+Done. user_update.md, input #lines: 118, output #lines:118
 >> Start Api: user_update_mailboxsettings.md
 !! No scopes defined in permission section: user_update_mailboxsettings.md
 Done. user_update_mailboxsettings.md, input #lines: 110, output #lines:111
