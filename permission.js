@@ -228,7 +228,7 @@ let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
     // File Filter
-    if (e != 'directoryroletemplate_list.md' && e != 'site_get.md' ) { return }
+    // if (e != 'directoryroletemplate_list.md' && e != 'site_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');
