@@ -2,15 +2,8 @@
 
 Retrieve a list of directoryRoleTemplate objects.
 
-## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
-
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported    | 
-|Delegated (personal Microsoft account) | Not supported    | 
-|Application | Not supported | 
+## Prerequisites
+One of the following **scopes** is required to execute this API: *Directory.Read.All* OR *Directory.ReadWrite.All* OR *Directory.AccessAsUser.All*
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

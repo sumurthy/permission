@@ -28,7 +28,7 @@ As well as the following group resources:
 See [Extended properties overview](../resources/extended-properties-overview.md) for more information about when to use 
 open extensions or extended properties, and how to specify extended properties.
 
-## Permissions
+## Prerequisites
 One of the following **scopes** is required to execute this API, depending on the resource you're
 getting:
 
@@ -36,13 +36,6 @@ getting:
 - _Calendars.Read_
 - _Contacts.Read_
 - _Group.Read.All_ 
-
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported    | 
-|Delegated (personal Microsoft account) | Not supported    | 
-|Application | Not supported | 
 
 ## HTTP request
 

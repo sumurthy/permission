@@ -22,6 +22,9 @@ function getSubScopes (full=[], sub=[]) {
 
 function getScopes(line) {
 
+    if (line.toLowerCase().includes(' and ')) {
+        throw BreakException
+    }  
     let delimiter = ''
     let delimiterFound = false
     let tempArray = []
@@ -61,7 +64,6 @@ function processPermLines(permLines, name) {
     try {
         let permissionLine = false
         let inScope = false
-
         permLines.forEach((line) => {
             let oLine = line
             if (line === '## Prerequisites') {
@@ -70,9 +72,12 @@ function processPermLines(permLines, name) {
                 return
             }            
 
-            if (line.startsWith('One of the following **scopes** is required to execute this API:') || line.startsWith('The following **scopes** are required to execute this API:')) {
+            if (line.startsWith('One of the following **scope') || line.startsWith('The following **scope') || line.startsWith('One of the following scopes')) {
                 inScope = true
-                let sArray = line.split('API:')
+                if (line.includes('depending on')) {
+                    throw BreakException
+                }
+                let sArray = line.split(':')
                 if (sArray[1].trim()) {
                     inScope = false
                     oLine = 'One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).'              
@@ -80,7 +85,16 @@ function processPermLines(permLines, name) {
                     // Get scopes on this line
                     scopesArray = scopesArray.concat(getScopes(sArray[1]))
                     // Trim the array                                        
-                    scopesArray = scopesArray.map(s => s.trim());      
+                    scopesArray = scopesArray.map(s => s.trim());
+                    scopesArray.forEach((e) => {
+                        if (!WORK.includes(e) && !PERSONAL.includes(e) && !APPLICATION.includes(e)) {
+                            throw BreakException
+                        }
+                    })
+
+                    if (line.startsWith(', or') || line.startsWith(', or ')) {
+                        inScope = true
+                    }    
                     return            
                 } else {
                     oLine = 'One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).'              
@@ -105,7 +119,7 @@ function processPermLines(permLines, name) {
             // End if you see end of array marker.
             if (line.toLowerCase().includes('--end--')) {
                 if (scopesArray.length === 0) {
-                    console.log ('!! No scopes defined in permission section: ' + name )
+                    console.log ('!! No scopes defined in permission section.: ' + name )
                 }
                 if (!mdDone) {
                     let p = MDTABLE.replace('@business', getSubScopes(WORK, scopesArray).join(', '))
@@ -126,15 +140,23 @@ function processPermLines(permLines, name) {
                 }
                 if (line.toLowerCase().includes(' and ')) {
                     throw BreakException
-                }  
+                }                   
                 if (line.toLowerCase().includes(':')) {
                     throw BreakException
-                }                                
+                }
+                if (line.toLowerCase().includes(' - ')) {
+                    throw BreakException
+                }                                                
                 // Get scopes on each line
                 scopesArray = scopesArray.concat(getScopes(line))
                 // Trim the array
                 scopesArray = scopesArray.map(s => s.trim());
-
+                scopesArray.forEach((e) => {
+                    if (!WORK.includes(e) && !PERSONAL.includes(e) && !APPLICATION.includes(e)) {
+                        console.log ('!! Invalid scope: ' + e )
+                        throw BreakException
+                    }
+                })
             }
         })
     } catch (e) {
@@ -187,6 +209,7 @@ function processModule(api, name) {
  * STARTING: Load input files and process each file and each line within.
  */
 console.log('* Starting Program...')
+FileOps.cleanupOutput('./report')
 FileOps.cleanupOutput('./out')
 
 let WORK = FileOps.loadFile(`./scopes/work.txt`)
@@ -198,7 +221,7 @@ let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
     // File Filter
-    // if (e != 'calendar_get.md' && e != 'attachment_get.md' ) { return }
+    // if (e != 'site_get.md' && e != 'site_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');

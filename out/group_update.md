@@ -3,14 +3,14 @@
 Update the properties of a group object.
 
 ## Permissions
-The following **scope** is required to execute this API: *Group.ReadWrite.All*
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
 
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported    | 
+|Delegated (work or school account) | Group.ReadWrite.All    | 
 |Delegated (personal Microsoft account) | Not supported    | 
-|Application | Not supported | 
+|Application | Group.ReadWrite.All | 
 
 ## HTTP request
 

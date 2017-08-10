@@ -3,18 +3,12 @@
  Returns all the groups and directory roles that a user, group, or directory object is a member of. This function is transitive. 
  > Note: Only users can be members of directory roles.
 
-## Permissions
+## Prerequisites
 One of the following **scopes** are required to execute this API:
 - _User.Read.All_ AND _Group.Read.All_
 - _Directory.Read.All_
 
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported    | 
-|Delegated (personal Microsoft account) | Not supported    | 
-|Application | Not supported | 
-
+> Note: Permission scopes are listed in least privilege required order.
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

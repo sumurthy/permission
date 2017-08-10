@@ -5,14 +5,10 @@ conversation and the thread, or, you can specify the thread without referencing 
 
 Since the **post** resource supports [extensions](../../../concepts/extensibility_overview.md), you can also use the `GET` operation to get custom properties and extension data in a **post** instance.
 
-## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
+## Prerequisites
+One of the following **scopes** is required to execute this API:
 
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Group.Read.All    | 
-|Delegated (personal Microsoft account) | Not supported    | 
-|Application | Group.Read.All | 
+*Group.Read.All*, *Group.Readwrite.All*
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

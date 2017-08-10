@@ -2,15 +2,8 @@
 
 Retrieve a list of the group's owners. The owners are a set of non-admin users who are allowed to modify the group object. 
 
-## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
-
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | User.Read.All, User.ReadWrite.All    | 
-|Delegated (personal Microsoft account) | Not supported    | 
-|Application | User.Read.All, User.ReadWrite.All | 
+## Prerequisites
+The following **scopes** are required to execute this API: *Group.Read.All* and one of *User.ReadBasic.All* or *User.Read.All* or *User.ReadWrite.All*
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

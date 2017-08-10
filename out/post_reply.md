@@ -3,14 +3,10 @@
 Reply to a post and add a new post to the specified thread in a group conversation. You can specify 
 both the parent conversation and thread in the request, or, you can specify just the parent thread without the parent conversation.
 
-## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
+## Prerequisites
+One of the following **scopes** is required to execute this API:
 
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported    | 
-|Delegated (personal Microsoft account) | Not supported    | 
-|Application | Not supported | 
+*Group.Readwrite.All*
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
