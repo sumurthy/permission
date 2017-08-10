@@ -1,4 +1,3 @@
-@Business
 Calendars.Read
 Calendars.Read.Shared
 Calendars.ReadWrite
@@ -16,8 +15,8 @@ DeviceManagementManagedDevices.Read.All
 DeviceManagementManagedDevices.ReadWrite.All
 DeviceManagementRBAC.Read.All
 DeviceManagementRBAC.ReadWrite.All
-DeviceManagementServiceConfiguration.Read.All
-DeviceManagementServiceConfiguration.ReadWrite.All
+DeviceManagementServiceConfig.Read.All
+DeviceManagementServiceConfig.ReadWrite.All
 Directory.AccessAsUser.All
 Directory.Read.All
 Directory.ReadWrite.All
@@ -38,6 +37,7 @@ Mail.Send
 Mail.Send.Shared
 MailboxSettings.Read
 MailboxSettings.ReadWrite
+Member.Read.Hidden
 Notes.Create
 Notes.Read
 Notes.Read.All
@@ -45,6 +45,7 @@ Notes.ReadWrite
 Notes.ReadWrite.All
 Notes.ReadWrite.CreatedByApp
 People.Read
+People.Read.All
 Sites.Read.All
 Sites.ReadWrite.All
 Tasks.Read

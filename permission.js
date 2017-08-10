@@ -82,8 +82,6 @@ function processPermLines(permLines, name) {
                 }
                 let sArray = line.split(':')
                 if (sArray[1].trim()) {
-                        console.log('yes1')
-
                     inScope = false
                     oLine = 'One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).'              
                     oPermLines.push(oLine)
@@ -99,7 +97,6 @@ function processPermLines(permLines, name) {
                     })
 
                     if (line.endsWith(', or') || line.endsWith(' or')) {
-                        console.log('yes2')
                         inScope = true
                     }    
                     return            
@@ -228,7 +225,7 @@ let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
     // File Filter
-    // if (e != 'directoryroletemplate_list.md' && e != 'site_get.md' ) { return }
+    if (e != 'post_forward.md' && e != 'post_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');

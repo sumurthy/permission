@@ -19,7 +19,10 @@ MailboxSettings.ReadWrite
 Member.Read.Hidden
 Notes.Read.All
 Notes.ReadWrite.All
+People.Read.All
 Reports.Read.All
+Sites.Read.All
+Sites.ReadWrite.All
 User.Invite.All
 User.Read.All
 User.ReadWrite.All
