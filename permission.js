@@ -41,6 +41,9 @@ function getScopes(line) {
     if (temp.includes(' or ')) {
         delimiter = ' or '
         delimiterFound = true
+    } else if(temp.includes(' OR ')) {
+        delimiter = 'OR'
+        delimiterFound = true
     } else if(temp.includes(',')) {
         delimiter = ','
         delimiterFound = true
@@ -79,6 +82,8 @@ function processPermLines(permLines, name) {
                 }
                 let sArray = line.split(':')
                 if (sArray[1].trim()) {
+                        console.log('yes1')
+
                     inScope = false
                     oLine = 'One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).'              
                     oPermLines.push(oLine)
@@ -88,11 +93,13 @@ function processPermLines(permLines, name) {
                     scopesArray = scopesArray.map(s => s.trim());
                     scopesArray.forEach((e) => {
                         if (!WORK.includes(e) && !PERSONAL.includes(e) && !APPLICATION.includes(e)) {
+                            console.log('!! Invalid scope: ' + e)
                             throw BreakException
                         }
                     })
 
-                    if (line.startsWith(', or') || line.startsWith(', or ')) {
+                    if (line.endsWith(', or') || line.endsWith(' or')) {
+                        console.log('yes2')
                         inScope = true
                     }    
                     return            
@@ -221,7 +228,7 @@ let inputFiles = FileOps.walkFiles('./input', '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./input/${e}`)
     // File Filter
-    // if (e != 'site_get.md' && e != 'site_get.md' ) { return }
+    if (e != 'directoryroletemplate_list.md' && e != 'site_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');
