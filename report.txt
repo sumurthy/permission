@@ -746,13 +746,9 @@ Done. singlevaluelegacyextendedproperty_post_singlevalueextendedproperties.md, i
 >> Start Api: site_get.md
 Done. site_get.md, input #lines: 83, output #lines:80
 >> Start Api: subscribedsku_get.md
-!! Invalid scope: Directory.ReadWrite.AllDirectory.AccessAsUser.All
-Skipping unusual file: subscribedsku_get.md
-Done. subscribedsku_get.md, input #lines: 86, output #lines:86
+Done. subscribedsku_get.md, input #lines: 86, output #lines:87
 >> Start Api: subscribedsku_list.md
-!! Invalid scope: Directory.ReadWrite.AllDirectory.AccessAsUser.All
-Skipping unusual file: subscribedsku_list.md
-Done. subscribedsku_list.md, input #lines: 106, output #lines:106
+Done. subscribedsku_list.md, input #lines: 106, output #lines:107
 >> Start Api: subscription_delete.md
 !! No scopes defined in permission section.: subscription_delete.md
 Done. subscription_delete.md, input #lines: 63, output #lines:64
