@@ -11,132 +11,132 @@ Skipping unusual file: attachment_delete.md
 Done. attachment_delete.md, input #lines: 97, output #lines:97
 >> Start Api: attachment_get.md
 Skipping unusual file: attachment_get.md
-Done. attachment_get.md, input #lines: 284, output #lines:284
+Done. attachment_get.md, input #lines: 286, output #lines:286
 >> Start Api: calendar_delete.md
 Done. calendar_delete.md, input #lines: 63, output #lines:63
 >> Start Api: calendar_get.md
-Done. calendar_get.md, input #lines: 86, output #lines:86
+Done. calendar_get.md, input #lines: 88, output #lines:88
 >> Start Api: calendar_list_calendarview.md
 Skipping unusual file: calendar_list_calendarview.md
-Done. calendar_list_calendarview.md, input #lines: 109, output #lines:109
+Done. calendar_list_calendarview.md, input #lines: 111, output #lines:111
 >> Start Api: calendar_list_events.md
-Done. calendar_list_events.md, input #lines: 93, output #lines:93
+Done. calendar_list_events.md, input #lines: 95, output #lines:95
 >> Start Api: calendar_post_events.md
 Done. calendar_post_events.md, input #lines: 99, output #lines:99
 >> Start Api: calendar_update.md
-Done. calendar_update.md, input #lines: 96, output #lines:96
+Done. calendar_update.md, input #lines: 97, output #lines:97
 >> Start Api: calendargroup_delete.md
 Done. calendargroup_delete.md, input #lines: 58, output #lines:58
 >> Start Api: calendargroup_get.md
-Done. calendargroup_get.md, input #lines: 64, output #lines:64
+Done. calendargroup_get.md, input #lines: 66, output #lines:66
 >> Start Api: calendargroup_list_calendars.md
-Done. calendargroup_list_calendars.md, input #lines: 74, output #lines:75
+Done. calendargroup_list_calendars.md, input #lines: 76, output #lines:77
 >> Start Api: calendargroup_post_calendars.md
 Done. calendargroup_post_calendars.md, input #lines: 80, output #lines:81
 >> Start Api: calendargroup_update.md
-Done. calendargroup_update.md, input #lines: 73, output #lines:74
+Done. calendargroup_update.md, input #lines: 74, output #lines:75
 >> Start Api: chart_delete.md
-Done. chart_delete.md, input #lines: 57, output #lines:55
+Done. chart_delete.md, input #lines: 58, output #lines:56
 >> Start Api: chart_get.md
-Done. chart_get.md, input #lines: 64, output #lines:62
+Done. chart_get.md, input #lines: 66, output #lines:64
 >> Start Api: chart_image.md
-Done. chart_image.md, input #lines: 74, output #lines:72
+Done. chart_image.md, input #lines: 75, output #lines:73
 >> Start Api: chart_list.md
-Done. chart_list.md, input #lines: 69, output #lines:67
+Done. chart_list.md, input #lines: 71, output #lines:69
 >> Start Api: chart_list_series.md
-Done. chart_list_series.md, input #lines: 67, output #lines:65
+Done. chart_list_series.md, input #lines: 69, output #lines:67
 >> Start Api: chart_post_series.md
 Done. chart_post_series.md, input #lines: 70, output #lines:68
 >> Start Api: chart_setdata.md
-Done. chart_setdata.md, input #lines: 70, output #lines:68
+Done. chart_setdata.md, input #lines: 71, output #lines:69
 >> Start Api: chart_setposition.md
-Done. chart_setposition.md, input #lines: 70, output #lines:68
+Done. chart_setposition.md, input #lines: 71, output #lines:69
 >> Start Api: chart_update.md
-Done. chart_update.md, input #lines: 77, output #lines:75
+Done. chart_update.md, input #lines: 78, output #lines:76
 >> Start Api: chartaxis_get.md
-Done. chartaxis_get.md, input #lines: 69, output #lines:67
+Done. chartaxis_get.md, input #lines: 71, output #lines:69
 >> Start Api: chartaxis_update.md
-Done. chartaxis_update.md, input #lines: 85, output #lines:83
+Done. chartaxis_update.md, input #lines: 86, output #lines:84
 >> Start Api: chartaxistitle_get.md
-Done. chartaxistitle_get.md, input #lines: 65, output #lines:63
+Done. chartaxistitle_get.md, input #lines: 67, output #lines:65
 >> Start Api: chartaxistitle_update.md
-Done. chartaxistitle_update.md, input #lines: 75, output #lines:73
+Done. chartaxistitle_update.md, input #lines: 76, output #lines:74
 >> Start Api: chartcollection_add.md
-Done. chartcollection_add.md, input #lines: 81, output #lines:79
+Done. chartcollection_add.md, input #lines: 82, output #lines:80
 >> Start Api: chartcollection_itemat.md
-Done. chartcollection_itemat.md, input #lines: 77, output #lines:75
+Done. chartcollection_itemat.md, input #lines: 78, output #lines:76
 >> Start Api: chartdatalabels_get.md
-Done. chartdatalabels_get.md, input #lines: 66, output #lines:64
+Done. chartdatalabels_get.md, input #lines: 68, output #lines:66
 >> Start Api: chartdatalabels_update.md
-Done. chartdatalabels_update.md, input #lines: 85, output #lines:83
+Done. chartdatalabels_update.md, input #lines: 86, output #lines:84
 >> Start Api: chartfill_clear.md
-Done. chartfill_clear.md, input #lines: 59, output #lines:57
+Done. chartfill_clear.md, input #lines: 60, output #lines:58
 >> Start Api: chartfill_setsolidcolor.md
-Done. chartfill_setsolidcolor.md, input #lines: 70, output #lines:68
+Done. chartfill_setsolidcolor.md, input #lines: 71, output #lines:69
 >> Start Api: chartfont_get.md
-Done. chartfont_get.md, input #lines: 69, output #lines:67
+Done. chartfont_get.md, input #lines: 71, output #lines:69
 >> Start Api: chartfont_update.md
-Done. chartfont_update.md, input #lines: 87, output #lines:85
+Done. chartfont_update.md, input #lines: 88, output #lines:86
 >> Start Api: chartgridlines_get.md
-Done. chartgridlines_get.md, input #lines: 64, output #lines:62
+Done. chartgridlines_get.md, input #lines: 66, output #lines:64
 >> Start Api: chartgridlines_update.md
-Done. chartgridlines_update.md, input #lines: 72, output #lines:70
+Done. chartgridlines_update.md, input #lines: 73, output #lines:71
 >> Start Api: chartlegend_get.md
-Done. chartlegend_get.md, input #lines: 64, output #lines:62
+Done. chartlegend_get.md, input #lines: 66, output #lines:64
 >> Start Api: chartlegend_update.md
-Done. chartlegend_update.md, input #lines: 76, output #lines:74
+Done. chartlegend_update.md, input #lines: 77, output #lines:75
 >> Start Api: chartlineformat_clear.md
-Done. chartlineformat_clear.md, input #lines: 59, output #lines:57
+Done. chartlineformat_clear.md, input #lines: 60, output #lines:58
 >> Start Api: chartlineformat_get.md
-Done. chartlineformat_get.md, input #lines: 64, output #lines:62
+Done. chartlineformat_get.md, input #lines: 66, output #lines:64
 >> Start Api: chartlineformat_update.md
-Done. chartlineformat_update.md, input #lines: 72, output #lines:70
+Done. chartlineformat_update.md, input #lines: 73, output #lines:71
 >> Start Api: chartpoint_get.md
-Done. chartpoint_get.md, input #lines: 63, output #lines:61
+Done. chartpoint_get.md, input #lines: 65, output #lines:63
 >> Start Api: chartpoint_list.md
-Done. chartpoint_list.md, input #lines: 68, output #lines:66
+Done. chartpoint_list.md, input #lines: 70, output #lines:68
 >> Start Api: chartpointscollection_itemat.md
-Done. chartpointscollection_itemat.md, input #lines: 76, output #lines:74
+Done. chartpointscollection_itemat.md, input #lines: 77, output #lines:75
 >> Start Api: chartseries_get.md
-Done. chartseries_get.md, input #lines: 62, output #lines:60
+Done. chartseries_get.md, input #lines: 64, output #lines:62
 >> Start Api: chartseries_list.md
-Done. chartseries_list.md, input #lines: 67, output #lines:65
+Done. chartseries_list.md, input #lines: 69, output #lines:67
 >> Start Api: chartseries_list_points.md
-Done. chartseries_list_points.md, input #lines: 66, output #lines:64
+Done. chartseries_list_points.md, input #lines: 68, output #lines:66
 >> Start Api: chartseries_post_points.md
 Done. chartseries_post_points.md, input #lines: 68, output #lines:66
 >> Start Api: chartseries_update.md
-Done. chartseries_update.md, input #lines: 70, output #lines:68
+Done. chartseries_update.md, input #lines: 71, output #lines:69
 >> Start Api: chartseriescollection_itemat.md
-Done. chartseriescollection_itemat.md, input #lines: 75, output #lines:73
+Done. chartseriescollection_itemat.md, input #lines: 76, output #lines:74
 >> Start Api: charttitle_get.md
-Done. charttitle_get.md, input #lines: 64, output #lines:62
+Done. charttitle_get.md, input #lines: 66, output #lines:64
 >> Start Api: charttitle_update.md
-Done. charttitle_update.md, input #lines: 76, output #lines:74
+Done. charttitle_update.md, input #lines: 77, output #lines:75
 >> Start Api: contact_delete.md
 Done. contact_delete.md, input #lines: 66, output #lines:66
 >> Start Api: contact_delta.md
 Done. contact_delta.md, input #lines: 124, output #lines:125
 >> Start Api: contact_get.md
-Done. contact_get.md, input #lines: 128, output #lines:128
+Done. contact_get.md, input #lines: 130, output #lines:130
 >> Start Api: contact_update.md
-Done. contact_update.md, input #lines: 178, output #lines:178
+Done. contact_update.md, input #lines: 179, output #lines:179
 >> Start Api: contactfolder_delete.md
 Done. contactfolder_delete.md, input #lines: 54, output #lines:54
 >> Start Api: contactfolder_delta.md
 Done. contactfolder_delta.md, input #lines: 122, output #lines:123
 >> Start Api: contactfolder_get.md
-Done. contactfolder_get.md, input #lines: 62, output #lines:62
+Done. contactfolder_get.md, input #lines: 64, output #lines:64
 >> Start Api: contactfolder_list_childfolders.md
-Done. contactfolder_list_childfolders.md, input #lines: 67, output #lines:67
+Done. contactfolder_list_childfolders.md, input #lines: 69, output #lines:69
 >> Start Api: contactfolder_list_contacts.md
-Done. contactfolder_list_contacts.md, input #lines: 73, output #lines:73
+Done. contactfolder_list_contacts.md, input #lines: 75, output #lines:75
 >> Start Api: contactfolder_post_childfolders.md
 Done. contactfolder_post_childfolders.md, input #lines: 73, output #lines:73
 >> Start Api: contactfolder_post_contacts.md
 Done. contactfolder_post_contacts.md, input #lines: 82, output #lines:82
 >> Start Api: contactfolder_update.md
-Done. contactfolder_update.md, input #lines: 74, output #lines:74
+Done. contactfolder_update.md, input #lines: 75, output #lines:75
 >> Start Api: contract_get.md
 Done. contract_get.md, input #lines: 73, output #lines:74
 >> Start Api: contract_list.md
@@ -144,33 +144,33 @@ Done. contract_list.md, input #lines: 81, output #lines:82
 >> Start Api: conversation_delete.md
 Done. conversation_delete.md, input #lines: 54, output #lines:53
 >> Start Api: conversation_get.md
-Done. conversation_get.md, input #lines: 67, output #lines:67
+Done. conversation_get.md, input #lines: 69, output #lines:69
 >> Start Api: conversation_list_threads.md
-Done. conversation_list_threads.md, input #lines: 88, output #lines:88
+Done. conversation_list_threads.md, input #lines: 90, output #lines:90
 >> Start Api: conversation_post_threads.md
 Done. conversation_post_threads.md, input #lines: 80, output #lines:80
 >> Start Api: conversationthread_delete.md
 Done. conversationthread_delete.md, input #lines: 55, output #lines:54
 >> Start Api: conversationthread_get.md
-Done. conversationthread_get.md, input #lines: 84, output #lines:83
+Done. conversationthread_get.md, input #lines: 86, output #lines:85
 >> Start Api: conversationthread_list_posts.md
-Done. conversationthread_list_posts.md, input #lines: 87, output #lines:86
+Done. conversationthread_list_posts.md, input #lines: 89, output #lines:88
 >> Start Api: conversationthread_reply.md
-Done. conversationthread_reply.md, input #lines: 74, output #lines:73
+Done. conversationthread_reply.md, input #lines: 75, output #lines:74
 >> Start Api: conversationthread_update.md
-Done. conversationthread_update.md, input #lines: 95, output #lines:94
+Done. conversationthread_update.md, input #lines: 96, output #lines:95
 >> Start Api: device_delete.md
-Done. device_delete.md, input #lines: 55, output #lines:56
+Done. device_delete.md, input #lines: 56, output #lines:57
 >> Start Api: device_get.md
-Done. device_get.md, input #lines: 74, output #lines:75
+Done. device_get.md, input #lines: 76, output #lines:77
 >> Start Api: device_list.md
-Done. device_list.md, input #lines: 78, output #lines:79
+Done. device_list.md, input #lines: 80, output #lines:81
 >> Start Api: device_list_registeredowners.md
 Skipping unusual file: device_list_registeredowners.md
-Done. device_list_registeredowners.md, input #lines: 67, output #lines:67
+Done. device_list_registeredowners.md, input #lines: 69, output #lines:69
 >> Start Api: device_list_registeredusers.md
 Skipping unusual file: device_list_registeredusers.md
-Done. device_list_registeredusers.md, input #lines: 67, output #lines:67
+Done. device_list_registeredusers.md, input #lines: 69, output #lines:69
 >> Start Api: device_post_devices.md
 Done. device_post_devices.md, input #lines: 91, output #lines:92
 >> Start Api: device_post_registeredowners.md
@@ -178,45 +178,45 @@ Done. device_post_registeredowners.md, input #lines: 70, output #lines:71
 >> Start Api: device_post_registeredusers.md
 Done. device_post_registeredusers.md, input #lines: 71, output #lines:72
 >> Start Api: device_update.md
-Done. device_update.md, input #lines: 50, output #lines:51
+Done. device_update.md, input #lines: 52, output #lines:53
 >> Start Api: directoryobject_checkmembergroups.md
 Skipping unusual file: directoryobject_checkmembergroups.md
-Done. directoryobject_checkmembergroups.md, input #lines: 85, output #lines:85
+Done. directoryobject_checkmembergroups.md, input #lines: 86, output #lines:86
 >> Start Api: directoryobject_delete.md
 Done. directoryobject_delete.md, input #lines: 55, output #lines:55
 >> Start Api: directoryobject_get.md
-Done. directoryobject_get.md, input #lines: 62, output #lines:59
+Done. directoryobject_get.md, input #lines: 64, output #lines:61
 >> Start Api: directoryobject_getbyids.md
 Done. directoryobject_getbyids.md, input #lines: 103, output #lines:104
 >> Start Api: directoryobject_getmembergroups.md
 Skipping unusual file: directoryobject_getmembergroups.md
-Done. directoryobject_getmembergroups.md, input #lines: 84, output #lines:84
+Done. directoryobject_getmembergroups.md, input #lines: 85, output #lines:85
 >> Start Api: directoryobject_getmemberobjects.md
 Skipping unusual file: directoryobject_getmemberobjects.md
-Done. directoryobject_getmemberobjects.md, input #lines: 86, output #lines:86
+Done. directoryobject_getmemberobjects.md, input #lines: 87, output #lines:87
 >> Start Api: directoryrole_delete_member.md
 Done. directoryrole_delete_member.md, input #lines: 65, output #lines:66
 >> Start Api: directoryrole_get.md
-Done. directoryrole_get.md, input #lines: 62, output #lines:63
+Done. directoryrole_get.md, input #lines: 64, output #lines:65
 >> Start Api: directoryrole_list.md
-Done. directoryrole_list.md, input #lines: 66, output #lines:67
+Done. directoryrole_list.md, input #lines: 68, output #lines:69
 >> Start Api: directoryrole_list_members.md
-Done. directoryrole_list_members.md, input #lines: 70, output #lines:71
+Done. directoryrole_list_members.md, input #lines: 72, output #lines:73
 >> Start Api: directoryrole_post_directoryroles.md
 Done. directoryrole_post_directoryroles.md, input #lines: 76, output #lines:77
 >> Start Api: directoryrole_post_members.md
-Done. directoryrole_post_members.md, input #lines: 62, output #lines:63
+Done. directoryrole_post_members.md, input #lines: 63, output #lines:64
 >> Start Api: directoryroletemplate_get.md
 !! No scopes defined in permission section.: directoryroletemplate_get.md
-Done. directoryroletemplate_get.md, input #lines: 61, output #lines:62
+Done. directoryroletemplate_get.md, input #lines: 63, output #lines:64
 >> Start Api: directoryroletemplate_list.md
-Done. directoryroletemplate_list.md, input #lines: 67, output #lines:68
+Done. directoryroletemplate_list.md, input #lines: 69, output #lines:70
 >> Start Api: domain_delete.md
 Done. domain_delete.md, input #lines: 66, output #lines:67
 >> Start Api: domain_get.md
-Done. domain_get.md, input #lines: 74, output #lines:75
+Done. domain_get.md, input #lines: 76, output #lines:77
 >> Start Api: domain_list.md
-Done. domain_list.md, input #lines: 76, output #lines:77
+Done. domain_list.md, input #lines: 77, output #lines:78
 >> Start Api: domain_list_domainnamereferences.md
 Done. domain_list_domainnamereferences.md, input #lines: 83, output #lines:84
 >> Start Api: domain_list_serviceconfigurationrecords.md
@@ -224,11 +224,11 @@ Done. domain_list_serviceconfigurationrecords.md, input #lines: 90, output #line
 >> Start Api: domain_list_verificationdnsrecords.md
 Done. domain_list_verificationdnsrecords.md, input #lines: 87, output #lines:88
 >> Start Api: domain_post_domains.md
-Done. domain_post_domains.md, input #lines: 81, output #lines:82
+Done. domain_post_domains.md, input #lines: 82, output #lines:83
 >> Start Api: domain_update.md
 Done. domain_update.md, input #lines: 74, output #lines:75
 >> Start Api: domain_verify.md
-Done. domain_verify.md, input #lines: 74, output #lines:75
+Done. domain_verify.md, input #lines: 75, output #lines:76
 >> Start Api: drive_get.md
 Done. drive_get.md, input #lines: 110, output #lines:103
 >> Start Api: drive_list.md
@@ -238,104 +238,101 @@ Done. drive_recent.md, input #lines: 91, output #lines:84
 >> Start Api: drive_sharedwithme.md
 Done. drive_sharedwithme.md, input #lines: 94, output #lines:87
 >> Start Api: drive_special.md
-Done. drive_special.md, input #lines: 99, output #lines:91
->> Start Api: driverecipient.md
-!! No permission section at all: driverecipient.md
-Done. driverecipient.md, input #lines: 39, output #lines:39
+Done. drive_special.md, input #lines: 100, output #lines:92
 >> Start Api: entity_delete.md
 !! No scopes defined in permission section.: entity_delete.md
 Done. entity_delete.md, input #lines: 53, output #lines:54
 >> Start Api: entity_get.md
 !! No scopes defined in permission section.: entity_get.md
-Done. entity_get.md, input #lines: 58, output #lines:59
+Done. entity_get.md, input #lines: 60, output #lines:61
 >> Start Api: event_accept.md
-Done. event_accept.md, input #lines: 83, output #lines:83
+Done. event_accept.md, input #lines: 84, output #lines:84
 >> Start Api: event_decline.md
-Done. event_decline.md, input #lines: 84, output #lines:84
+Done. event_decline.md, input #lines: 85, output #lines:85
 >> Start Api: event_delete.md
 Done. event_delete.md, input #lines: 68, output #lines:68
 >> Start Api: event_delta.md
 Done. event_delta.md, input #lines: 127, output #lines:128
 >> Start Api: event_dismissreminder.md
-Done. event_dismissreminder.md, input #lines: 70, output #lines:70
+Done. event_dismissreminder.md, input #lines: 71, output #lines:71
 >> Start Api: event_get.md
-Done. event_get.md, input #lines: 166, output #lines:166
+Done. event_get.md, input #lines: 168, output #lines:168
 >> Start Api: event_list_attachments.md
-Done. event_list_attachments.md, input #lines: 93, output #lines:93
+Done. event_list_attachments.md, input #lines: 95, output #lines:95
 >> Start Api: event_list_instances.md
-Done. event_list_instances.md, input #lines: 98, output #lines:98
+Done. event_list_instances.md, input #lines: 100, output #lines:100
 >> Start Api: event_post_attachments.md
 Done. event_post_attachments.md, input #lines: 166, output #lines:166
 >> Start Api: event_snoozereminder.md
-Done. event_snoozereminder.md, input #lines: 84, output #lines:84
+Done. event_snoozereminder.md, input #lines: 85, output #lines:85
 >> Start Api: event_tentativelyaccept.md
-Done. event_tentativelyaccept.md, input #lines: 84, output #lines:84
+Done. event_tentativelyaccept.md, input #lines: 85, output #lines:85
 >> Start Api: event_update.md
-Done. event_update.md, input #lines: 126, output #lines:126
+Done. event_update.md, input #lines: 127, output #lines:127
 >> Start Api: eventmessage_delete.md
 Done. eventmessage_delete.md, input #lines: 55, output #lines:56
 >> Start Api: eventmessage_get.md
-Done. eventmessage_get.md, input #lines: 75, output #lines:75
+Done. eventmessage_get.md, input #lines: 77, output #lines:77
 >> Start Api: eventmessage_list_attachments.md
-Done. eventmessage_list_attachments.md, input #lines: 75, output #lines:76
+Done. eventmessage_list_attachments.md, input #lines: 77, output #lines:78
 >> Start Api: eventmessage_post_attachments.md
 Done. eventmessage_post_attachments.md, input #lines: 102, output #lines:103
 >> Start Api: eventmessage_update.md
-Done. eventmessage_update.md, input #lines: 85, output #lines:85
+Done. eventmessage_update.md, input #lines: 86, output #lines:86
 >> Start Api: filter_apply.md
-Done. filter_apply.md, input #lines: 83, output #lines:81
+Done. filter_apply.md, input #lines: 84, output #lines:82
 >> Start Api: filter_clear.md
-Done. filter_clear.md, input #lines: 58, output #lines:56
+Done. filter_clear.md, input #lines: 59, output #lines:57
 >> Start Api: formatprotection_get.md
-Done. formatprotection_get.md, input #lines: 65, output #lines:63
+Done. formatprotection_get.md, input #lines: 67, output #lines:65
 >> Start Api: formatprotection_update.md
-Done. formatprotection_update.md, input #lines: 75, output #lines:73
+Done. formatprotection_update.md, input #lines: 76, output #lines:74
 >> Start Api: group_addfavorite.md
-Done. group_addfavorite.md, input #lines: 53, output #lines:53
+Done. group_addfavorite.md, input #lines: 55, output #lines:55
 >> Start Api: group_checkmembergroups.md
 !! No scopes defined in permission section.: group_checkmembergroups.md
-Done. group_checkmembergroups.md, input #lines: 80, output #lines:81
+Done. group_checkmembergroups.md, input #lines: 81, output #lines:82
 >> Start Api: group_delete.md
 Done. group_delete.md, input #lines: 51, output #lines:52
 >> Start Api: group_delete_acceptedsenders.md
 Done. group_delete_acceptedsenders.md, input #lines: 55, output #lines:56
 >> Start Api: group_delete_members.md
-Done. group_delete_members.md, input #lines: 56, output #lines:57
+Done. group_delete_members.md, input #lines: 57, output #lines:58
 >> Start Api: group_delete_owners.md
-Done. group_delete_owners.md, input #lines: 56, output #lines:57
+Done. group_delete_owners.md, input #lines: 57, output #lines:58
 >> Start Api: group_delete_rejectedsenders.md
 Done. group_delete_rejectedsenders.md, input #lines: 55, output #lines:56
 >> Start Api: group_delta.md
 Done. group_delta.md, input #lines: 108, output #lines:109
 >> Start Api: group_get.md
-Done. group_get.md, input #lines: 113, output #lines:114
+Done. group_get.md, input #lines: 115, output #lines:116
 >> Start Api: group_getmembergroups.md
-Done. group_getmembergroups.md, input #lines: 80, output #lines:81
+Done. group_getmembergroups.md, input #lines: 81, output #lines:82
 >> Start Api: group_getmemberobjects.md
 Done. group_getmemberobjects.md, input #lines: 75, output #lines:74
 >> Start Api: group_list.md
-Done. group_list.md, input #lines: 97, output #lines:98
+Done. group_list.md, input #lines: 99, output #lines:100
 >> Start Api: group_list_acceptedsenders.md
-Done. group_list_acceptedsenders.md, input #lines: 67, output #lines:67
+Done. group_list_acceptedsenders.md, input #lines: 69, output #lines:69
 >> Start Api: group_list_calendarview.md
-Done. group_list_calendarview.md, input #lines: 81, output #lines:82
+Done. group_list_calendarview.md, input #lines: 83, output #lines:84
 >> Start Api: group_list_conversations.md
-Done. group_list_conversations.md, input #lines: 69, output #lines:70
+Done. group_list_conversations.md, input #lines: 71, output #lines:72
 >> Start Api: group_list_events.md
-Done. group_list_events.md, input #lines: 72, output #lines:73
+Done. group_list_events.md, input #lines: 74, output #lines:75
 >> Start Api: group_list_memberof.md
-Done. group_list_memberof.md, input #lines: 66, output #lines:67
+Done. group_list_memberof.md, input #lines: 68, output #lines:69
 >> Start Api: group_list_members.md
-Done. group_list_members.md, input #lines: 63, output #lines:64
+Done. group_list_members.md, input #lines: 65, output #lines:66
 >> Start Api: group_list_owners.md
 Skipping unusual file: group_list_owners.md
-Done. group_list_owners.md, input #lines: 65, output #lines:65
+Done. group_list_owners.md, input #lines: 67, output #lines:67
 >> Start Api: group_list_photos.md
-Done. group_list_photos.md, input #lines: 66, output #lines:67
+Done. group_list_photos.md, input #lines: 68, output #lines:69
 >> Start Api: group_list_rejectedsenders.md
-Done. group_list_rejectedsenders.md, input #lines: 66, output #lines:67
+Done. group_list_rejectedsenders.md, input #lines: 68, output #lines:69
 >> Start Api: group_list_threads.md
-Done. group_list_threads.md, input #lines: 87, output #lines:88
+Done. group_list_threads.md, input #lines: 89, output #lines:90
 >> Start Api: group_post_acceptedsenders.md
 Done. group_post_acceptedsenders.md, input #lines: 62, output #lines:63
 >> Start Api: group_post_conversations.md
@@ -343,7 +340,7 @@ Done. group_post_conversations.md, input #lines: 87, output #lines:88
 >> Start Api: group_post_events.md
 Done. group_post_events.md, input #lines: 83, output #lines:84
 >> Start Api: group_post_groups.md
-Done. group_post_groups.md, input #lines: 104, output #lines:105
+Done. group_post_groups.md, input #lines: 105, output #lines:106
 >> Start Api: group_post_members.md
 Done. group_post_members.md, input #lines: 62, output #lines:63
 >> Start Api: group_post_owners.md
@@ -353,35 +350,35 @@ Done. group_post_rejectedsenders.md, input #lines: 62, output #lines:63
 >> Start Api: group_post_threads.md
 Done. group_post_threads.md, input #lines: 104, output #lines:105
 >> Start Api: group_removefavorite.md
-Done. group_removefavorite.md, input #lines: 52, output #lines:53
+Done. group_removefavorite.md, input #lines: 54, output #lines:55
 >> Start Api: group_resetunseencount.md
-Done. group_resetunseencount.md, input #lines: 55, output #lines:56
+Done. group_resetunseencount.md, input #lines: 56, output #lines:57
 >> Start Api: group_subscribebymail.md
 Done. group_subscribebymail.md, input #lines: 54, output #lines:55
 >> Start Api: group_unsubscribebymail.md
 Done. group_unsubscribebymail.md, input #lines: 54, output #lines:55
 >> Start Api: group_update.md
-Done. group_update.md, input #lines: 91, output #lines:92
+Done. group_update.md, input #lines: 92, output #lines:93
 >> Start Api: groupsetting_delete.md
-Done. groupsetting_delete.md, input #lines: 60, output #lines:60
+Done. groupsetting_delete.md, input #lines: 59, output #lines:59
 >> Start Api: groupsetting_get.md
 Done. groupsetting_get.md, input #lines: 80, output #lines:81
 >> Start Api: groupsetting_list.md
-Done. groupsetting_list.md, input #lines: 82, output #lines:83
+Done. groupsetting_list.md, input #lines: 84, output #lines:85
 >> Start Api: groupsetting_post_groupsettings.md
 Done. groupsetting_post_groupsettings.md, input #lines: 95, output #lines:95
 >> Start Api: groupsetting_update.md
 Done. groupsetting_update.md, input #lines: 78, output #lines:78
 >> Start Api: groupsettingtemplate_get.md
-Done. groupsettingtemplate_get.md, input #lines: 85, output #lines:86
+Done. groupsettingtemplate_get.md, input #lines: 87, output #lines:88
 >> Start Api: groupsettingtemplate_list.md
-Done. groupsettingtemplate_list.md, input #lines: 92, output #lines:93
+Done. groupsettingtemplate_list.md, input #lines: 94, output #lines:95
 >> Start Api: icon_get.md
-Done. icon_get.md, input #lines: 64, output #lines:62
+Done. icon_get.md, input #lines: 66, output #lines:64
 >> Start Api: icon_update.md
-Done. icon_update.md, input #lines: 74, output #lines:72
+Done. icon_update.md, input #lines: 75, output #lines:73
 >> Start Api: inferenceclassification_list_overrides.md
-Done. inferenceclassification_list_overrides.md, input #lines: 77, output #lines:78
+Done. inferenceclassification_list_overrides.md, input #lines: 79, output #lines:80
 >> Start Api: inferenceclassification_post_overrides.md
 Done. inferenceclassification_post_overrides.md, input #lines: 82, output #lines:83
 >> Start Api: inferenceclassificationoverride_delete.md
@@ -396,127 +393,127 @@ Done. item_copy.md, input #lines: 71, output #lines:67
 Done. item_createlink.md, input #lines: 169, output #lines:165
 >> Start Api: item_createuploadsession.md
 Skipping unusual file: item_createuploadsession.md
-Done. item_createuploadsession.md, input #lines: 254, output #lines:254
+Done. item_createuploadsession.md, input #lines: 260, output #lines:260
 >> Start Api: item_delete.md
 Done. item_delete.md, input #lines: 62, output #lines:58
 >> Start Api: item_delta.md
-Done. item_delta.md, input #lines: 192, output #lines:185
+Done. item_delta.md, input #lines: 193, output #lines:186
 >> Start Api: item_downloadcontent.md
 Done. item_downloadcontent.md, input #lines: 91, output #lines:84
 >> Start Api: item_get.md
-Done. item_get.md, input #lines: 105, output #lines:98
+Done. item_get.md, input #lines: 106, output #lines:99
 >> Start Api: item_invite.md
-Done. item_invite.md, input #lines: 110, output #lines:106
+Done. item_invite.md, input #lines: 111, output #lines:107
 >> Start Api: item_list_children.md
 Done. item_list_children.md, input #lines: 90, output #lines:83
 >> Start Api: item_list_permissions.md
-Done. item_list_permissions.md, input #lines: 136, output #lines:129
+Done. item_list_permissions.md, input #lines: 137, output #lines:130
 >> Start Api: item_list_thumbnails.md
-Done. item_list_thumbnails.md, input #lines: 176, output #lines:168
+Done. item_list_thumbnails.md, input #lines: 177, output #lines:169
 >> Start Api: item_move.md
-Done. item_move.md, input #lines: 92, output #lines:87
+Done. item_move.md, input #lines: 95, output #lines:90
 >> Start Api: item_post_children.md
 Done. item_post_children.md, input #lines: 100, output #lines:95
 >> Start Api: item_search.md
 Done. item_search.md, input #lines: 149, output #lines:141
 >> Start Api: item_update.md
-Done. item_update.md, input #lines: 81, output #lines:77
+Done. item_update.md, input #lines: 83, output #lines:79
 >> Start Api: item_uploadcontent.md
-Done. item_uploadcontent.md, input #lines: 75, output #lines:70
+Done. item_uploadcontent.md, input #lines: 78, output #lines:73
 >> Start Api: mailfolder_copy.md
-Done. mailfolder_copy.md, input #lines: 79, output #lines:79
+Done. mailfolder_copy.md, input #lines: 80, output #lines:80
 >> Start Api: mailfolder_delete.md
 Done. mailfolder_delete.md, input #lines: 53, output #lines:53
 >> Start Api: mailfolder_delta.md
 Done. mailfolder_delta.md, input #lines: 124, output #lines:125
 >> Start Api: mailfolder_get.md
-Done. mailfolder_get.md, input #lines: 65, output #lines:65
+Done. mailfolder_get.md, input #lines: 67, output #lines:67
 >> Start Api: mailfolder_list_childfolders.md
-Done. mailfolder_list_childfolders.md, input #lines: 71, output #lines:71
+Done. mailfolder_list_childfolders.md, input #lines: 73, output #lines:73
 >> Start Api: mailfolder_list_messages.md
-Done. mailfolder_list_messages.md, input #lines: 73, output #lines:73
+Done. mailfolder_list_messages.md, input #lines: 75, output #lines:75
 >> Start Api: mailfolder_move.md
-Done. mailfolder_move.md, input #lines: 79, output #lines:79
+Done. mailfolder_move.md, input #lines: 80, output #lines:80
 >> Start Api: mailfolder_post_childfolders.md
-Done. mailfolder_post_childfolders.md, input #lines: 83, output #lines:83
+Done. mailfolder_post_childfolders.md, input #lines: 84, output #lines:84
 >> Start Api: mailfolder_post_messages.md
 Done. mailfolder_post_messages.md, input #lines: 85, output #lines:85
 >> Start Api: mailfolder_update.md
-Done. mailfolder_update.md, input #lines: 75, output #lines:75
+Done. mailfolder_update.md, input #lines: 76, output #lines:76
 >> Start Api: message_copy.md
-Done. message_copy.md, input #lines: 84, output #lines:84
+Done. message_copy.md, input #lines: 85, output #lines:85
 >> Start Api: message_createforward.md
-Done. message_createforward.md, input #lines: 92, output #lines:92
+Done. message_createforward.md, input #lines: 93, output #lines:93
 >> Start Api: message_createreply.md
-Done. message_createreply.md, input #lines: 80, output #lines:80
+Done. message_createreply.md, input #lines: 81, output #lines:81
 >> Start Api: message_createreplyall.md
-Done. message_createreplyall.md, input #lines: 80, output #lines:80
+Done. message_createreplyall.md, input #lines: 81, output #lines:81
 >> Start Api: message_delete.md
 Done. message_delete.md, input #lines: 54, output #lines:54
 >> Start Api: message_delta.md
 Done. message_delta.md, input #lines: 128, output #lines:129
 >> Start Api: message_forward.md
-Done. message_forward.md, input #lines: 79, output #lines:79
+Done. message_forward.md, input #lines: 80, output #lines:80
 >> Start Api: message_get.md
-Done. message_get.md, input #lines: 84, output #lines:84
+Done. message_get.md, input #lines: 86, output #lines:86
 >> Start Api: message_list_attachments.md
-Done. message_list_attachments.md, input #lines: 85, output #lines:86
+Done. message_list_attachments.md, input #lines: 87, output #lines:88
 >> Start Api: message_move.md
-Done. message_move.md, input #lines: 84, output #lines:84
+Done. message_move.md, input #lines: 85, output #lines:85
 >> Start Api: message_post_attachments.md
 Done. message_post_attachments.md, input #lines: 159, output #lines:159
 >> Start Api: message_reply.md
-Done. message_reply.md, input #lines: 70, output #lines:70
+Done. message_reply.md, input #lines: 71, output #lines:71
 >> Start Api: message_replyall.md
-Done. message_replyall.md, input #lines: 70, output #lines:70
+Done. message_replyall.md, input #lines: 71, output #lines:71
 >> Start Api: message_send.md
-Done. message_send.md, input #lines: 57, output #lines:57
+Done. message_send.md, input #lines: 58, output #lines:58
 >> Start Api: message_update.md
-Done. message_update.md, input #lines: 111, output #lines:111
+Done. message_update.md, input #lines: 112, output #lines:112
 >> Start Api: multivaluelegacyextendedproperty_get.md
 Skipping unusual file: multivaluelegacyextendedproperty_get.md
-Done. multivaluelegacyextendedproperty_get.md, input #lines: 177, output #lines:177
+Done. multivaluelegacyextendedproperty_get.md, input #lines: 179, output #lines:179
 >> Start Api: multivaluelegacyextendedproperty_post_multivalueextendedproperties.md
 Skipping unusual file: multivaluelegacyextendedproperty_post_multivalueextendedproperties.md
 Done. multivaluelegacyextendedproperty_post_multivalueextendedproperties.md, input #lines: 266, output #lines:266
 >> Start Api: nameditem_add.md
-Done. nameditem_add.md, input #lines: 94, output #lines:91
+Done. nameditem_add.md, input #lines: 95, output #lines:92
 >> Start Api: nameditem_addformulalocal.md
-Done. nameditem_addformulalocal.md, input #lines: 92, output #lines:89
+Done. nameditem_addformulalocal.md, input #lines: 93, output #lines:90
 >> Start Api: nameditem_get.md
-Done. nameditem_get.md, input #lines: 66, output #lines:64
+Done. nameditem_get.md, input #lines: 68, output #lines:66
 >> Start Api: nameditem_list.md
-Done. nameditem_list.md, input #lines: 71, output #lines:69
+Done. nameditem_list.md, input #lines: 73, output #lines:71
 >> Start Api: nameditem_range.md
-Done. nameditem_range.md, input #lines: 68, output #lines:66
+Done. nameditem_range.md, input #lines: 69, output #lines:67
 >> Start Api: nameditem_update.md
-Done. nameditem_update.md, input #lines: 81, output #lines:79
+Done. nameditem_update.md, input #lines: 82, output #lines:80
 >> Start Api: notebook_copynotebook.md
 Done. notebook_copynotebook.md, input #lines: 75, output #lines:73
 >> Start Api: notebook_get.md
-Done. notebook_get.md, input #lines: 81, output #lines:79
+Done. notebook_get.md, input #lines: 83, output #lines:81
 >> Start Api: notebook_list_sectiongroups.md
-Done. notebook_list_sectiongroups.md, input #lines: 89, output #lines:87
+Done. notebook_list_sectiongroups.md, input #lines: 91, output #lines:89
 >> Start Api: notebook_list_sections.md
-Done. notebook_list_sections.md, input #lines: 90, output #lines:88
+Done. notebook_list_sections.md, input #lines: 92, output #lines:90
 >> Start Api: notebook_post_sectiongroups.md
-Done. notebook_post_sectiongroups.md, input #lines: 88, output #lines:86
+Done. notebook_post_sectiongroups.md, input #lines: 89, output #lines:87
 >> Start Api: notebook_post_sections.md
-Done. notebook_post_sections.md, input #lines: 87, output #lines:85
+Done. notebook_post_sections.md, input #lines: 88, output #lines:86
 >> Start Api: onenote_list_notebooks.md
-Done. onenote_list_notebooks.md, input #lines: 87, output #lines:85
+Done. onenote_list_notebooks.md, input #lines: 89, output #lines:87
 >> Start Api: onenote_list_pages.md
-Done. onenote_list_pages.md, input #lines: 78, output #lines:76
+Done. onenote_list_pages.md, input #lines: 80, output #lines:78
 >> Start Api: onenote_list_sectiongroups.md
-Done. onenote_list_sectiongroups.md, input #lines: 88, output #lines:86
+Done. onenote_list_sectiongroups.md, input #lines: 90, output #lines:88
 >> Start Api: onenote_list_sections.md
-Done. onenote_list_sections.md, input #lines: 88, output #lines:86
+Done. onenote_list_sections.md, input #lines: 90, output #lines:88
 >> Start Api: onenote_post_notebooks.md
 Done. onenote_post_notebooks.md, input #lines: 87, output #lines:85
 >> Start Api: onenote_post_pages.md
-Done. onenote_post_pages.md, input #lines: 116, output #lines:114
+Done. onenote_post_pages.md, input #lines: 117, output #lines:115
 >> Start Api: onenoteoperation_get.md
-Done. onenoteoperation_get.md, input #lines: 78, output #lines:76
+Done. onenoteoperation_get.md, input #lines: 80, output #lines:78
 >> Start Api: opentypeextension_delete.md
 Skipping Extension API: opentypeextension_delete.md
 >> Start Api: opentypeextension_get.md
@@ -527,202 +524,187 @@ Skipping Extension API: opentypeextension_post_opentypeextension.md
 Skipping Extension API: opentypeextension_update.md
 >> Start Api: organization_get.md
 !! No scopes defined in permission section.: organization_get.md
-Done. organization_get.md, input #lines: 72, output #lines:73
+Done. organization_get.md, input #lines: 74, output #lines:75
 >> Start Api: organization_list.md
 !! No scopes defined in permission section.: organization_list.md
-Done. organization_list.md, input #lines: 76, output #lines:77
+Done. organization_list.md, input #lines: 78, output #lines:79
 >> Start Api: organization_update.md
 !! No scopes defined in permission section.: organization_update.md
-Done. organization_update.md, input #lines: 116, output #lines:117
+Done. organization_update.md, input #lines: 117, output #lines:118
 >> Start Api: page_copytosection.md
 Done. page_copytosection.md, input #lines: 74, output #lines:72
 >> Start Api: page_delete.md
 Done. page_delete.md, input #lines: 54, output #lines:52
 >> Start Api: page_get.md
-Done. page_get.md, input #lines: 93, output #lines:91
+Done. page_get.md, input #lines: 95, output #lines:93
 >> Start Api: page_update.md
-Done. page_update.md, input #lines: 74, output #lines:72
+Done. page_update.md, input #lines: 75, output #lines:73
 >> Start Api: permission_delete.md
-!! Invalid scope: Shares.ReadWrite.All
-Skipping unusual file: permission_delete.md
-Done. permission_delete.md, input #lines: 77, output #lines:77
+Done. permission_delete.md, input #lines: 78, output #lines:74
 >> Start Api: permission_get.md
-!! Invalid scope: Shares.Read.All
-Skipping unusual file: permission_get.md
-Done. permission_get.md, input #lines: 88, output #lines:88
+Done. permission_get.md, input #lines: 89, output #lines:82
 >> Start Api: permission_update.md
-!! Invalid scope: Shares.ReadWrite.All
-Skipping unusual file: permission_update.md
-Done. permission_update.md, input #lines: 93, output #lines:93
+Done. permission_update.md, input #lines: 93, output #lines:89
+>> Start Api: person_get.md
+!! No scopes defined in permission section.: person_get.md
+Done. person_get.md, input #lines: 159, output #lines:160
 >> Start Api: photo_delete.md
-!! Invalid scope: File.ReadWrite
-Skipping unusual file: photo_delete.md
-Done. photo_delete.md, input #lines: 60, output #lines:60
+Done. photo_delete.md, input #lines: 60, output #lines:58
 >> Start Api: photo_get.md
-Done. photo_get.md, input #lines: 66, output #lines:64
+Done. photo_get.md, input #lines: 68, output #lines:66
 >> Start Api: photo_update.md
 !! No scopes defined in permission section.: photo_update.md
-Done. photo_update.md, input #lines: 74, output #lines:75
+Done. photo_update.md, input #lines: 75, output #lines:76
 >> Start Api: planner_list_buckets.md
-Done. planner_list_buckets.md, input #lines: 73, output #lines:71
+Done. planner_list_buckets.md, input #lines: 75, output #lines:73
 >> Start Api: planner_list_plans.md
-Done. planner_list_plans.md, input #lines: 80, output #lines:78
+Done. planner_list_plans.md, input #lines: 82, output #lines:80
 >> Start Api: planner_list_tasks.md
-Done. planner_list_tasks.md, input #lines: 91, output #lines:89
+Done. planner_list_tasks.md, input #lines: 93, output #lines:91
 >> Start Api: planner_post_buckets.md
-Done. planner_post_buckets.md, input #lines: 76, output #lines:74
+Done. planner_post_buckets.md, input #lines: 77, output #lines:75
 >> Start Api: planner_post_plans.md
-Done. planner_post_plans.md, input #lines: 84, output #lines:82
+Done. planner_post_plans.md, input #lines: 85, output #lines:83
 >> Start Api: planner_post_tasks.md
-Done. planner_post_tasks.md, input #lines: 101, output #lines:99
+Done. planner_post_tasks.md, input #lines: 102, output #lines:100
 >> Start Api: plannerassignedtotaskboardtaskformat_get.md
-Done. plannerassignedtotaskboardtaskformat_get.md, input #lines: 66, output #lines:64
+Done. plannerassignedtotaskboardtaskformat_get.md, input #lines: 68, output #lines:66
 >> Start Api: plannerassignedtotaskboardtaskformat_update.md
-Done. plannerassignedtotaskboardtaskformat_update.md, input #lines: 82, output #lines:80
+Done. plannerassignedtotaskboardtaskformat_update.md, input #lines: 83, output #lines:81
 >> Start Api: plannerbucket_delete.md
 Done. plannerbucket_delete.md, input #lines: 58, output #lines:56
 >> Start Api: plannerbucket_get.md
-Done. plannerbucket_get.md, input #lines: 64, output #lines:63
+Done. plannerbucket_get.md, input #lines: 66, output #lines:65
 >> Start Api: plannerbucket_list_tasks.md
-Done. plannerbucket_list_tasks.md, input #lines: 90, output #lines:88
+Done. plannerbucket_list_tasks.md, input #lines: 92, output #lines:90
 >> Start Api: plannerbucket_update.md
-Done. plannerbucket_update.md, input #lines: 79, output #lines:77
+Done. plannerbucket_update.md, input #lines: 80, output #lines:78
 >> Start Api: plannerbuckettaskboardtaskformat_get.md
-Done. plannerbuckettaskboardtaskformat_get.md, input #lines: 63, output #lines:61
+Done. plannerbuckettaskboardtaskformat_get.md, input #lines: 65, output #lines:63
 >> Start Api: plannerbuckettaskboardtaskformat_update.md
-Done. plannerbuckettaskboardtaskformat_update.md, input #lines: 75, output #lines:73
+Done. plannerbuckettaskboardtaskformat_update.md, input #lines: 76, output #lines:74
 >> Start Api: plannergroup_list_plans.md
-Done. plannergroup_list_plans.md, input #lines: 77, output #lines:75
+Done. plannergroup_list_plans.md, input #lines: 79, output #lines:77
 >> Start Api: plannerplan_delete.md
 Done. plannerplan_delete.md, input #lines: 58, output #lines:57
 >> Start Api: plannerplan_get.md
-Done. plannerplan_get.md, input #lines: 71, output #lines:70
+Done. plannerplan_get.md, input #lines: 73, output #lines:72
 >> Start Api: plannerplan_list_buckets.md
-Done. plannerplan_list_buckets.md, input #lines: 70, output #lines:69
+Done. plannerplan_list_buckets.md, input #lines: 72, output #lines:71
 >> Start Api: plannerplan_list_tasks.md
-Done. plannerplan_list_tasks.md, input #lines: 89, output #lines:88
+Done. plannerplan_list_tasks.md, input #lines: 91, output #lines:90
 >> Start Api: plannerplan_update.md
-Done. plannerplan_update.md, input #lines: 85, output #lines:84
+Done. plannerplan_update.md, input #lines: 86, output #lines:85
 >> Start Api: plannerplandetails_get.md
-Done. plannerplandetails_get.md, input #lines: 73, output #lines:72
+Done. plannerplandetails_get.md, input #lines: 75, output #lines:74
 >> Start Api: plannerplandetails_update.md
-Done. plannerplandetails_update.md, input #lines: 93, output #lines:92
+Done. plannerplandetails_update.md, input #lines: 94, output #lines:93
 >> Start Api: plannerprogresstaskboardtaskformat_get.md
-Done. plannerprogresstaskboardtaskformat_get.md, input #lines: 62, output #lines:61
+Done. plannerprogresstaskboardtaskformat_get.md, input #lines: 64, output #lines:63
 >> Start Api: plannerprogresstaskboardtaskformat_update.md
-Done. plannerprogresstaskboardtaskformat_update.md, input #lines: 74, output #lines:73
+Done. plannerprogresstaskboardtaskformat_update.md, input #lines: 75, output #lines:74
 >> Start Api: plannertask_delete.md
 Done. plannertask_delete.md, input #lines: 57, output #lines:56
 >> Start Api: plannertask_get.md
-Done. plannertask_get.md, input #lines: 84, output #lines:83
+Done. plannertask_get.md, input #lines: 86, output #lines:85
 >> Start Api: plannertask_update.md
-Done. plannertask_update.md, input #lines: 140, output #lines:139
+Done. plannertask_update.md, input #lines: 141, output #lines:140
 >> Start Api: plannertaskdetails_get.md
-!! Invalid scope: Groups.Read.All
-Skipping unusual file: plannertaskdetails_get.md
-Done. plannertaskdetails_get.md, input #lines: 92, output #lines:92
+Done. plannertaskdetails_get.md, input #lines: 94, output #lines:92
 >> Start Api: plannertaskdetails_update.md
-Done. plannertaskdetails_update.md, input #lines: 155, output #lines:154
+Done. plannertaskdetails_update.md, input #lines: 156, output #lines:155
 >> Start Api: planneruser_list_plans.md
-Done. planneruser_list_plans.md, input #lines: 80, output #lines:79
+Done. planneruser_list_plans.md, input #lines: 82, output #lines:81
 >> Start Api: planneruser_list_tasks.md
-Done. planneruser_list_tasks.md, input #lines: 91, output #lines:90
+Done. planneruser_list_tasks.md, input #lines: 93, output #lines:92
 >> Start Api: post_forward.md
-!! Invalid scope: Group.ReadWrite
-Skipping unusual file: post_forward.md
-Done. post_forward.md, input #lines: 79, output #lines:79
+Done. post_forward.md, input #lines: 80, output #lines:78
 >> Start Api: post_get.md
-!! Invalid scope: Group.Readwrite.All
-Skipping unusual file: post_get.md
-Done. post_get.md, input #lines: 92, output #lines:92
+Done. post_get.md, input #lines: 94, output #lines:92
 >> Start Api: post_list_attachments.md
-!! Invalid scope: Group.Readwrite.All
-Skipping unusual file: post_list_attachments.md
-Done. post_list_attachments.md, input #lines: 78, output #lines:78
+Done. post_list_attachments.md, input #lines: 80, output #lines:77
 >> Start Api: post_post_attachments.md
 Done. post_post_attachments.md, input #lines: 125, output #lines:123
 >> Start Api: post_reply.md
-!! Invalid scope: Group.Readwrite.All
-Skipping unusual file: post_reply.md
-Done. post_reply.md, input #lines: 119, output #lines:119
+Done. post_reply.md, input #lines: 120, output #lines:118
 >> Start Api: profilephoto_get.md
 Skipping unusual file: profilephoto_get.md
 Done. profilephoto_get.md, input #lines: 126, output #lines:126
 >> Start Api: profilephoto_update.md
 Skipping unusual file: profilephoto_update.md
-Done. profilephoto_update.md, input #lines: 85, output #lines:85
+Done. profilephoto_update.md, input #lines: 86, output #lines:86
 >> Start Api: range_boundingrect.md
-Done. range_boundingrect.md, input #lines: 81, output #lines:79
+Done. range_boundingrect.md, input #lines: 82, output #lines:80
 >> Start Api: range_cell.md
-Done. range_cell.md, input #lines: 85, output #lines:83
+Done. range_cell.md, input #lines: 86, output #lines:84
 >> Start Api: range_clear.md
-Done. range_clear.md, input #lines: 70, output #lines:68
+Done. range_clear.md, input #lines: 71, output #lines:69
 >> Start Api: range_column.md
-Done. range_column.md, input #lines: 82, output #lines:80
+Done. range_column.md, input #lines: 83, output #lines:81
 >> Start Api: range_delete.md
-Done. range_delete.md, input #lines: 70, output #lines:68
+Done. range_delete.md, input #lines: 71, output #lines:69
 >> Start Api: range_entirecolumn.md
-Done. range_entirecolumn.md, input #lines: 70, output #lines:68
+Done. range_entirecolumn.md, input #lines: 71, output #lines:69
 >> Start Api: range_entirerow.md
-Done. range_entirerow.md, input #lines: 70, output #lines:68
+Done. range_entirerow.md, input #lines: 71, output #lines:69
 >> Start Api: range_get.md
-Done. range_get.md, input #lines: 68, output #lines:66
+Done. range_get.md, input #lines: 70, output #lines:68
 >> Start Api: range_insert.md
-Done. range_insert.md, input #lines: 81, output #lines:79
+Done. range_insert.md, input #lines: 82, output #lines:80
 >> Start Api: range_intersection.md
-Done. range_intersection.md, input #lines: 81, output #lines:79
+Done. range_intersection.md, input #lines: 82, output #lines:80
 >> Start Api: range_lastcell.md
-Done. range_lastcell.md, input #lines: 70, output #lines:68
+Done. range_lastcell.md, input #lines: 71, output #lines:69
 >> Start Api: range_lastcolumn.md
-Done. range_lastcolumn.md, input #lines: 70, output #lines:68
+Done. range_lastcolumn.md, input #lines: 71, output #lines:69
 >> Start Api: range_lastrow.md
-Done. range_lastrow.md, input #lines: 70, output #lines:68
+Done. range_lastrow.md, input #lines: 71, output #lines:69
 >> Start Api: range_merge.md
-Done. range_merge.md, input #lines: 70, output #lines:68
+Done. range_merge.md, input #lines: 71, output #lines:69
 >> Start Api: range_offsetrange.md
-Done. range_offsetrange.md, input #lines: 85, output #lines:83
+Done. range_offsetrange.md, input #lines: 86, output #lines:84
 >> Start Api: range_row.md
-Done. range_row.md, input #lines: 82, output #lines:80
+Done. range_row.md, input #lines: 83, output #lines:81
 >> Start Api: range_unmerge.md
-Done. range_unmerge.md, input #lines: 59, output #lines:57
+Done. range_unmerge.md, input #lines: 60, output #lines:58
 >> Start Api: range_update.md
-Done. range_update.md, input #lines: 87, output #lines:85
+Done. range_update.md, input #lines: 88, output #lines:86
 >> Start Api: range_usedrange.md
-Done. range_usedrange.md, input #lines: 81, output #lines:79
+Done. range_usedrange.md, input #lines: 82, output #lines:80
 >> Start Api: rangeborder_get.md
-Done. rangeborder_get.md, input #lines: 68, output #lines:66
+Done. rangeborder_get.md, input #lines: 70, output #lines:68
 >> Start Api: rangeborder_list.md
-Done. rangeborder_list.md, input #lines: 73, output #lines:71
+Done. rangeborder_list.md, input #lines: 75, output #lines:73
 >> Start Api: rangeborder_update.md
-Done. rangeborder_update.md, input #lines: 81, output #lines:79
+Done. rangeborder_update.md, input #lines: 82, output #lines:80
 >> Start Api: rangebordercollection_itemat.md
-Done. rangebordercollection_itemat.md, input #lines: 81, output #lines:79
+Done. rangebordercollection_itemat.md, input #lines: 82, output #lines:80
 >> Start Api: rangefill_clear.md
-Done. rangefill_clear.md, input #lines: 59, output #lines:57
+Done. rangefill_clear.md, input #lines: 60, output #lines:58
 >> Start Api: rangefill_get.md
-Done. rangefill_get.md, input #lines: 64, output #lines:62
+Done. rangefill_get.md, input #lines: 66, output #lines:64
 >> Start Api: rangefill_update.md
-Done. rangefill_update.md, input #lines: 69, output #lines:67
+Done. rangefill_update.md, input #lines: 70, output #lines:68
 >> Start Api: rangefont_get.md
-Done. rangefont_get.md, input #lines: 69, output #lines:67
+Done. rangefont_get.md, input #lines: 71, output #lines:69
 >> Start Api: rangefont_update.md
-Done. rangefont_update.md, input #lines: 87, output #lines:85
+Done. rangefont_update.md, input #lines: 88, output #lines:86
 >> Start Api: rangeformat_autofitcolumns.md
-Done. rangeformat_autofitcolumns.md, input #lines: 59, output #lines:57
+Done. rangeformat_autofitcolumns.md, input #lines: 60, output #lines:58
 >> Start Api: rangeformat_autofitrows.md
-Done. rangeformat_autofitrows.md, input #lines: 59, output #lines:57
+Done. rangeformat_autofitrows.md, input #lines: 60, output #lines:58
 >> Start Api: rangeformat_get.md
-Done. rangeformat_get.md, input #lines: 66, output #lines:64
+Done. rangeformat_get.md, input #lines: 68, output #lines:66
 >> Start Api: rangeformat_list_borders.md
-Done. rangeformat_list_borders.md, input #lines: 73, output #lines:71
+Done. rangeformat_list_borders.md, input #lines: 75, output #lines:73
 >> Start Api: rangeformat_post_borders.md
 Done. rangeformat_post_borders.md, input #lines: 80, output #lines:78
 >> Start Api: rangeformat_update.md
-Done. rangeformat_update.md, input #lines: 80, output #lines:78
+Done. rangeformat_update.md, input #lines: 81, output #lines:79
 >> Start Api: rangesort_apply.md
-Done. rangesort_apply.md, input #lines: 90, output #lines:88
+Done. rangesort_apply.md, input #lines: 91, output #lines:89
 >> Start Api: resource_get.md
-Done. resource_get.md, input #lines: 66, output #lines:64
+Done. resource_get.md, input #lines: 68, output #lines:66
 >> Start Api: schemaextension_delete.md
 Skipping Extension API: schemaextension_delete.md
 >> Start Api: schemaextension_get.md
@@ -734,32 +716,30 @@ Skipping Extension API: schemaextension_post_schemaextensions.md
 >> Start Api: schemaextension_update.md
 Skipping Extension API: schemaextension_update.md
 >> Start Api: section_copytonotebook.md
-Done. section_copytonotebook.md, input #lines: 74, output #lines:72
+Done. section_copytonotebook.md, input #lines: 75, output #lines:73
 >> Start Api: section_copytosectiongroup.md
-Done. section_copytosectiongroup.md, input #lines: 79, output #lines:77
+Done. section_copytosectiongroup.md, input #lines: 80, output #lines:78
 >> Start Api: section_get.md
-Done. section_get.md, input #lines: 81, output #lines:79
+Done. section_get.md, input #lines: 83, output #lines:81
 >> Start Api: section_list_pages.md
-Done. section_list_pages.md, input #lines: 78, output #lines:76
+Done. section_list_pages.md, input #lines: 80, output #lines:78
 >> Start Api: section_post_pages.md
-Done. section_post_pages.md, input #lines: 108, output #lines:106
+Done. section_post_pages.md, input #lines: 109, output #lines:107
 >> Start Api: sectiongroup_get.md
-Done. sectiongroup_get.md, input #lines: 81, output #lines:79
+Done. sectiongroup_get.md, input #lines: 83, output #lines:81
 >> Start Api: sectiongroup_list_sectiongroups.md
-Done. sectiongroup_list_sectiongroups.md, input #lines: 88, output #lines:86
+Done. sectiongroup_list_sectiongroups.md, input #lines: 90, output #lines:88
 >> Start Api: sectiongroup_list_sections.md
-Done. sectiongroup_list_sections.md, input #lines: 89, output #lines:87
+Done. sectiongroup_list_sections.md, input #lines: 91, output #lines:89
 >> Start Api: sectiongroup_post_sectiongroups.md
-Done. sectiongroup_post_sectiongroups.md, input #lines: 86, output #lines:84
+Done. sectiongroup_post_sectiongroups.md, input #lines: 87, output #lines:85
 >> Start Api: sectiongroup_post_sections.md
 Done. sectiongroup_post_sections.md, input #lines: 88, output #lines:86
 >> Start Api: shares_get.md
-!! Invalid scope: Shares.ReadWrite.All
-Skipping unusual file: shares_get.md
-Done. shares_get.md, input #lines: 164, output #lines:164
+Done. shares_get.md, input #lines: 165, output #lines:161
 >> Start Api: singlevaluelegacyextendedproperty_get.md
 Skipping unusual file: singlevaluelegacyextendedproperty_get.md
-Done. singlevaluelegacyextendedproperty_get.md, input #lines: 273, output #lines:273
+Done. singlevaluelegacyextendedproperty_get.md, input #lines: 275, output #lines:275
 >> Start Api: singlevaluelegacyextendedproperty_post_singlevalueextendedproperties.md
 Skipping unusual file: singlevaluelegacyextendedproperty_post_singlevalueextendedproperties.md
 Done. singlevaluelegacyextendedproperty_post_singlevalueextendedproperties.md, input #lines: 252, output #lines:252
@@ -768,156 +748,161 @@ Done. site_get.md, input #lines: 83, output #lines:80
 >> Start Api: subscribedsku_get.md
 !! Invalid scope: Directory.ReadWrite.AllDirectory.AccessAsUser.All
 Skipping unusual file: subscribedsku_get.md
-Done. subscribedsku_get.md, input #lines: 84, output #lines:84
+Done. subscribedsku_get.md, input #lines: 86, output #lines:86
 >> Start Api: subscribedsku_list.md
 !! Invalid scope: Directory.ReadWrite.AllDirectory.AccessAsUser.All
 Skipping unusual file: subscribedsku_list.md
-Done. subscribedsku_list.md, input #lines: 104, output #lines:104
+Done. subscribedsku_list.md, input #lines: 106, output #lines:106
 >> Start Api: subscription_delete.md
-Skipping unusual file: subscription_delete.md
-Done. subscription_delete.md, input #lines: 49, output #lines:49
+!! No scopes defined in permission section.: subscription_delete.md
+Done. subscription_delete.md, input #lines: 63, output #lines:64
 >> Start Api: subscription_get.md
-Skipping unusual file: subscription_get.md
-Done. subscription_get.md, input #lines: 64, output #lines:64
+!! No scopes defined in permission section.: subscription_get.md
+Done. subscription_get.md, input #lines: 77, output #lines:78
 >> Start Api: subscription_post_subscriptions.md
-Skipping unusual file: subscription_post_subscriptions.md
-Done. subscription_post_subscriptions.md, input #lines: 134, output #lines:134
+!! No scopes defined in permission section: subscription_post_subscriptions.md
+!! No scopes defined in permission section.: subscription_post_subscriptions.md
+Done. subscription_post_subscriptions.md, input #lines: 145, output #lines:145
 >> Start Api: subscription_update.md
-Skipping unusual file: subscription_update.md
-Done. subscription_update.md, input #lines: 67, output #lines:67
+!! No scopes defined in permission section.: subscription_update.md
+Done. subscription_update.md, input #lines: 80, output #lines:81
 >> Start Api: subsites_list.md
 Done. subsites_list.md, input #lines: 69, output #lines:66
 >> Start Api: table_clearfilters.md
-Done. table_clearfilters.md, input #lines: 58, output #lines:56
+Done. table_clearfilters.md, input #lines: 59, output #lines:57
 >> Start Api: table_converttorange.md
-Done. table_converttorange.md, input #lines: 69, output #lines:67
+Done. table_converttorange.md, input #lines: 70, output #lines:68
 >> Start Api: table_databodyrange.md
-Done. table_databodyrange.md, input #lines: 69, output #lines:67
+Done. table_databodyrange.md, input #lines: 70, output #lines:68
 >> Start Api: table_delete.md
-Done. table_delete.md, input #lines: 58, output #lines:56
+Done. table_delete.md, input #lines: 59, output #lines:57
 >> Start Api: table_get.md
-Done. table_get.md, input #lines: 68, output #lines:66
+Done. table_get.md, input #lines: 70, output #lines:68
 >> Start Api: table_headerrowrange.md
-Done. table_headerrowrange.md, input #lines: 69, output #lines:67
+Done. table_headerrowrange.md, input #lines: 70, output #lines:68
 >> Start Api: table_list.md
-Done. table_list.md, input #lines: 73, output #lines:71
+Done. table_list.md, input #lines: 75, output #lines:73
 >> Start Api: table_list_columns.md
-Done. table_list_columns.md, input #lines: 71, output #lines:69
+Done. table_list_columns.md, input #lines: 73, output #lines:71
 >> Start Api: table_list_rows.md
-Done. table_list_rows.md, input #lines: 69, output #lines:67
+Done. table_list_rows.md, input #lines: 71, output #lines:69
 >> Start Api: table_post_columns.md
 Done. table_post_columns.md, input #lines: 77, output #lines:75
 >> Start Api: table_post_rows.md
 Done. table_post_rows.md, input #lines: 73, output #lines:71
 >> Start Api: table_range.md
-Done. table_range.md, input #lines: 69, output #lines:67
+Done. table_range.md, input #lines: 70, output #lines:68
 >> Start Api: table_reapplyfilters.md
-Done. table_reapplyfilters.md, input #lines: 58, output #lines:56
+Done. table_reapplyfilters.md, input #lines: 59, output #lines:57
 >> Start Api: table_totalrowrange.md
-Done. table_totalrowrange.md, input #lines: 69, output #lines:67
+Done. table_totalrowrange.md, input #lines: 70, output #lines:68
 >> Start Api: table_update.md
-Done. table_update.md, input #lines: 82, output #lines:80
+Done. table_update.md, input #lines: 83, output #lines:81
 >> Start Api: tablecollection_add.md
-Done. tablecollection_add.md, input #lines: 82, output #lines:80
+Done. tablecollection_add.md, input #lines: 83, output #lines:81
 >> Start Api: tablecolumn_databodyrange.md
-Done. tablecolumn_databodyrange.md, input #lines: 69, output #lines:67
+Done. tablecolumn_databodyrange.md, input #lines: 70, output #lines:68
 >> Start Api: tablecolumn_delete.md
-Done. tablecolumn_delete.md, input #lines: 58, output #lines:56
+Done. tablecolumn_delete.md, input #lines: 59, output #lines:57
 >> Start Api: tablecolumn_get.md
-Done. tablecolumn_get.md, input #lines: 66, output #lines:64
+Done. tablecolumn_get.md, input #lines: 68, output #lines:66
 >> Start Api: tablecolumn_headerrowrange.md
-Done. tablecolumn_headerrowrange.md, input #lines: 69, output #lines:67
+Done. tablecolumn_headerrowrange.md, input #lines: 70, output #lines:68
 >> Start Api: tablecolumn_list.md
-Done. tablecolumn_list.md, input #lines: 71, output #lines:69
+Done. tablecolumn_list.md, input #lines: 73, output #lines:71
 >> Start Api: tablecolumn_range.md
-Done. tablecolumn_range.md, input #lines: 69, output #lines:67
+Done. tablecolumn_range.md, input #lines: 70, output #lines:68
 >> Start Api: tablecolumn_totalrowrange.md
-Done. tablecolumn_totalrowrange.md, input #lines: 69, output #lines:67
+Done. tablecolumn_totalrowrange.md, input #lines: 70, output #lines:68
 >> Start Api: tablecolumn_update.md
-Done. tablecolumn_update.md, input #lines: 76, output #lines:74
+Done. tablecolumn_update.md, input #lines: 77, output #lines:75
 >> Start Api: tablecolumncollection_add.md
-Done. tablecolumncollection_add.md, input #lines: 84, output #lines:82
+Done. tablecolumncollection_add.md, input #lines: 85, output #lines:83
 >> Start Api: tablecolumncollection_itemat.md
-Done. tablecolumncollection_itemat.md, input #lines: 79, output #lines:77
+Done. tablecolumncollection_itemat.md, input #lines: 80, output #lines:78
 >> Start Api: tablerow_delete.md
-Done. tablerow_delete.md, input #lines: 58, output #lines:56
+Done. tablerow_delete.md, input #lines: 59, output #lines:57
 >> Start Api: tablerow_get.md
-Done. tablerow_get.md, input #lines: 64, output #lines:62
+Done. tablerow_get.md, input #lines: 66, output #lines:64
 >> Start Api: tablerow_list.md
-Done. tablerow_list.md, input #lines: 69, output #lines:67
+Done. tablerow_list.md, input #lines: 71, output #lines:69
 >> Start Api: tablerow_range.md
-Done. tablerow_range.md, input #lines: 69, output #lines:67
+Done. tablerow_range.md, input #lines: 70, output #lines:68
 >> Start Api: tablerow_update.md
-Done. tablerow_update.md, input #lines: 73, output #lines:71
+Done. tablerow_update.md, input #lines: 74, output #lines:72
 >> Start Api: tablerowcollection_add.md
-Done. tablerowcollection_add.md, input #lines: 82, output #lines:80
+Done. tablerowcollection_add.md, input #lines: 83, output #lines:81
 >> Start Api: tablerowcollection_itemat.md
-Done. tablerowcollection_itemat.md, input #lines: 77, output #lines:75
+Done. tablerowcollection_itemat.md, input #lines: 78, output #lines:76
 >> Start Api: tablesort_apply.md
-Done. tablesort_apply.md, input #lines: 85, output #lines:83
+Done. tablesort_apply.md, input #lines: 86, output #lines:84
 >> Start Api: tablesort_clear.md
-Done. tablesort_clear.md, input #lines: 58, output #lines:56
+Done. tablesort_clear.md, input #lines: 59, output #lines:57
 >> Start Api: tablesort_get.md
-Done. tablesort_get.md, input #lines: 64, output #lines:62
+Done. tablesort_get.md, input #lines: 66, output #lines:64
 >> Start Api: tablesort_reapply.md
-Done. tablesort_reapply.md, input #lines: 58, output #lines:56
+Done. tablesort_reapply.md, input #lines: 59, output #lines:57
 >> Start Api: thumbnailset_get.md
-Done. thumbnailset_get.md, input #lines: 88, output #lines:86
+Done. thumbnailset_get.md, input #lines: 90, output #lines:88
 >> Start Api: user_assignlicense.md
-Done. user_assignlicense.md, input #lines: 98, output #lines:98
+Done. user_assignlicense.md, input #lines: 99, output #lines:99
 >> Start Api: user_checkmembergroups.md
-Done. user_checkmembergroups.md, input #lines: 82, output #lines:82
+Done. user_checkmembergroups.md, input #lines: 83, output #lines:83
 >> Start Api: user_delete.md
 Done. user_delete.md, input #lines: 53, output #lines:53
 >> Start Api: user_delta.md
 Done. user_delta.md, input #lines: 117, output #lines:118
 >> Start Api: user_findmeetingtimes.md
-Done. user_findmeetingtimes.md, input #lines: 250, output #lines:251
+Done. user_findmeetingtimes.md, input #lines: 251, output #lines:252
 >> Start Api: user_get.md
-Done. user_get.md, input #lines: 75, output #lines:75
+Done. user_get.md, input #lines: 77, output #lines:77
 >> Start Api: user_get_mailboxsettings.md
-Done. user_get_mailboxsettings.md, input #lines: 144, output #lines:143
+Done. user_get_mailboxsettings.md, input #lines: 146, output #lines:145
 >> Start Api: user_getmembergroups.md
 Skipping unusual file: user_getmembergroups.md
-Done. user_getmembergroups.md, input #lines: 81, output #lines:81
+Done. user_getmembergroups.md, input #lines: 82, output #lines:82
 >> Start Api: user_getmemberobjects.md
-Done. user_getmemberobjects.md, input #lines: 75, output #lines:76
+Done. user_getmemberobjects.md, input #lines: 76, output #lines:77
 >> Start Api: user_list.md
 Done. user_list.md, input #lines: 98, output #lines:97
 >> Start Api: user_list_calendargroups.md
-Done. user_list_calendargroups.md, input #lines: 68, output #lines:68
+Done. user_list_calendargroups.md, input #lines: 70, output #lines:70
 >> Start Api: user_list_calendars.md
-Done. user_list_calendars.md, input #lines: 91, output #lines:91
+Done. user_list_calendars.md, input #lines: 93, output #lines:93
 >> Start Api: user_list_calendarview.md
-Done. user_list_calendarview.md, input #lines: 104, output #lines:104
+Done. user_list_calendarview.md, input #lines: 106, output #lines:106
 >> Start Api: user_list_contactfolders.md
-Done. user_list_contactfolders.md, input #lines: 67, output #lines:67
+Done. user_list_contactfolders.md, input #lines: 69, output #lines:69
 >> Start Api: user_list_contacts.md
-Done. user_list_contacts.md, input #lines: 94, output #lines:94
+Done. user_list_contacts.md, input #lines: 96, output #lines:96
 >> Start Api: user_list_createdobjects.md
-Done. user_list_createdobjects.md, input #lines: 65, output #lines:64
+Done. user_list_createdobjects.md, input #lines: 67, output #lines:66
 >> Start Api: user_list_directreports.md
-Done. user_list_directreports.md, input #lines: 65, output #lines:64
+Done. user_list_directreports.md, input #lines: 67, output #lines:66
 >> Start Api: user_list_events.md
-Done. user_list_events.md, input #lines: 156, output #lines:156
+Done. user_list_events.md, input #lines: 158, output #lines:158
 >> Start Api: user_list_licensedetails.md
-Done. user_list_licensedetails.md, input #lines: 77, output #lines:76
+Done. user_list_licensedetails.md, input #lines: 79, output #lines:78
 >> Start Api: user_list_mailfolders.md
-Done. user_list_mailfolders.md, input #lines: 70, output #lines:70
+Done. user_list_mailfolders.md, input #lines: 72, output #lines:72
 >> Start Api: user_list_manager.md
-Done. user_list_manager.md, input #lines: 76, output #lines:75
+Done. user_list_manager.md, input #lines: 78, output #lines:77
 >> Start Api: user_list_memberof.md
-Done. user_list_memberof.md, input #lines: 74, output #lines:73
+Done. user_list_memberof.md, input #lines: 76, output #lines:75
 >> Start Api: user_list_messages.md
-Done. user_list_messages.md, input #lines: 92, output #lines:92
+Done. user_list_messages.md, input #lines: 94, output #lines:94
 >> Start Api: user_list_owneddevices.md
-Done. user_list_owneddevices.md, input #lines: 65, output #lines:64
+Done. user_list_owneddevices.md, input #lines: 67, output #lines:66
 >> Start Api: user_list_ownedobjects.md
-Done. user_list_ownedobjects.md, input #lines: 65, output #lines:64
+Done. user_list_ownedobjects.md, input #lines: 67, output #lines:66
+>> Start Api: user_list_people.md
+!! Invalid scope: People.Read People.Read.All
+Skipping unusual file: user_list_people.md
+Done. user_list_people.md, input #lines: 317, output #lines:317
 >> Start Api: user_list_registereddevices.md
-Done. user_list_registereddevices.md, input #lines: 65, output #lines:64
+Done. user_list_registereddevices.md, input #lines: 67, output #lines:66
 >> Start Api: user_post_calendargroups.md
-Done. user_post_calendargroups.md, input #lines: 72, output #lines:72
+Done. user_post_calendargroups.md, input #lines: 73, output #lines:73
 >> Start Api: user_post_calendars.md
 Done. user_post_calendars.md, input #lines: 78, output #lines:78
 >> Start Api: user_post_contactfolders.md
@@ -925,30 +910,30 @@ Done. user_post_contactfolders.md, input #lines: 73, output #lines:73
 >> Start Api: user_post_contacts.md
 Done. user_post_contacts.md, input #lines: 83, output #lines:83
 >> Start Api: user_post_events.md
-Done. user_post_events.md, input #lines: 183, output #lines:183
+Done. user_post_events.md, input #lines: 184, output #lines:184
 >> Start Api: user_post_mailfolders.md
-Done. user_post_mailfolders.md, input #lines: 77, output #lines:77
+Done. user_post_mailfolders.md, input #lines: 78, output #lines:78
 >> Start Api: user_post_manager.md
 Done. user_post_manager.md, input #lines: 62, output #lines:63
 >> Start Api: user_post_messages.md
 Done. user_post_messages.md, input #lines: 101, output #lines:101
 >> Start Api: user_post_users.md
-Done. user_post_users.md, input #lines: 95, output #lines:95
+Done. user_post_users.md, input #lines: 96, output #lines:96
 >> Start Api: user_reminderview.md
-Done. user_reminderview.md, input #lines: 97, output #lines:97
+Done. user_reminderview.md, input #lines: 98, output #lines:98
 >> Start Api: user_sendmail.md
-Done. user_sendmail.md, input #lines: 90, output #lines:91
+Done. user_sendmail.md, input #lines: 91, output #lines:92
 >> Start Api: user_update.md
 Skipping unusual file: user_update.md
-Done. user_update.md, input #lines: 118, output #lines:118
+Done. user_update.md, input #lines: 119, output #lines:119
 >> Start Api: user_update_mailboxsettings.md
-Done. user_update_mailboxsettings.md, input #lines: 110, output #lines:110
+Done. user_update_mailboxsettings.md, input #lines: 111, output #lines:111
 >> Start Api: workbook_list_names.md
-Done. workbook_list_names.md, input #lines: 71, output #lines:69
+Done. workbook_list_names.md, input #lines: 73, output #lines:71
 >> Start Api: workbook_list_tables.md
-Done. workbook_list_tables.md, input #lines: 72, output #lines:70
+Done. workbook_list_tables.md, input #lines: 74, output #lines:72
 >> Start Api: workbook_list_worksheets.md
-Done. workbook_list_worksheets.md, input #lines: 70, output #lines:68
+Done. workbook_list_worksheets.md, input #lines: 72, output #lines:70
 >> Start Api: workbook_post_tables.md
 Done. workbook_post_tables.md, input #lines: 79, output #lines:77
 >> Start Api: workbookpivottable_get.md
@@ -972,7 +957,7 @@ Done. workbookrange_rowsbelow.md, input #lines: 62, output #lines:63
 Done. workbookrange_visibleview.md, input #lines: 54, output #lines:55
 >> Start Api: workbookrangeview_itemat.md
 !! No scopes defined in permission section.: workbookrangeview_itemat.md
-Done. workbookrangeview_itemat.md, input #lines: 62, output #lines:63
+Done. workbookrangeview_itemat.md, input #lines: 63, output #lines:64
 >> Start Api: workbookrangeview_list_rows.md
 Done. workbookrangeview_list_rows.md, input #lines: 62, output #lines:63
 >> Start Api: workbookrangeview_range.md
@@ -982,33 +967,33 @@ Done. workbookworksheet_list_pivottables.md, input #lines: 58, output #lines:59
 >> Start Api: worksheet_cell.md
 Done. worksheet_cell.md, input #lines: 67, output #lines:65
 >> Start Api: worksheet_delete.md
-Done. worksheet_delete.md, input #lines: 57, output #lines:55
+Done. worksheet_delete.md, input #lines: 58, output #lines:56
 >> Start Api: worksheet_get.md
-Done. worksheet_get.md, input #lines: 65, output #lines:63
+Done. worksheet_get.md, input #lines: 67, output #lines:65
 >> Start Api: worksheet_list.md
-Done. worksheet_list.md, input #lines: 70, output #lines:68
+Done. worksheet_list.md, input #lines: 72, output #lines:70
 >> Start Api: worksheet_list_charts.md
-Done. worksheet_list_charts.md, input #lines: 69, output #lines:67
+Done. worksheet_list_charts.md, input #lines: 71, output #lines:69
 >> Start Api: worksheet_list_names.md
-Done. worksheet_list_names.md, input #lines: 71, output #lines:67
+Done. worksheet_list_names.md, input #lines: 73, output #lines:69
 >> Start Api: worksheet_list_tables.md
-Done. worksheet_list_tables.md, input #lines: 72, output #lines:70
+Done. worksheet_list_tables.md, input #lines: 74, output #lines:72
 >> Start Api: worksheet_post_charts.md
 Done. worksheet_post_charts.md, input #lines: 74, output #lines:72
 >> Start Api: worksheet_post_tables.md
 Done. worksheet_post_tables.md, input #lines: 81, output #lines:79
 >> Start Api: worksheet_range.md
-Done. worksheet_range.md, input #lines: 79, output #lines:77
+Done. worksheet_range.md, input #lines: 80, output #lines:78
 >> Start Api: worksheet_update.md
-Done. worksheet_update.md, input #lines: 77, output #lines:75
+Done. worksheet_update.md, input #lines: 78, output #lines:76
 >> Start Api: worksheet_usedrange.md
-Done. worksheet_usedrange.md, input #lines: 77, output #lines:75
+Done. worksheet_usedrange.md, input #lines: 78, output #lines:76
 >> Start Api: worksheetcollection_add.md
-Done. worksheetcollection_add.md, input #lines: 77, output #lines:75
+Done. worksheetcollection_add.md, input #lines: 78, output #lines:76
 >> Start Api: worksheetprotection_get.md
-Done. worksheetprotection_get.md, input #lines: 62, output #lines:60
+Done. worksheetprotection_get.md, input #lines: 64, output #lines:62
 >> Start Api: worksheetprotection_protect.md
-Done. worksheetprotection_protect.md, input #lines: 81, output #lines:79
+Done. worksheetprotection_protect.md, input #lines: 82, output #lines:80
 >> Start Api: worksheetprotection_unprotect.md
-Done. worksheetprotection_unprotect.md, input #lines: 68, output #lines:66
+Done. worksheetprotection_unprotect.md, input #lines: 69, output #lines:67
 End of program.

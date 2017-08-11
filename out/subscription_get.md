@@ -1,8 +1,26 @@
 # Get subscription
 
 Retrieve the properties and relationships of a subscription.
-## Prerequisites
-One of the following **scopes**, depending on the target resource, are required to execute this API: *Mail.Read*, *Calendars.Read*, *Contacts.Read*, *Group.Read.All*, *Files.ReadWrite*, or *Files.ReadWrite.All*
+## Permissions
+
+The following table lists the suggested permission needed for each resource.
+
+| Resource type / Item        | Scope               |
+|-----------------------------|---------------------|
+| Contacts                    | Contacts.Read       |
+| Conversations               | Group.Read.All      |
+| Events                      | Calendars.Read      |
+| Messages                    | Mail.Read           |
+| Drive  (User's OneDrive)    | Files.ReadWrite     |
+| Drives (Sharepoint shared content and drives) | Files.ReadWrite.All |
+
+
+|Permission type      | Permissions (from least to most privileged)              | 
+|:--------------------|:---------------------------------------------------------| 
+|Delegated (work or school account) | Not supported    | 
+|Delegated (personal Microsoft account) | Not supported    | 
+|Application | Not supported | 
+
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
@@ -18,7 +36,9 @@ This method supports the [OData Query Parameters](http://developer.microsoft.com
 
 ## Request body
 Do not supply a request body for this method.
+
 ## Response
+
 If successful, this method returns a `200 OK` response code and [subscription](../resources/subscription.md) object in the response body.
 ## Example
 ##### Request
