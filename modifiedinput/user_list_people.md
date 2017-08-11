@@ -5,16 +5,9 @@ the user's communication and collaboration patterns and business relationships.
 
 You can get this information via the People API. For examples, see the [Examples](#examples) section and the article [Get relevant information about people](../../../concepts/people_example.md).
 
-## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
+## Prerequisites
+The following **scopes** are required to execute this API: *People.Read*, *People.Read.All*
  
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | People.Read, People.Read.All    | 
-|Delegated (personal Microsoft account) | People.Read    | 
-|Application | People.Read.All | 
-
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http

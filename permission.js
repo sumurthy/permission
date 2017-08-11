@@ -74,8 +74,12 @@ function processPermLines(permLines, name) {
                 oPermLines.push(oLine)
                 return
             }            
+            if (line.includes('The following table lists the suggested permission needed for each resource')) {
+                console.log('!! Multiple scopes based on resources.')
+                throw BreakException
+            }
 
-            if (line.startsWith('One of the following **scope') || line.startsWith('The following **scope') || line.startsWith('One of the following scopes')) {
+            if (line.startsWith('One of the following **scope') || line.startsWith('The following **scope') || line.startsWith('One of the following scopes') || line.startsWith('The following **permis')) {
                 inScope = true
                 if (line.includes('depending on')) {
                     throw BreakException
@@ -96,7 +100,7 @@ function processPermLines(permLines, name) {
                         }
                     })
 
-                    if (line.endsWith(', or') || line.endsWith(' or')) {
+                    if (line.endsWith(', or') || line.endsWith(' or') || line.endsWith(',')) {
                         inScope = true
                     }    
                     return            

@@ -1,7 +1,7 @@
 # Create subscription
 
 Subscribes a listener application to receive notifications when data on the Microsoft Graph changes.
-## Permissions
+## Prerequisites
 Creating a subscription requires read scope to the resource. For example, to get notifications messages, your app needs the `Mail.Read` permission. The following table lists the suggested permission needed for each resource.
 
 | Resource type / Item        | Scope               |
@@ -13,13 +13,7 @@ Creating a subscription requires read scope to the resource. For example, to get
 | Drive  (User's OneDrive)    | Files.ReadWrite     |
 | Drives (Sharepoint shared content and drives) | Files.ReadWrite.All |
 
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported    | 
-|Delegated (personal Microsoft account) | Not supported    | 
-|Application | Not supported | 
-
+ ***Note:*** The /v1.0 endpoint allows Application permissions for most resources. Conversations in a Group and OneDrive drive root items are not supported with Application permissions.
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

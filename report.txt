@@ -546,7 +546,6 @@ Done. permission_get.md, input #lines: 89, output #lines:82
 >> Start Api: permission_update.md
 Done. permission_update.md, input #lines: 93, output #lines:89
 >> Start Api: person_get.md
-!! No scopes defined in permission section.: person_get.md
 Done. person_get.md, input #lines: 159, output #lines:160
 >> Start Api: photo_delete.md
 Done. photo_delete.md, input #lines: 60, output #lines:58
@@ -750,18 +749,21 @@ Done. subscribedsku_get.md, input #lines: 86, output #lines:87
 >> Start Api: subscribedsku_list.md
 Done. subscribedsku_list.md, input #lines: 106, output #lines:107
 >> Start Api: subscription_delete.md
-!! No scopes defined in permission section.: subscription_delete.md
-Done. subscription_delete.md, input #lines: 63, output #lines:64
+!! Multiple scopes based on resources.
+Skipping unusual file: subscription_delete.md
+Done. subscription_delete.md, input #lines: 63, output #lines:63
 >> Start Api: subscription_get.md
-!! No scopes defined in permission section.: subscription_get.md
-Done. subscription_get.md, input #lines: 77, output #lines:78
+!! Multiple scopes based on resources.
+Skipping unusual file: subscription_get.md
+Done. subscription_get.md, input #lines: 77, output #lines:77
 >> Start Api: subscription_post_subscriptions.md
-!! No scopes defined in permission section: subscription_post_subscriptions.md
-!! No scopes defined in permission section.: subscription_post_subscriptions.md
+!! Multiple scopes based on resources.
+Skipping unusual file: subscription_post_subscriptions.md
 Done. subscription_post_subscriptions.md, input #lines: 145, output #lines:145
 >> Start Api: subscription_update.md
-!! No scopes defined in permission section.: subscription_update.md
-Done. subscription_update.md, input #lines: 80, output #lines:81
+!! Multiple scopes based on resources.
+Skipping unusual file: subscription_update.md
+Done. subscription_update.md, input #lines: 80, output #lines:80
 >> Start Api: subsites_list.md
 Done. subsites_list.md, input #lines: 69, output #lines:66
 >> Start Api: table_clearfilters.md
@@ -892,9 +894,7 @@ Done. user_list_owneddevices.md, input #lines: 67, output #lines:66
 >> Start Api: user_list_ownedobjects.md
 Done. user_list_ownedobjects.md, input #lines: 67, output #lines:66
 >> Start Api: user_list_people.md
-!! Invalid scope: People.Read People.Read.All
-Skipping unusual file: user_list_people.md
-Done. user_list_people.md, input #lines: 317, output #lines:317
+Done. user_list_people.md, input #lines: 317, output #lines:318
 >> Start Api: user_list_registereddevices.md
 Done. user_list_registereddevices.md, input #lines: 67, output #lines:66
 >> Start Api: user_post_calendargroups.md

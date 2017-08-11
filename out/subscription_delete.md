@@ -2,7 +2,7 @@
 
 Delete a subscription.
 
-## Permissions
+## Prerequisites
 
 The following table lists the suggested permission needed for each resource.
 
@@ -14,13 +14,6 @@ The following table lists the suggested permission needed for each resource.
 | Messages                    | Mail.Read           |
 | Drive  (User's OneDrive)    | Files.ReadWrite     |
 | Drives (Sharepoint shared content and drives) | Files.ReadWrite.All |
-
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported    | 
-|Delegated (personal Microsoft account) | Not supported    | 
-|Application | Not supported | 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
