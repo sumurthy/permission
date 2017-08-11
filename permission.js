@@ -218,7 +218,7 @@ function processModule(api, name) {
  */
 console.log('* Starting Program...')
 FileOps.cleanupOutput('./report')
-FileOps.cleanupOutput('./out')
+FileOps.cleanupOutput('./excelout')
 
 let WORK = FileOps.loadFile(`./scopes/work.txt`)
 let PERSONAL = FileOps.loadFile(`./scopes/personal.txt`)
