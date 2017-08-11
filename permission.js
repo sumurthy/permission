@@ -15,7 +15,7 @@ function getSubScopes (full=[], sub=[]) {
     if (list.length > 0) { 
         return list
     } else { 
-        return ['Not supported']
+        return ['Not supported.']
     }
 }
 
