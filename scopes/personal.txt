@@ -4,11 +4,6 @@ Contacts.Read
 Contacts.ReadWrite
 Device.Command
 Device.Read
-Files.Read
-Files.Read.All
-Files.ReadWrite
-Files.ReadWrite.All
-Files.ReadWrite.AppFolder
 Mail.Read
 Mail.ReadWrite
 Mail.Send

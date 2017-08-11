@@ -208,7 +208,7 @@ function processModule(api, name) {
     if (permLines.length === 0) {
         console.log('!! No permission section at all: ' + name)
     }
-    FileOps.writeFile(outApi, `./out/${name}`)    
+    FileOps.writeFile(outApi, `./excelout/${name}`)    
     console.log('Done. ' + name + ', input #lines: ' + api.length + ', output #lines:' + outApi.length);
 
 }
