@@ -3,6 +3,9 @@
 import FileOps from './modules/fileops'
 import Setup from './modules/fileops'
 
+const INPUT = 'betainput'
+const OUTPUT = 'betaoutput'
+
 const MDTABLE = `\n|Permission type      | Permissions (from least to most privileged)              | \n|:--------------------|:---------------------------------------------------------| \n|Delegated (work or school account) | @business    | \n|Delegated (personal Microsoft account) | @personal    | \n|Application | @admin | \n`
 
 function getSubScopes (full=[], sub=[]) {
@@ -208,7 +211,7 @@ function processModule(api, name) {
     if (permLines.length === 0) {
         console.log('!! No permission section at all: ' + name)
     }
-    FileOps.writeFile(outApi, `./excelout/${name}`)    
+    FileOps.writeFile(outApi, `./${OUTPUT}/${name}`)    
     console.log('Done. ' + name + ', input #lines: ' + api.length + ', output #lines:' + outApi.length);
 
 }
@@ -218,16 +221,16 @@ function processModule(api, name) {
  */
 console.log('* Starting Program...')
 FileOps.cleanupOutput('./report')
-FileOps.cleanupOutput('./excelout')
+FileOps.cleanupOutput(`./${OUTPUT}`)
 
 let WORK = FileOps.loadFile(`./scopes/work.txt`)
 let PERSONAL = FileOps.loadFile(`./scopes/personal.txt`)
 let APPLICATION = FileOps.loadFile(`./scopes/app.txt`)
 
 console.log('');
-let inputFiles = FileOps.walkFiles('./input', '.md')
+let inputFiles = FileOps.walkFiles(`./${INPUT}`, '.md')
 inputFiles.forEach((e) => {
-    let api = FileOps.loadFile(`./input/${e}`)
+    let api = FileOps.loadFile(`./${INPUT}/${e}`)
     // File Filter
     // if (e != 'post_forward.md' && e != 'post_get.md' ) { return }
     processModule(api, e)
