@@ -8,7 +8,7 @@ Get the teams in Microsoft Teams that the user is a direct member of.
 One of the following **scopes** is required to execute this API: 
 *User.Read.All; User.ReadWrite.All*
 
-> Currrently, this operation only works for the 'me' user. For details, see [Known issues](../../../concepts/known_issues.md#microsoft-teams-users-list-of-joined-teams-preview).
+> Currently, this operation only works for the 'me' user. For details, see [Known issues](../../../concepts/known_issues.md#microsoft-teams-users-list-of-joined-teams-preview).
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

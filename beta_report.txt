@@ -93,7 +93,7 @@ Done. calendargroup_update.md, input #lines: 76, output #lines:77
 >> Start Api: channel_get.md
 Done. channel_get.md, input #lines: 66, output #lines:66
 >> Start Api: channel_post_chatthreads.md
-!! Invalid scope: > Currrently
+!! Invalid scope: > Currently
 Skipping unusual file: channel_post_chatthreads.md
 Done. channel_post_chatthreads.md, input #lines: 76, output #lines:76
 >> Start Api: chart_delete.md
@@ -7127,7 +7127,7 @@ Done. user_list_directreports.md, input #lines: 69, output #lines:68
 >> Start Api: user_list_events.md
 Done. user_list_events.md, input #lines: 221, output #lines:221
 >> Start Api: user_list_joinedteams.md
-!! Invalid scope: > Currrently
+!! Invalid scope: > Currently
 Skipping unusual file: user_list_joinedteams.md
 Done. user_list_joinedteams.md, input #lines: 72, output #lines:72
 >> Start Api: user_list_licensedetails.md
