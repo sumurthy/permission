@@ -93,9 +93,7 @@ Done. calendargroup_update.md, input #lines: 76, output #lines:77
 >> Start Api: channel_get.md
 Done. channel_get.md, input #lines: 66, output #lines:66
 >> Start Api: channel_post_chatthreads.md
-!! Invalid scope: > Currently
-Skipping unusual file: channel_post_chatthreads.md
-Done. channel_post_chatthreads.md, input #lines: 76, output #lines:76
+Done. channel_post_chatthreads.md, input #lines: 76, output #lines:74
 >> Start Api: chart_delete.md
 Done. chart_delete.md, input #lines: 60, output #lines:58
 >> Start Api: chart_get.md
@@ -463,7 +461,7 @@ Done. group_list_acceptedsenders.md, input #lines: 71, output #lines:71
 >> Start Api: group_list_calendarview.md
 Done. group_list_calendarview.md, input #lines: 85, output #lines:86
 >> Start Api: group_list_channels.md
-Done. group_list_channels.md, input #lines: 71, output #lines:72
+Done. group_list_channels.md, input #lines: 71, output #lines:71
 >> Start Api: group_list_conversations.md
 Done. group_list_conversations.md, input #lines: 73, output #lines:74
 >> Start Api: group_list_endpoints.md
@@ -488,7 +486,7 @@ Done. group_list_threads.md, input #lines: 91, output #lines:92
 >> Start Api: group_post_acceptedsenders.md
 Done. group_post_acceptedsenders.md, input #lines: 64, output #lines:65
 >> Start Api: group_post_channels.md
-Done. group_post_channels.md, input #lines: 72, output #lines:73
+Done. group_post_channels.md, input #lines: 72, output #lines:72
 >> Start Api: group_post_conversations.md
 Done. group_post_conversations.md, input #lines: 89, output #lines:90
 >> Start Api: group_post_events.md
@@ -7127,9 +7125,7 @@ Done. user_list_directreports.md, input #lines: 69, output #lines:68
 >> Start Api: user_list_events.md
 Done. user_list_events.md, input #lines: 221, output #lines:221
 >> Start Api: user_list_joinedteams.md
-!! Invalid scope: > Currently
-Skipping unusual file: user_list_joinedteams.md
-Done. user_list_joinedteams.md, input #lines: 72, output #lines:72
+Done. user_list_joinedteams.md, input #lines: 72, output #lines:70
 >> Start Api: user_list_licensedetails.md
 Done. user_list_licensedetails.md, input #lines: 81, output #lines:80
 >> Start Api: user_list_mailfolders.md

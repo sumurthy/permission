@@ -121,7 +121,7 @@ function processPermLines(permLines, name) {
                 }
             }
             // If you come across the Note:, write permission array and move on. 
-            if (line.toLowerCase().includes('note:') || line.toLowerCase().includes('> Currently')) {
+            if (line.toLowerCase().includes('note:') || line.toLowerCase().includes('> currently')) {
                 inScope = false
                 mdDone = true
                 if (scopesArray.length === 0) {
