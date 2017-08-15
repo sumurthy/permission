@@ -25,6 +25,10 @@ function getSubScopes (full=[], sub=[]) {
 
 function getScopes(line) {
 
+    if (line.endsWith('.')) {
+        // String last period. 
+        line = line.substring(0, line.length - 1);
+    }
     if (line.toLowerCase().includes(' and ')) {
         throw BreakException
     }  
@@ -43,6 +47,9 @@ function getScopes(line) {
     // Identify the delimiter
     if (temp.includes(' or ')) {
         delimiter = ' or '
+        delimiterFound = true
+    } else if(temp.includes(' Or ')) {
+        delimiter = 'Or'
         delimiterFound = true
     } else if(temp.includes(' OR ')) {
         delimiter = 'OR'
@@ -114,7 +121,7 @@ function processPermLines(permLines, name) {
                 }
             }
             // If you come across the Note:, write permission array and move on. 
-            if (line.toLowerCase().includes('note:')) {
+            if (line.toLowerCase().includes('note:') || line.toLowerCase().includes('> Currently,')) {
                 inScope = false
                 mdDone = true
                 if (scopesArray.length === 0) {
