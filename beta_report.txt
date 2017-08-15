@@ -1773,9 +1773,7 @@ Done. intune_companyterms_devicemanagement_create_termsandconditions.md, input #
 !! No scopes defined in permission section.: intune_companyterms_devicemanagement_get.md
 Done. intune_companyterms_devicemanagement_get.md, input #lines: 63, output #lines:64
 >> Start Api: intune_companyterms_devicemanagement_list_termsandconditions.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_companyterms_devicemanagement_list_termsandconditions.md
-Done. intune_companyterms_devicemanagement_list_termsandconditions.md, input #lines: 72, output #lines:72
+Done. intune_companyterms_devicemanagement_list_termsandconditions.md, input #lines: 72, output #lines:71
 >> Start Api: intune_companyterms_devicemanagement_update.md
 !! No scopes defined in permission section.: intune_companyterms_devicemanagement_update.md
 Done. intune_companyterms_devicemanagement_update.md, input #lines: 68, output #lines:69
@@ -1792,13 +1790,9 @@ Done. intune_companyterms_termsandconditions_get.md, input #lines: 73, output #l
 !! No scopes defined in permission section.: intune_companyterms_termsandconditions_list.md
 Done. intune_companyterms_termsandconditions_list.md, input #lines: 71, output #lines:72
 >> Start Api: intune_companyterms_termsandconditions_list_termsandconditionsacceptancestatus.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_companyterms_termsandconditions_list_termsandconditionsacceptancestatus.md
-Done. intune_companyterms_termsandconditions_list_termsandconditionsacceptancestatus.md, input #lines: 66, output #lines:66
+Done. intune_companyterms_termsandconditions_list_termsandconditionsacceptancestatus.md, input #lines: 66, output #lines:65
 >> Start Api: intune_companyterms_termsandconditions_list_termsandconditionsgroupassignment.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_companyterms_termsandconditions_list_termsandconditionsgroupassignment.md
-Done. intune_companyterms_termsandconditions_list_termsandconditionsgroupassignment.md, input #lines: 64, output #lines:64
+Done. intune_companyterms_termsandconditions_list_termsandconditionsgroupassignment.md, input #lines: 64, output #lines:63
 >> Start Api: intune_companyterms_termsandconditions_update.md
 !! No scopes defined in permission section.: intune_companyterms_termsandconditions_update.md
 Done. intune_companyterms_termsandconditions_update.md, input #lines: 93, output #lines:94
@@ -1812,9 +1806,7 @@ Done. intune_companyterms_termsandconditionsacceptancestatus_delete.md, input #l
 !! No scopes defined in permission section.: intune_companyterms_termsandconditionsacceptancestatus_get.md
 Done. intune_companyterms_termsandconditionsacceptancestatus_get.md, input #lines: 66, output #lines:67
 >> Start Api: intune_companyterms_termsandconditionsacceptancestatus_get_termsandconditions.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_companyterms_termsandconditionsacceptancestatus_get_termsandconditions.md
-Done. intune_companyterms_termsandconditionsacceptancestatus_get_termsandconditions.md, input #lines: 74, output #lines:74
+Done. intune_companyterms_termsandconditionsacceptancestatus_get_termsandconditions.md, input #lines: 74, output #lines:73
 >> Start Api: intune_companyterms_termsandconditionsacceptancestatus_list.md
 !! No scopes defined in permission section.: intune_companyterms_termsandconditionsacceptancestatus_list.md
 Done. intune_companyterms_termsandconditionsacceptancestatus_list.md, input #lines: 66, output #lines:67
@@ -1831,9 +1823,7 @@ Done. intune_companyterms_termsandconditionsgroupassignment_delete.md, input #li
 !! No scopes defined in permission section.: intune_companyterms_termsandconditionsgroupassignment_get.md
 Done. intune_companyterms_termsandconditionsgroupassignment_get.md, input #lines: 64, output #lines:65
 >> Start Api: intune_companyterms_termsandconditionsgroupassignment_get_termsandconditions.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_companyterms_termsandconditionsgroupassignment_get_termsandconditions.md
-Done. intune_companyterms_termsandconditionsgroupassignment_get_termsandconditions.md, input #lines: 74, output #lines:74
+Done. intune_companyterms_termsandconditionsgroupassignment_get_termsandconditions.md, input #lines: 74, output #lines:73
 >> Start Api: intune_companyterms_termsandconditionsgroupassignment_list.md
 !! No scopes defined in permission section.: intune_companyterms_termsandconditionsgroupassignment_list.md
 Done. intune_companyterms_termsandconditionsgroupassignment_list.md, input #lines: 64, output #lines:65
@@ -1865,17 +1855,11 @@ Done. intune_corpenrollment_devicemanagement_create_importeddeviceidentity.md, i
 !! No scopes defined in permission section.: intune_corpenrollment_devicemanagement_get.md
 Done. intune_corpenrollment_devicemanagement_get.md, input #lines: 63, output #lines:64
 >> Start Api: intune_corpenrollment_devicemanagement_list_enrollmentprofile.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_corpenrollment_devicemanagement_list_enrollmentprofile.md
-Done. intune_corpenrollment_devicemanagement_list_enrollmentprofile.md, input #lines: 67, output #lines:67
+Done. intune_corpenrollment_devicemanagement_list_enrollmentprofile.md, input #lines: 67, output #lines:66
 >> Start Api: intune_corpenrollment_devicemanagement_list_importedappledeviceidentity.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_corpenrollment_devicemanagement_list_importedappledeviceidentity.md
-Done. intune_corpenrollment_devicemanagement_list_importedappledeviceidentity.md, input #lines: 73, output #lines:73
+Done. intune_corpenrollment_devicemanagement_list_importedappledeviceidentity.md, input #lines: 73, output #lines:72
 >> Start Api: intune_corpenrollment_devicemanagement_list_importeddeviceidentity.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_corpenrollment_devicemanagement_list_importeddeviceidentity.md
-Done. intune_corpenrollment_devicemanagement_list_importeddeviceidentity.md, input #lines: 71, output #lines:71
+Done. intune_corpenrollment_devicemanagement_list_importeddeviceidentity.md, input #lines: 71, output #lines:70
 >> Start Api: intune_corpenrollment_devicemanagement_update.md
 !! No scopes defined in permission section.: intune_corpenrollment_devicemanagement_update.md
 Done. intune_corpenrollment_devicemanagement_update.md, input #lines: 68, output #lines:69
@@ -5954,9 +5938,7 @@ Done. intune_notification_devicemanagement_create_notificationmessagetemplate.md
 !! No scopes defined in permission section.: intune_notification_devicemanagement_get.md
 Done. intune_notification_devicemanagement_get.md, input #lines: 63, output #lines:64
 >> Start Api: intune_notification_devicemanagement_list_notificationmessagetemplate.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_notification_devicemanagement_list_notificationmessagetemplate.md
-Done. intune_notification_devicemanagement_list_notificationmessagetemplate.md, input #lines: 67, output #lines:67
+Done. intune_notification_devicemanagement_list_notificationmessagetemplate.md, input #lines: 67, output #lines:66
 >> Start Api: intune_notification_devicemanagement_update.md
 !! No scopes defined in permission section.: intune_notification_devicemanagement_update.md
 Done. intune_notification_devicemanagement_update.md, input #lines: 68, output #lines:69
@@ -5988,9 +5970,7 @@ Done. intune_notification_notificationmessagetemplate_get.md, input #lines: 67, 
 !! No scopes defined in permission section.: intune_notification_notificationmessagetemplate_list.md
 Done. intune_notification_notificationmessagetemplate_list.md, input #lines: 67, output #lines:68
 >> Start Api: intune_notification_notificationmessagetemplate_list_localizednotificationmessage.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_notification_notificationmessagetemplate_list_localizednotificationmessage.md
-Done. intune_notification_notificationmessagetemplate_list_localizednotificationmessage.md, input #lines: 69, output #lines:69
+Done. intune_notification_notificationmessagetemplate_list_localizednotificationmessage.md, input #lines: 69, output #lines:68
 >> Start Api: intune_notification_notificationmessagetemplate_sendtestmessage.md
 !! No scopes defined in permission section.: intune_notification_notificationmessagetemplate_sendtestmessage.md
 Done. intune_notification_notificationmessagetemplate_sendtestmessage.md, input #lines: 52, output #lines:53
@@ -6039,9 +6019,7 @@ Done. intune_onboarding_deviceappmanagement_create_sideloadingkey.md, input #lin
 !! No scopes defined in permission section.: intune_onboarding_deviceappmanagement_get.md
 Done. intune_onboarding_deviceappmanagement_get.md, input #lines: 67, output #lines:68
 >> Start Api: intune_onboarding_deviceappmanagement_list_sideloadingkey.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_onboarding_deviceappmanagement_list_sideloadingkey.md
-Done. intune_onboarding_deviceappmanagement_list_sideloadingkey.md, input #lines: 68, output #lines:68
+Done. intune_onboarding_deviceappmanagement_list_sideloadingkey.md, input #lines: 68, output #lines:67
 >> Start Api: intune_onboarding_deviceappmanagement_syncwindowsstoreforbusinessapps.md
 !! No scopes defined in permission section.: intune_onboarding_deviceappmanagement_syncwindowsstoreforbusinessapps.md
 Done. intune_onboarding_deviceappmanagement_syncwindowsstoreforbusinessapps.md, input #lines: 52, output #lines:53
@@ -6108,9 +6086,7 @@ Done. intune_onboarding_devicemanagementexchangeconnector_update.md, input #line
 !! No scopes defined in permission section.: intune_onboarding_devicemanagementexchangeonpremisespolicy_get.md
 Done. intune_onboarding_devicemanagementexchangeonpremisespolicy_get.md, input #lines: 83, output #lines:84
 >> Start Api: intune_onboarding_devicemanagementexchangeonpremisespolicy_get_onpremisesconditionalaccesssettings.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_onboarding_devicemanagementexchangeonpremisespolicy_get_onpremisesconditionalaccesssettings.md
-Done. intune_onboarding_devicemanagementexchangeonpremisespolicy_get_onpremisesconditionalaccesssettings.md, input #lines: 70, output #lines:70
+Done. intune_onboarding_devicemanagementexchangeonpremisespolicy_get_onpremisesconditionalaccesssettings.md, input #lines: 70, output #lines:69
 >> Start Api: intune_onboarding_devicemanagementexchangeonpremisespolicy_update.md
 !! No scopes defined in permission section.: intune_onboarding_devicemanagementexchangeonpremisespolicy_update.md
 Done. intune_onboarding_devicemanagementexchangeonpremisespolicy_update.md, input #lines: 113, output #lines:114
@@ -6147,17 +6123,11 @@ Done. intune_onboarding_organization_getencryptionpublickey.md, input #lines: 58
 !! No scopes defined in permission section.: intune_onboarding_organization_list.md
 Done. intune_onboarding_organization_list.md, input #lines: 163, output #lines:164
 >> Start Api: intune_onboarding_organization_list_applevolumepurchaseprogramtoken.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_onboarding_organization_list_applevolumepurchaseprogramtoken.md
-Done. intune_onboarding_organization_list_applevolumepurchaseprogramtoken.md, input #lines: 72, output #lines:72
+Done. intune_onboarding_organization_list_applevolumepurchaseprogramtoken.md, input #lines: 72, output #lines:71
 >> Start Api: intune_onboarding_organization_list_deponboardingsetting.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_onboarding_organization_list_deponboardingsetting.md
-Done. intune_onboarding_organization_list_deponboardingsetting.md, input #lines: 70, output #lines:70
+Done. intune_onboarding_organization_list_deponboardingsetting.md, input #lines: 70, output #lines:69
 >> Start Api: intune_onboarding_organization_list_sideloadingkey.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_onboarding_organization_list_sideloadingkey.md
-Done. intune_onboarding_organization_list_sideloadingkey.md, input #lines: 68, output #lines:68
+Done. intune_onboarding_organization_list_sideloadingkey.md, input #lines: 68, output #lines:67
 >> Start Api: intune_onboarding_organization_removeapplepushnotificationcertificate.md
 Done. intune_onboarding_organization_removeapplepushnotificationcertificate.md, input #lines: 52, output #lines:51
 >> Start Api: intune_onboarding_organization_setmobiledevicemanagementauthority.md
@@ -6319,9 +6289,7 @@ Done. intune_tem_devicemanagement_create_telecomexpensemanagementpartner.md, inp
 !! No scopes defined in permission section.: intune_tem_devicemanagement_get.md
 Done. intune_tem_devicemanagement_get.md, input #lines: 63, output #lines:64
 >> Start Api: intune_tem_devicemanagement_list_telecomexpensemanagementpartner.md
-!! Invalid scope: DeviceManagementServiceConfi.Read.All
-Skipping unusual file: intune_tem_devicemanagement_list_telecomexpensemanagementpartner.md
-Done. intune_tem_devicemanagement_list_telecomexpensemanagementpartner.md, input #lines: 68, output #lines:68
+Done. intune_tem_devicemanagement_list_telecomexpensemanagementpartner.md, input #lines: 68, output #lines:67
 >> Start Api: intune_tem_devicemanagement_update.md
 !! No scopes defined in permission section.: intune_tem_devicemanagement_update.md
 Done. intune_tem_devicemanagement_update.md, input #lines: 68, output #lines:69
