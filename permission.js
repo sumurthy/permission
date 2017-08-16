@@ -66,6 +66,7 @@ function getScopes(line) {
     } else {
         tempArray.push(temp)
     }
+    // console.log('returning: ' + tempArray)
     return tempArray
 
 }
@@ -84,6 +85,8 @@ function processPermLines(permLines, name) {
                 oPermLines.push(oLine)
                 return
             }            
+            // console.log(line)
+            line = line.replace('https://', '')
             if (line.includes('The following table lists the suggested permission needed for each resource')) {
                 console.log('!! Multiple scopes based on resources.')
                 throw BreakException
@@ -240,7 +243,7 @@ let inputFiles = FileOps.walkFiles(`./${INPUT}`, '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./${INPUT}/${e}`)
     // File Filter
-    // if (e != 'multivaluelegacyextendedproperty_get.md' && e != 'post_get.md' ) { return }
+    if (e != 'intune_wip_devicemanagement_update.md' && e != 'post_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');
