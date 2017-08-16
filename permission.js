@@ -243,7 +243,7 @@ let inputFiles = FileOps.walkFiles(`./${INPUT}`, '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./${INPUT}/${e}`)
     // File Filter
-    if (e != 'intune_wip_devicemanagement_update.md' && e != 'post_get.md' ) { return }
+    // if (e != 'intune_wip_devicemanagement_update.md' && e != 'post_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');
