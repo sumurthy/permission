@@ -4139,29 +4139,19 @@ Done. intune_devicefe_devicemanagementscriptuserstate_list.md, input #lines: 66,
 >> Start Api: intune_devicefe_devicemanagementscriptuserstate_update.md
 Done. intune_devicefe_devicemanagementscriptuserstate_update.md, input #lines: 78, output #lines:77
 >> Start Api: intune_devicefe_manageddevice_bypassactivationlock.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_bypassactivationlock.md
-Done. intune_devicefe_manageddevice_bypassactivationlock.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_bypassactivationlock.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_cleanwindowsdevice.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_cleanwindowsdevice.md
-Done. intune_devicefe_manageddevice_cleanwindowsdevice.md, input #lines: 67, output #lines:67
+Done. intune_devicefe_manageddevice_cleanwindowsdevice.md, input #lines: 67, output #lines:66
 >> Start Api: intune_devicefe_manageddevice_create.md
 Done. intune_devicefe_manageddevice_create.md, input #lines: 213, output #lines:212
 >> Start Api: intune_devicefe_manageddevice_delete.md
 Done. intune_devicefe_manageddevice_delete.md, input #lines: 54, output #lines:53
 >> Start Api: intune_devicefe_manageddevice_deleteuserfromsharedappledevice.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_deleteuserfromsharedappledevice.md
-Done. intune_devicefe_manageddevice_deleteuserfromsharedappledevice.md, input #lines: 67, output #lines:67
+Done. intune_devicefe_manageddevice_deleteuserfromsharedappledevice.md, input #lines: 67, output #lines:66
 >> Start Api: intune_devicefe_manageddevice_disablelostmode.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_disablelostmode.md
-Done. intune_devicefe_manageddevice_disablelostmode.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_disablelostmode.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_enablelostmode.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_enablelostmode.md
-Done. intune_devicefe_manageddevice_enablelostmode.md, input #lines: 71, output #lines:71
+Done. intune_devicefe_manageddevice_enablelostmode.md, input #lines: 71, output #lines:70
 >> Start Api: intune_devicefe_manageddevice_get.md
 Done. intune_devicefe_manageddevice_get.md, input #lines: 138, output #lines:137
 >> Start Api: intune_devicefe_manageddevice_get_devicecategory.md
@@ -4171,41 +4161,25 @@ Done. intune_devicefe_manageddevice_list.md, input #lines: 137, output #lines:13
 >> Start Api: intune_devicefe_manageddevice_list_detectedapp.md
 Done. intune_devicefe_manageddevice_list_detectedapp.md, input #lines: 68, output #lines:67
 >> Start Api: intune_devicefe_manageddevice_locatedevice.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_locatedevice.md
-Done. intune_devicefe_manageddevice_locatedevice.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_locatedevice.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_logoutsharedappledeviceactiveuser.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_logoutsharedappledeviceactiveuser.md
-Done. intune_devicefe_manageddevice_logoutsharedappledeviceactiveuser.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_logoutsharedappledeviceactiveuser.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_rebootnow.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_rebootnow.md
-Done. intune_devicefe_manageddevice_rebootnow.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_rebootnow.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_recoverpasscode.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_recoverpasscode.md
-Done. intune_devicefe_manageddevice_recoverpasscode.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_recoverpasscode.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_remotelock.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_remotelock.md
-Done. intune_devicefe_manageddevice_remotelock.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_remotelock.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_requestremoteassistance.md
 Done. intune_devicefe_manageddevice_requestremoteassistance.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_resetpasscode.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_resetpasscode.md
-Done. intune_devicefe_manageddevice_resetpasscode.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_resetpasscode.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_retire.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_retire.md
-Done. intune_devicefe_manageddevice_retire.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_retire.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddevice_update.md
 Done. intune_devicefe_manageddevice_update.md, input #lines: 254, output #lines:253
 >> Start Api: intune_devicefe_manageddevice_wipe.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_manageddevice_wipe.md
-Done. intune_devicefe_manageddevice_wipe.md, input #lines: 55, output #lines:55
+Done. intune_devicefe_manageddevice_wipe.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devicefe_manageddeviceoverview_get.md
 Done. intune_devicefe_manageddeviceoverview_get.md, input #lines: 83, output #lines:82
 >> Start Api: intune_devicefe_manageddeviceoverview_update.md
@@ -4231,9 +4205,7 @@ Done. intune_devicefe_user_list.md, input #lines: 63, output #lines:62
 >> Start Api: intune_devicefe_user_list_manageddevice.md
 Done. intune_devicefe_user_list_manageddevice.md, input #lines: 137, output #lines:136
 >> Start Api: intune_devicefe_user_removealldevicesfrommanagement.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devicefe_user_removealldevicesfrommanagement.md
-Done. intune_devicefe_user_removealldevicesfrommanagement.md, input #lines: 52, output #lines:52
+Done. intune_devicefe_user_removealldevicesfrommanagement.md, input #lines: 52, output #lines:51
 >> Start Api: intune_devicefe_user_update.md
 Done. intune_devicefe_user_update.md, input #lines: 68, output #lines:67
 >> Start Api: intune_devicefe_windowsmanageddevice_create.md
@@ -4351,29 +4323,19 @@ Done. intune_devices_devicemanagementscriptuserstate_list.md, input #lines: 66, 
 >> Start Api: intune_devices_devicemanagementscriptuserstate_update.md
 Done. intune_devices_devicemanagementscriptuserstate_update.md, input #lines: 78, output #lines:77
 >> Start Api: intune_devices_manageddevice_bypassactivationlock.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_bypassactivationlock.md
-Done. intune_devices_manageddevice_bypassactivationlock.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_bypassactivationlock.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_cleanwindowsdevice.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_cleanwindowsdevice.md
-Done. intune_devices_manageddevice_cleanwindowsdevice.md, input #lines: 67, output #lines:67
+Done. intune_devices_manageddevice_cleanwindowsdevice.md, input #lines: 67, output #lines:66
 >> Start Api: intune_devices_manageddevice_create.md
 Done. intune_devices_manageddevice_create.md, input #lines: 195, output #lines:194
 >> Start Api: intune_devices_manageddevice_delete.md
 Done. intune_devices_manageddevice_delete.md, input #lines: 54, output #lines:53
 >> Start Api: intune_devices_manageddevice_deleteuserfromsharedappledevice.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_deleteuserfromsharedappledevice.md
-Done. intune_devices_manageddevice_deleteuserfromsharedappledevice.md, input #lines: 67, output #lines:67
+Done. intune_devices_manageddevice_deleteuserfromsharedappledevice.md, input #lines: 67, output #lines:66
 >> Start Api: intune_devices_manageddevice_disablelostmode.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_disablelostmode.md
-Done. intune_devices_manageddevice_disablelostmode.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_disablelostmode.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_enablelostmode.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_enablelostmode.md
-Done. intune_devices_manageddevice_enablelostmode.md, input #lines: 71, output #lines:71
+Done. intune_devices_manageddevice_enablelostmode.md, input #lines: 71, output #lines:70
 >> Start Api: intune_devices_manageddevice_get.md
 Done. intune_devices_manageddevice_get.md, input #lines: 141, output #lines:140
 >> Start Api: intune_devices_manageddevice_list.md
@@ -4381,45 +4343,27 @@ Done. intune_devices_manageddevice_list.md, input #lines: 140, output #lines:139
 >> Start Api: intune_devices_manageddevice_list_detectedapp.md
 Done. intune_devices_manageddevice_list_detectedapp.md, input #lines: 68, output #lines:67
 >> Start Api: intune_devices_manageddevice_locatedevice.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_locatedevice.md
-Done. intune_devices_manageddevice_locatedevice.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_locatedevice.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_logoutsharedappledeviceactiveuser.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_logoutsharedappledeviceactiveuser.md
-Done. intune_devices_manageddevice_logoutsharedappledeviceactiveuser.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_logoutsharedappledeviceactiveuser.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_rebootnow.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_rebootnow.md
-Done. intune_devices_manageddevice_rebootnow.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_rebootnow.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_recoverpasscode.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_recoverpasscode.md
-Done. intune_devices_manageddevice_recoverpasscode.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_recoverpasscode.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_remotelock.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_remotelock.md
-Done. intune_devices_manageddevice_remotelock.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_remotelock.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_requestremoteassistance.md
 Done. intune_devices_manageddevice_requestremoteassistance.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_resetpasscode.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_resetpasscode.md
-Done. intune_devices_manageddevice_resetpasscode.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_resetpasscode.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_retire.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_retire.md
-Done. intune_devices_manageddevice_retire.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_retire.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_syncdevice.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_syncdevice.md
-Done. intune_devices_manageddevice_syncdevice.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_syncdevice.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddevice_update.md
 Done. intune_devices_manageddevice_update.md, input #lines: 263, output #lines:262
 >> Start Api: intune_devices_manageddevice_wipe.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_manageddevice_wipe.md
-Done. intune_devices_manageddevice_wipe.md, input #lines: 55, output #lines:55
+Done. intune_devices_manageddevice_wipe.md, input #lines: 55, output #lines:54
 >> Start Api: intune_devices_manageddeviceoverview_get.md
 Done. intune_devices_manageddeviceoverview_get.md, input #lines: 83, output #lines:82
 >> Start Api: intune_devices_manageddeviceoverview_update.md
@@ -4445,9 +4389,7 @@ Done. intune_devices_user_list.md, input #lines: 63, output #lines:62
 >> Start Api: intune_devices_user_list_manageddevice.md
 Done. intune_devices_user_list_manageddevice.md, input #lines: 114, output #lines:113
 >> Start Api: intune_devices_user_removealldevicesfrommanagement.md
-!! Invalid scope: DeviceManagementManagedDevices.PriviligedOperation.All
-Skipping unusual file: intune_devices_user_removealldevicesfrommanagement.md
-Done. intune_devices_user_removealldevicesfrommanagement.md, input #lines: 52, output #lines:52
+Done. intune_devices_user_removealldevicesfrommanagement.md, input #lines: 52, output #lines:51
 >> Start Api: intune_devices_user_update.md
 Done. intune_devices_user_update.md, input #lines: 68, output #lines:67
 >> Start Api: intune_devices_windowsmanageddevice_create.md
@@ -5923,8 +5865,6 @@ Done. user_get.md, input #lines: 87, output #lines:87
 >> Start Api: user_get_mailboxsettings.md
 Done. user_get_mailboxsettings.md, input #lines: 148, output #lines:147
 >> Start Api: user_getmailtips.md
-!! Invalid scope: Mail.Read.My
-Skipping unusual file: user_getmailtips.md
 Done. user_getmailtips.md, input #lines: 111, output #lines:111
 >> Start Api: user_getmembergroups.md
 Skipping unusual file: user_getmembergroups.md
