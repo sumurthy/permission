@@ -190,7 +190,7 @@ function processPermLines(permLines, name) {
 }
 
 function processModule(api, name) {
-    console.log('>> Start Api: ' + name);
+    // console.log('>> Start Api: ' + name);
 
     // if (name.includes('extension') && !name.startsWith('schemaextension')) {
     //     console.log ('Skipping Extension API: ' + name)
