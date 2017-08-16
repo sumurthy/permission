@@ -5,17 +5,10 @@
 > **Note:** Using the Microsoft Graph APIs to configure Intune controls and policies still requires that the Intune service is [correctly licensed](https://go.microsoft.com/fwlink/?linkid=839381) by the customer.
 
 Deletes a [windowsProtectionState](../resources/intune_endpointprotection_windowsprotectionstate.md).
-## Permissions
+## Prerequisites
 One of the following [permission scopes](https://developer.microsoft.com/en-us/graph/docs/authorization/permission_scopes) is required to execute this API:
 
 *DeviceManagementManagedDevices.ReadWrite.All*
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Not supported. | 
-
 ## HTTP Request
 <!-- {
   "blockType": "ignored"

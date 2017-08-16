@@ -9,13 +9,6 @@ Deletes a [androidWiFiConfiguration](../resources/intune_deviceconfig_androidwif
 One of the following [permission scopes](https://developer.microsoft.com/en-us/graph/docs/authorization/permission_scopes) is required to execute this API:
 
 *DeviceManagementConfiguration.ReadWrite.All*
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Not supported. | 
-
 ## HTTP Request
 <!-- {
   "blockType": "ignored"

@@ -6,13 +6,13 @@ Get a list of user devices that support Project Rome capabilities. This includes
 
 ## Permissions
 
-The following scope is required to execute this API: *Device.Read*
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
 
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
+|Delegated (personal Microsoft account) | Device.Read    | 
 |Application | Not supported. | 
 
 ## HTTP request

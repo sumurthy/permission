@@ -7,13 +7,13 @@ This API enables Project Rome capabilities to command a device associated with a
 
 ## Permissions
 
-The following scope is required to execute this API: *Device.Command*
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
 
 
 |Permission type      | Permissions (from least to most privileged)              | 
 |:--------------------|:---------------------------------------------------------| 
 |Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
+|Delegated (personal Microsoft account) | Device.Command    | 
 |Application | Not supported. | 
 
 ## HTTP request

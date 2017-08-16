@@ -89,9 +89,10 @@ function processPermLines(permLines, name) {
                 throw BreakException
             }
 
-            if (line.startsWith('One of the following **scope') || line.startsWith('The following **scope') || line.startsWith('One of the following scopes') || line.startsWith('The following **permis')) {
+            if (line.startsWith('One of the following **scope') || line.startsWith('The following **scope') || line.startsWith('One of the following scopes') || line.startsWith('The following **permis') || line.startsWith('The following scope') || line.startsWith('One of the following [permission scopes]')) {
                 inScope = true
                 if (line.includes('depending on')) {
+                    console.log('Found the work depending')
                     throw BreakException
                 }
                 let sArray = line.split(':')
@@ -121,7 +122,7 @@ function processPermLines(permLines, name) {
                 }
             }
             // If you come across the Note:, write permission array and move on. 
-            if (line.toLowerCase().includes('note:') || line.toLowerCase().includes('> currently')) {
+            if (line.toLowerCase().includes('note:') || line.toLowerCase().includes('> currently') || line.toLowerCase().includes('> **note')) {
                 inScope = false
                 mdDone = true
                 if (scopesArray.length === 0) {
@@ -188,7 +189,7 @@ function processPermLines(permLines, name) {
 function processModule(api, name) {
     console.log('>> Start Api: ' + name);
 
-    if (name.includes('extension')) {
+    if (name.includes('extension') && !name.startsWith('schemaextension')) {
         console.log ('Skipping Extension API: ' + name)
         return
     }
@@ -239,7 +240,7 @@ let inputFiles = FileOps.walkFiles(`./${INPUT}`, '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./${INPUT}/${e}`)
     // File Filter
-    // if (e != 'post_forward.md' && e != 'post_get.md' ) { return }
+    // if (e != 'multivaluelegacyextendedproperty_get.md' && e != 'post_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');
