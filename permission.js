@@ -192,10 +192,10 @@ function processPermLines(permLines, name) {
 function processModule(api, name) {
     console.log('>> Start Api: ' + name);
 
-    if (name.includes('extension') && !name.startsWith('schemaextension')) {
-        console.log ('Skipping Extension API: ' + name)
-        return
-    }
+    // if (name.includes('extension') && !name.startsWith('schemaextension')) {
+    //     console.log ('Skipping Extension API: ' + name)
+    //     return
+    // }
     let inPermission = false
     let outApi = []
     let permLines = []
@@ -223,7 +223,7 @@ function processModule(api, name) {
         console.log('!! No permission section at all: ' + name)
     }
     FileOps.writeFile(outApi, `./${OUTPUT}/${name}`)    
-    console.log('Done. ' + name + ', input #lines: ' + api.length + ', output #lines:' + outApi.length);
+    // console.log('Done. ' + name + ', input #lines: ' + api.length + ', output #lines:' + outApi.length);
 
 }
 
