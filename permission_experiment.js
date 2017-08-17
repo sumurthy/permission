@@ -246,7 +246,7 @@ function processModule(api, name) {
     }
     FileOps.writeFile(outApi, `./${OUTPUT}/${name}`)    
     if (!permissionWritten) {
-        console.log("Permisson not written: " + name)
+        console.log("Permission not written: " + name)
     }
     // console.log('Done. ' + name + ', input #lines: ' + api.length + ', output #lines:' + outApi.length);
 
