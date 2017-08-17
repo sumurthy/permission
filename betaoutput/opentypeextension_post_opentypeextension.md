@@ -5,7 +5,7 @@
 Create an open extension ([openTypeExtension](../resources/openTypeExtension.md) object) and add custom properties 
 in a new or existing instance of a supported resource. 
 
-## Permissions
+## Prerequisites
 
 One of the following **permissions** is required to execute this API, depending on the resource you're
 creating the extension in.
@@ -17,13 +17,6 @@ creating the extension in.
 | [group event](../resources/event.md) | _Group.ReadWrite.All_ | [group post](../resources/post.md) | _Group.ReadWrite.All_ |
 | [message](../resources/message.md) | _Mail.ReadWrite_ | [organization](../resources/organization.md) | _Directory.AccessAsUser.All_ |
 | [personal contact](../resources/contact.md) | _Contacts.ReadWrite_ | [user](../resources/user.md) | _Directory.ReadWrite.All_ |
-
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Not supported. | 
 
 ## HTTP request
 

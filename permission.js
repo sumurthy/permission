@@ -66,7 +66,7 @@ function getScopes(line) {
     } else {
         tempArray.push(temp)
     }
-    // console.log('returning: ' + tempArray)
+    console.log('returning: ' + tempArray)
     return tempArray
 
 }
@@ -85,17 +85,17 @@ function processPermLines(permLines, name) {
                 oPermLines.push(oLine)
                 return
             }            
-            // console.log(line)
+            console.log(line)
             line = line.replace('https://', '')
             if (line.includes('The following table lists the suggested permission needed for each resource')) {
                 console.log('!! Multiple scopes based on resources.')
                 throw BreakException
             }
 
-            if (line.startsWith('One of the following **scope') || line.startsWith('The following **scope') || line.startsWith('One of the following scopes') || line.startsWith('The following **permis') || line.startsWith('The following scope') || line.startsWith('One of the following [permission scopes]')) {
+            if (line.startsWith('One of the following **scope') || line.startsWith('The following **scope') || line.startsWith('One of the following scopes') || line.startsWith('The following **permis') || line.startsWith('The following scope') || line.startsWith('One of the following [permission scopes]') || line.startsWith('One of the following **permi')) {
                 inScope = true
                 if (line.includes('depending on')) {
-                    console.log('Found the work depending')
+                    console.log('Found the *depending* word')
                     throw BreakException
                 }
                 let sArray = line.split(':')
@@ -126,6 +126,8 @@ function processPermLines(permLines, name) {
             }
             // If you come across the Note:, write permission array and move on. 
             if (line.toLowerCase().includes('note:') || line.toLowerCase().includes('> currently') || line.toLowerCase().includes('> **note')) {
+                console.log('--2')
+                
                 inScope = false
                 mdDone = true
                 if (scopesArray.length === 0) {
@@ -135,15 +137,18 @@ function processPermLines(permLines, name) {
                 p = p.replace('@personal', getSubScopes(PERSONAL, scopesArray).join(', '))
                 p = p.replace('@admin', getSubScopes(APPLICATION, scopesArray).join(', '))
                 oPermLines.push(p)
+                oPermLines.push(line)
+
                 return
             } 
 
             // End if you see end of array marker.
             if (line.toLowerCase().includes('--end--')) {
-                if (scopesArray.length === 0) {
-                    console.log ('!! No scopes defined in permission section.: ' + name )
-                }
                 if (!mdDone) {
+                    console.log('--1')
+                    if (scopesArray.length === 0) {
+                        console.log ('!! No scopes defined in permission section.: ' + name )
+                    }                    
                     let p = MDTABLE.replace('@business', getSubScopes(WORK, scopesArray).join(', '))
                     p = p.replace('@personal', getSubScopes(PERSONAL, scopesArray).join(', '))
                     p = p.replace('@admin', getSubScopes(APPLICATION, scopesArray).join(', '))
@@ -190,7 +195,7 @@ function processPermLines(permLines, name) {
 }
 
 function processModule(api, name) {
-    // console.log('>> Start Api: ' + name);
+    console.log('>> Start Api: ' + name);
 
     // if (name.includes('extension') && !name.startsWith('schemaextension')) {
     //     console.log ('Skipping Extension API: ' + name)
@@ -243,7 +248,7 @@ let inputFiles = FileOps.walkFiles(`./${INPUT}`, '.md')
 inputFiles.forEach((e) => {
     let api = FileOps.loadFile(`./${INPUT}/${e}`)
     // File Filter
-    // if (e != 'intune_wip_devicemanagement_update.md' && e != 'post_get.md' ) { return }
+    // if (e != 'opentypeextension_get.md' && e != 'post_get.md' ) { return }
     processModule(api, e)
 })
 console.log('End of program.');

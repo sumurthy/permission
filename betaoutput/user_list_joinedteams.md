@@ -13,6 +13,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account) | Not supported.    | 
 |Application | User.Read.All, User.ReadWrite.All | 
 
+> Currently, this operation only works for the 'me' user. For details, see [Known issues](../../../concepts/known_issues.md#microsoft-teams-users-list-of-joined-teams-preview).
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

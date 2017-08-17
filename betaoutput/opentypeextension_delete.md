@@ -4,7 +4,7 @@
 
 Delete an open extension ([openTypeExtension](../resources/openTypeExtension.md) object) from the specified instance of a resource. 
 
-## Permissions
+## Prerequisites
 
 One of the following **permissions** is required to execute this API, depending on the resource you're
 deleting the extension from:
@@ -17,13 +17,6 @@ deleting the extension from:
 | [message](../resources/message.md) | _Mail.ReadWrite_ | [organization](../resources/organization.md) | _Directory.AccessAsUser.All_ |
 | [personal contact](../resources/contact.md) | _Contacts.ReadWrite_ | [user](../resources/user.md) | _Directory.AccessAsUser.All_ |
  
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Not supported. | 
-
 ## HTTP request
 
 In the request, identify the resource instance, use the **extensions** 

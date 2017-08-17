@@ -19,6 +19,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account) | Files.ReadWrite, Files.ReadWrite.All    | 
 |Application | Files.ReadWrite.All, Sites.ReadWrite.All | 
 
+> **Note**: The Files.ReadWrite.All application permission is not yet supported on this API. Full support is planned soon.
 
 ## Create an upload session
 

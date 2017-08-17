@@ -12,7 +12,7 @@ The following table lists the three scenarios where you can get an open extensio
 |Get a known resource instance expanded with a specific extension.|Administrative unit, device, event, group, group event, group post, message, organization, personal contact, user |A resource instance expanded with the open extension.|
 |Find and expand resource instances with a specific extension. | Event, group event, group post, message, personal contact |Resource instances expanded with the open extension.|
 
-## Permissions
+## Prerequisites
 
 One of the following **permissions** is required to execute this API, depending on the resource that contains the extension.
 
@@ -24,13 +24,6 @@ One of the following **permissions** is required to execute this API, depending 
 | [Message](../resources/message.md) | _Mail.Read_ | [Organization](../resources/organization.md) | _Directory.Read.All_ |
 | [Personal contact](../resources/contact.md) | _Contacts.Read_ | [User](../resources/user.md) | _User.Read.All_ |
 
-
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Not supported. | 
 
 ## HTTP request
 

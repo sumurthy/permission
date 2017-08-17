@@ -10,7 +10,7 @@ extension is updated.
 
 The data in an extension can be primitive types, or arrays of primitive types.
 
-## Permissions
+## Prerequisites
 
 One of the following **permissions** is required to execute this API, depending on the resource that 
 the extension was created in:
@@ -23,13 +23,6 @@ the extension was created in:
 | [message](../resources/message.md) | _Mail.ReadWrite_ | [organization](../resources/organization.md) | _Directory.AccessAsUser.All_ |
 | [personal contact](../resources/contact.md) | _Contacts.ReadWrite_ | [user](../resources/user.md) | _Directory.ReadWrite.All_ |
  
-
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Not supported. | 
-
 ## HTTP request
 
 In the request, identify the resource instance, use the **extensions** 
