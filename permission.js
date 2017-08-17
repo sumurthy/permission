@@ -5,7 +5,8 @@ import Setup from './modules/fileops'
 
 const INPUT = 'betainput'
 const OUTPUT = 'betaoutput'
-
+let TOTAL = 0
+let EXCOUNT = 0
 const MDTABLE = `\n|Permission type      | Permissions (from least to most privileged)              | \n|:--------------------|:---------------------------------------------------------| \n|Delegated (work or school account) | @business    | \n|Delegated (personal Microsoft account) | @personal    | \n|Application | @admin | \n`
 
 function getSubScopes (full=[], sub=[]) {
@@ -21,7 +22,6 @@ function getSubScopes (full=[], sub=[]) {
         return ['Not supported.']
     }
 }
-
 
 function getScopes(line) {
 
@@ -66,7 +66,7 @@ function getScopes(line) {
     } else {
         tempArray.push(temp)
     }
-    console.log('returning: ' + tempArray)
+    // console.log('returning: ' + tempArray)
     return tempArray
 
 }
@@ -85,7 +85,7 @@ function processPermLines(permLines, name) {
                 oPermLines.push(oLine)
                 return
             }            
-            console.log(line)
+            // console.log(line)
             line = line.replace('https://', '')
             if (line.includes('The following table lists the suggested permission needed for each resource')) {
                 console.log('!! Multiple scopes based on resources.')
@@ -126,8 +126,6 @@ function processPermLines(permLines, name) {
             }
             // If you come across the Note:, write permission array and move on. 
             if (line.toLowerCase().includes('note:') || line.toLowerCase().includes('> currently') || line.toLowerCase().includes('> **note')) {
-                console.log('--2')
-                
                 inScope = false
                 mdDone = true
                 if (scopesArray.length === 0) {
@@ -145,7 +143,6 @@ function processPermLines(permLines, name) {
             // End if you see end of array marker.
             if (line.toLowerCase().includes('--end--')) {
                 if (!mdDone) {
-                    console.log('--1')
                     if (scopesArray.length === 0) {
                         console.log ('!! No scopes defined in permission section.: ' + name )
                     }                    
@@ -195,16 +192,31 @@ function processPermLines(permLines, name) {
 }
 
 function processModule(api, name) {
-    console.log('>> Start Api: ' + name);
+    // console.log('>> Start Api: ' + name);
 
     // if (name.includes('extension') && !name.startsWith('schemaextension')) {
     //     console.log ('Skipping Extension API: ' + name)
     //     return
     // }
     let inPermission = false
+    let exampleFound = false
+    let responseFound = false
     let outApi = []
     let permLines = []
     api.forEach((line) => {
+
+        if (line.startsWith('## Response')) {
+            responseFound = true
+        }
+
+        if (responseFound) {
+            if (line.startsWith('## Example') && !exampleFound) {
+                exampleFound = true
+                EXCOUNT = EXCOUNT + 1
+            }            
+        }
+
+
         let oLine = line
         if (line.startsWith('## Prerequisites')) {
             inPermission = true
@@ -246,12 +258,13 @@ let APPLICATION = FileOps.loadFile(`./scopes/app.txt`)
 console.log('');
 let inputFiles = FileOps.walkFiles(`./${INPUT}`, '.md')
 inputFiles.forEach((e) => {
+    TOTAL = TOTAL + 1
     let api = FileOps.loadFile(`./${INPUT}/${e}`)
     // File Filter
     // if (e != 'opentypeextension_get.md' && e != 'post_get.md' ) { return }
     processModule(api, e)
 })
-console.log('End of program.');
+console.log('End of program. ' + TOTAL + ' : ' + EXCOUNT);
 
 
 
