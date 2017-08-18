@@ -10,11 +10,11 @@ Retrieve the reports of Skype for Business Organizer Activity. The response will
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
 
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | Not supported.    | 
-|Delegated (personal Microsoft account) | Not supported.    | 
-|Application | Reports.Read.All | 
+|Permission type      | Permissions (from least to most privileged)              |
+|:--------------------|:---------------------------------------------------------|
+|Delegated (work or school account) | Not supported.    |
+|Delegated (personal Microsoft account) | Not supported.    |
+|Application | Reports.Read.All |
 
 > Note: Permission scopes are listed in least privilege required order.
 

@@ -10,11 +10,11 @@ You can view all mailbox settings, or, get specific settings.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](../../../concepts/permissions_reference.md).
 
-|Permission type      | Permissions (from least to most privileged)              | 
-|:--------------------|:---------------------------------------------------------| 
-|Delegated (work or school account) | MailboxSettings.Read    | 
-|Delegated (personal Microsoft account) | MailboxSettings.Read    | 
-|Application | MailboxSettings.Read | 
+|Permission type      | Permissions (from least to most privileged)              |
+|:--------------------|:---------------------------------------------------------|
+|Delegated (work or school account) | MailboxSettings.Read    |
+|Delegated (personal Microsoft account) | MailboxSettings.Read    |
+|Application | MailboxSettings.Read |
 
 ## HTTP request
 To get all mailbox settings which include automatic replies settings:

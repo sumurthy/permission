@@ -7,7 +7,7 @@ const INPUT = 'betainput'
 const OUTPUT = 'betaoutput'
 let TOTAL = 0
 let EXCOUNT = 0
-const MDTABLE = `\n|Permission type      | Permissions (from least to most privileged)              | \n|:--------------------|:---------------------------------------------------------| \n|Delegated (work or school account) | @business    | \n|Delegated (personal Microsoft account) | @personal    | \n|Application | @admin | \n`
+const MDTABLE = `\n|Permission type      | Permissions (from least to most privileged)              |\n|:--------------------|:---------------------------------------------------------|\n|Delegated (work or school account) | @business    |\n|Delegated (personal Microsoft account) | @personal    |\n|Application | @admin |\n`
 
 function getSubScopes (full=[], sub=[]) {
     let list = []

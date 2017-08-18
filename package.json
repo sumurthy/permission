@@ -4,7 +4,7 @@
   "description": "",
   "main": "permission.js",
   "scripts": {
-    "perm": "babel-node permission_experiment.js"
+    "perm": "babel-node permission.js"
   },
   "author": "",
   "license": "ISC",
