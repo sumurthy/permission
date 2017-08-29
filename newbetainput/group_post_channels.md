@@ -7,7 +7,7 @@ Create a new channel in a Microsoft Team, as specified in the request body.
 ## Prerequisites
 One of the following **scopes** is required to execute this API: *Group.ReadWrite.All*
 
-> Currrently, only [delegated permissions](../../../concepts/permissions_reference.md) are supported for this operation.  Future releases will support application permissions. 
+> Currently, only [delegated permissions](../../../concepts/permissions_reference.md) are supported for this operation.  Future releases will support application permissions. 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

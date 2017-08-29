@@ -5,7 +5,7 @@
 Retrieve the list of commercial subscriptions that an organization has acquired.
 
 ## Prerequisites
-One of the following **scopes** is required to execute this API: *Directory.Read.All*, *Directory.ReadWrite.All* or *Directory.AccessAsUser.All*
+One of the following **scopes** is required to execute this API: *Directory.Read.All*, *Directory.ReadWrite.All*, *Directory.AccessAsUser.All*
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

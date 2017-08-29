@@ -8,7 +8,7 @@ Create a new chat thread in the specified channel by supplying the root messages
 The following **scopes** are required to execute this API:
 *Group.ReadWrite.All*
 
-> Currrently, only [delegated permissions](../../../concepts/permissions_reference.md) are supported for this operation.  Future releases will support application permissions. 
+> Currently, only [delegated permissions](../../../concepts/permissions_reference.md) are supported for this operation.  Future releases will support application permissions. 
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -12,8 +12,6 @@
 Skipping unusual file: attachment_delete.md
 Skipping unusual file: attachment_get.md
 Skipping unusual file: calendar_list_calendarview.md
-!! Invalid scope: > Currrently
-Skipping unusual file: channel_post_chatthreads.md
 !! No scopes defined in permission section.: contact_list_extensions.md
 Skipping unusual file: device_list_registeredowners.md
 Skipping unusual file: device_list_registeredusers.md
@@ -90,10 +88,6 @@ Found the *depending* word
 Skipping unusual file: singlevaluelegacyextendedproperty_get.md
 Found the *depending* word
 Skipping unusual file: singlevaluelegacyextendedproperty_post_singlevalueextendedproperties.md
-!! Invalid scope: Directory.ReadWrite.AllDirectory.AccessAsUser.All
-Skipping unusual file: subscribedsku_get.md
-!! Invalid scope: Directory.ReadWrite.AllDirectory.AccessAsUser.All
-Skipping unusual file: subscribedsku_list.md
 !! Multiple scopes based on resources.
 Skipping unusual file: subscription_delete.md
 !! Multiple scopes based on resources.
@@ -106,8 +100,6 @@ Skipping unusual file: subscription_update.md
 Skipping unusual file: user_getmailtips.md
 Skipping unusual file: user_getmembergroups.md
 Skipping unusual file: user_invalidateallrefreshtokens.md
-!! Invalid scope: > Currrently
-Skipping unusual file: user_list_joinedteams.md
 !! No permission section at all: workbookrange_columnsbefore.md
 !! No scopes defined in permission section.: workbookrangeview_itemat.md
 End of program. 2976 : 2956
