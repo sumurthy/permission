@@ -1,6 +1,6 @@
 # List sections
 
-> **Important**: APIs under the /beta version in Microsoft Graph are in preview and are subject to change. Use of these APIs in production applications is not supported.
+> **Important:** APIs under the /beta version in Microsoft Graph are in preview and are subject to change. Use of these APIs in production applications is not supported.
 
 Retrieve a list of [section](../resources/section.md) objects.
 ## Permissions
@@ -31,7 +31,7 @@ The default query expands `parentNotebook` and selects its `id`, `displayName`, 
 | Name       | Type | Description|
 |:-----------|:------|:----------|
 | Authorization  | string  | Bearer {token}. Required. |
-| Accept | string | `application/json` |  
+| Accept | string | `application/json` |
 
 ## Request body
 Do not supply a request body for this method.

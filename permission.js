@@ -3,7 +3,7 @@
 import FileOps from './modules/fileops'
 import Setup from './modules/fileops'
 
-const INPUT = 'betainput'
+const INPUT = 'newbetainput'
 const OUTPUT = 'betaoutput'
 let TOTAL = 0
 let EXCOUNT = 0

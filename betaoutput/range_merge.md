@@ -1,6 +1,6 @@
 # Range: merge
 
-> **Important**: APIs under the /beta version in Microsoft Graph are in preview and are subject to change. Use of these APIs in production applications is not supported.
+> **Important:** APIs under the /beta version in Microsoft Graph are in preview and are subject to change. Use of these APIs in production applications is not supported.
 
 Merge the range cells into one region in the worksheet.
 ## Permissions
@@ -24,7 +24,6 @@ POST /workbook/tables/{id|name}/columns/{id|name}/range/merge
 | Name       | Description|
 |:---------------|:----------|
 | Authorization  | Bearer {token}. Required. |
-
 
 ## Request body
 In the request body, provide a JSON object with the following parameters.

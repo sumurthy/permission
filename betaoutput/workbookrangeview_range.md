@@ -1,6 +1,6 @@
 # workbookRangeView: range
 
-> **Important**: APIs under the /beta version in Microsoft Graph are in preview and are subject to change. Use of these APIs in production applications is not supported.
+> **Important:** APIs under the /beta version in Microsoft Graph are in preview and are subject to change. Use of these APIs in production applications is not supported.
 
 Return the range associated with the rangeView resource.
 
@@ -10,8 +10,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type      | Permissions (from least to most privileged)              |
 |:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.Read, Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Files.Read, Files.ReadWrite    |
+|Delegated (work or school account) | Files.ReadWrite    |
+|Delegated (personal Microsoft account) | Files.ReadWrite    |
 |Application | Not supported. |
 
 ## HTTP request
